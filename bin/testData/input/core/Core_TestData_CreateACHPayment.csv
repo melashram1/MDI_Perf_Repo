@@ -1,0 +1,2 @@
+amount,orderingCustomerId,debitAccountId,beneficiaryAccountId,beneficiaryBIC,beneficiaryName,paymentCategory,paymentCurrencyId
+500,1000000307,100000060547,100000002822,MDIEEGCXXXX,API,cash,EGP
