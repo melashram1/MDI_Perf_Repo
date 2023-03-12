@@ -1,2 +1,4 @@
 
 bin/jmeter.log
+bin/jmeter.log
+*.log
