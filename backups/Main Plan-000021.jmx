@@ -4,6 +4,7 @@
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
       <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
       <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
         <collectionProp name="Arguments.arguments"/>
@@ -46,7 +47,7 @@
           </elementProp>
           <elementProp name="CloseCard_NUM_Threads" elementType="Argument">
             <stringProp name="Argument.name">CloseCard_NUM_Threads</stringProp>
-            <stringProp name="Argument.value">7</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="CloseCard_RampUp" elementType="Argument">
@@ -72,7 +73,7 @@
           </elementProp>
           <elementProp name="GetT24AccountDetails_NUM_Threads" elementType="Argument">
             <stringProp name="Argument.name">GetT24AccountDetails_NUM_Threads</stringProp>
-            <stringProp name="Argument.value">7</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="GetT24AccountDetails_RampUp" elementType="Argument">
@@ -204,7 +205,7 @@
             </HeaderManager>
             <hashTree/>
             <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Close Card - Input CSV Data Set Config" enabled="true">
-              <stringProp name="filename">testData\\input\\SR\\SR_TestData_CloseCard.csv</stringProp>
+              <stringProp name="filename">testData\\input\\serviceRequests\\SR_TestData_CloseCard.csv</stringProp>
               <stringProp name="fileEncoding"></stringProp>
               <stringProp name="variableNames">customerId,vPan</stringProp>
               <boolProp name="ignoreFirstLine">true</boolProp>
@@ -235,7 +236,7 @@
             <boolProp name="UserParameters.per_iteration">false</boolProp>
           </UserParameters>
           <hashTree/>
-          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="ThinkTime" enabled="true">
+          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="ThinkTime" enabled="false">
             <intProp name="ActionProcessor.action">1</intProp>
             <intProp name="ActionProcessor.target">0</intProp>
             <stringProp name="ActionProcessor.duration">0</stringProp>
@@ -250,10 +251,10 @@
       </hashTree>
       <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Get T24 Account Details +++" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
-          <collectionProp name="164494605">
+          <collectionProp name="812483878">
             <stringProp name="-1882565952">${GetT24AccountDetails_NUM_Threads}</stringProp>
             <stringProp name="0">0</stringProp>
-            <stringProp name="883860445">${GetT24AccountDetails_RampUp}</stringProp>
+            <stringProp name="48">0</stringProp>
             <stringProp name="-1700149039">${GetT24AccountDetails_SteadyState}</stringProp>
             <stringProp name="-1029368842">${GetT24AccountDetails_RampDown}</stringProp>
           </collectionProp>
@@ -268,11 +269,11 @@
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Get T24 Account Details - Input CSV Data Set Config" enabled="true">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">testData\\input\\SR\\SR_TestData_GetT24AccountDetails.csv</stringProp>
+          <stringProp name="filename">testData\\input\\serviceRequests\\SR_TestData_GetT24AccountDetails.csv</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
           <boolProp name="quotedData">false</boolProp>
           <boolProp name="recycle">false</boolProp>
-          <stringProp name="shareMode">shareMode.all</stringProp>
+          <stringProp name="shareMode">shareMode.thread</stringProp>
           <boolProp name="stopThread">true</boolProp>
           <stringProp name="variableNames">customerId,accountId</stringProp>
         </CSVDataSet>

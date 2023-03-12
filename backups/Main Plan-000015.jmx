@@ -52,7 +52,7 @@
           </elementProp>
           <elementProp name="CloseCard_RampUp" elementType="Argument">
             <stringProp name="Argument.name">CloseCard_RampUp</stringProp>
-            <stringProp name="Argument.value">0</stringProp>
+            <stringProp name="Argument.value">600</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="CloseCard_SteadyState" elementType="Argument">
@@ -78,7 +78,7 @@
           </elementProp>
           <elementProp name="GetT24AccountDetails_RampUp" elementType="Argument">
             <stringProp name="Argument.name">GetT24AccountDetails_RampUp</stringProp>
-            <stringProp name="Argument.value">0</stringProp>
+            <stringProp name="Argument.value">600</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="GetT24AccountDetails_SteadyState" elementType="Argument">
@@ -114,7 +114,7 @@
         <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
       </CookieManager>
       <hashTree/>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Close Card +++" enabled="true">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Close Card +++" enabled="false">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="-1103770246">
             <stringProp name="-188351941">${CloseCard_NUM_Threads}</stringProp>
@@ -144,7 +144,7 @@
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
                   <stringProp name="Argument.value">{&#xd;
     &quot;cardIdentifier&quot;: {&#xd;
-        &quot;vPan&quot;: ${vPan}&#xd;
+        &quot;vPan&quot;: &quot;${vPan}&quot;&#xd;
     },&#xd;
     &quot;closureReason&quot;: {&#xd;
         &quot;id&quot;: 1,&#xd;
@@ -251,10 +251,10 @@
       </hashTree>
       <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Get T24 Account Details +++" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
-          <collectionProp name="164494605">
+          <collectionProp name="730809449">
             <stringProp name="-1882565952">${GetT24AccountDetails_NUM_Threads}</stringProp>
             <stringProp name="0">0</stringProp>
-            <stringProp name="883860445">${GetT24AccountDetails_RampUp}</stringProp>
+            <stringProp name="48">0</stringProp>
             <stringProp name="-1700149039">${GetT24AccountDetails_SteadyState}</stringProp>
             <stringProp name="-1029368842">${GetT24AccountDetails_RampDown}</stringProp>
           </collectionProp>
@@ -273,7 +273,7 @@
           <boolProp name="ignoreFirstLine">true</boolProp>
           <boolProp name="quotedData">false</boolProp>
           <boolProp name="recycle">false</boolProp>
-          <stringProp name="shareMode">shareMode.thread</stringProp>
+          <stringProp name="shareMode">shareMode.all</stringProp>
           <boolProp name="stopThread">true</boolProp>
           <stringProp name="variableNames">customerId,accountId</stringProp>
         </CSVDataSet>

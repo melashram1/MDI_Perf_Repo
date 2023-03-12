@@ -47,7 +47,7 @@
           </elementProp>
           <elementProp name="CloseCard_NUM_Threads" elementType="Argument">
             <stringProp name="Argument.name">CloseCard_NUM_Threads</stringProp>
-            <stringProp name="Argument.value">7</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="CloseCard_RampUp" elementType="Argument">
@@ -73,7 +73,7 @@
           </elementProp>
           <elementProp name="GetT24AccountDetails_NUM_Threads" elementType="Argument">
             <stringProp name="Argument.name">GetT24AccountDetails_NUM_Threads</stringProp>
-            <stringProp name="Argument.value">7</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="GetT24AccountDetails_RampUp" elementType="Argument">
@@ -144,13 +144,10 @@
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
                   <stringProp name="Argument.value">{&#xd;
     &quot;cardIdentifier&quot;: {&#xd;
-        &quot;vPan&quot;: ${vPan}&#xd;
+        &quot;vpan&quot;: ${vPan}&#xd;
     },&#xd;
-    &quot;closureReason&quot;: {&#xd;
-        &quot;id&quot;: 1,&#xd;
-        &quot;valueAr&quot;: &quot;HIGH_FEES&quot;,&#xd;
-        &quot;valueEn&quot;: &quot;HIGH_FEES&quot;&#xd;
-    }&#xd;
+    &quot;action&quot;: &quot;CUSTOMER_CLOSE&quot;,&#xd;
+    &quot;description&quot;: &quot;Close Card&quot;&#xd;
 }</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
