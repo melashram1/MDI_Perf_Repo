@@ -927,7 +927,7 @@ fileWriter.close();</stringProp>
           <hashTree/>
         </hashTree>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++Update customer data on T24 - Cortex +++" enabled="true">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++Update customer data on T24 - Cortex +++" enabled="false">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="-1751158790">
             <stringProp name="-956495960">${UpdateCustomerDataOnT24-Cortex-2_NUM_Threads}</stringProp>
