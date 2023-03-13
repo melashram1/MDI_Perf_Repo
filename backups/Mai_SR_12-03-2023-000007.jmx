@@ -96,7 +96,7 @@
         <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
       </CookieManager>
       <hashTree/>
-      <SetupThreadGroup guiclass="SetupThreadGroupGui" testclass="SetupThreadGroup" testname="setUp the Run Output folders" enabled="false">
+      <SetupThreadGroup guiclass="SetupThreadGroupGui" testclass="SetupThreadGroup" testname="setUp the Run Output folders" enabled="true">
         <stringProp name="TestPlan.comments">This Thread will run before the other threads thats included in the run get executed </stringProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
@@ -539,9 +539,9 @@ props.put(&quot;ATMOutputFolder&quot;,pathBuilderATMOutputFolder)
           <stringProp name="1739087931">http?://self-repair\.mozilla\.org.*</stringProp>
           <stringProp name="1206954446">tiles.*\.mozilla\.com.*</stringProp>
           <stringProp name="-1424663473">.*detectportal\.firefox\.com.*</stringProp>
+          <stringProp name="1779943373">us\.update\.toolbar\.yahoo\.com.*</stringProp>
           <stringProp name="-190610036">.*\.google\.com.*/safebrowsing/.*</stringProp>
           <stringProp name="-1899150273">api\.bing\.com.*</stringProp>
-          <stringProp name="1779943373">us\.update\.toolbar\.yahoo\.com.*</stringProp>
           <stringProp name="-958112859">toolbar\.google\.com.*</stringProp>
           <stringProp name="-192420923">.*yimg\.com.*</stringProp>
           <stringProp name="-576820688">toolbar\.msn\.com.*</stringProp>
@@ -553,8 +553,8 @@ props.put(&quot;ATMOutputFolder&quot;,pathBuilderATMOutputFolder)
           <stringProp name="-1314416226">sqm\.microsoft\.com.*</stringProp>
           <stringProp name="587935979">g\.msn.*</stringProp>
           <stringProp name="1629558731">clients.*\.google.*</stringProp>
-          <stringProp name="1726898318">geo\.yahoo\.com.*</stringProp>
           <stringProp name="11072252">.*toolbar\.yahoo\.com.*</stringProp>
+          <stringProp name="1726898318">geo\.yahoo\.com.*</stringProp>
         </collectionProp>
         <collectionProp name="ProxyControlGui.include_list"/>
         <boolProp name="ProxyControlGui.capture_http_headers">true</boolProp>
