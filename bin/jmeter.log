@@ -89,3 +89,157 @@ java.nio.file.NoSuchFileException: D:\Qcentris\qcs\MDI\GitJmeter\bin\PluginsMana
 2023-03-13 19:01:22,246 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
 2023-03-13 19:01:22,246 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
 2023-03-13 19:01:22,246 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-03-13 19:04:55,149 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-03-13 19:04:55,149 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2023-03-13 19:04:55,151 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-03-13 19:04:55,151 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-03-13 19:04:55,187 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-03-13 19:05:19,064 INFO o.a.j.s.FileServer: Default base='D:\Qcentris\qcs\MDI\GitJmeter\MDI_Perf_Repo\bin'
+2023-03-13 19:05:19,064 INFO o.a.j.s.FileServer: Set new base='D:\Qcentris\qcs\MDI\GitJmeter\MDI_Perf_Repo\bin\scripts\crm'
+2023-03-13 19:05:19,192 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-03-13 19:05:19,195 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-03-13 19:05:19,196 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-03-13 19:05:36,657 INFO o.a.j.g.a.Load: Loading file: D:\Qcentris\qcs\MDI\GitJmeter\Hamza\CreateTravelMemo_BlockCard.jmx
+2023-03-13 19:05:36,658 INFO o.a.j.s.FileServer: Set new base='D:\Qcentris\qcs\MDI\GitJmeter\Hamza'
+2023-03-13 19:05:36,658 INFO o.a.j.s.SaveService: Loading file: D:\Qcentris\qcs\MDI\GitJmeter\Hamza\CreateTravelMemo_BlockCard.jmx
+2023-03-13 19:05:36,749 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2023-03-13 19:05:36,808 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-03-13 19:05:36,808 INFO o.a.j.e.u.CompoundVariable: Note: Function class names mu2023-03-13 19:09:18,682 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-03-13 19:09:18,682 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-03-13 19:09:18,682 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-03-13 19:09:18,685 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-03-13 19:09:18,718 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : +++ Create Travel Memo +++
+2023-03-13 19:09:18,718 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group +++ Create Travel Memo +++.
+2023-03-13 19:09:18,718 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-03-13 19:09:18,718 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 1
+2023-03-13 19:09:18,719 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2023-03-13 19:09:18,720 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : +++ Block Card +++
+2023-03-13 19:09:18,720 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group +++ Block Card +++.
+2023-03-13 19:09:18,720 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-03-13 19:09:18,720 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 2 threads 1
+2023-03-13 19:09:18,720 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 2
+2023-03-13 19:09:18,720 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-03-13 19:09:18,726 INFO o.a.j.t.JMeterThread: Thread started: +++ Create Travel Memo +++ 1-1
+2023-03-13 19:09:18,726 INFO o.a.j.t.JMeterThread: Thread started: +++ Block Card +++ 2-1
+2023-03-13 19:09:18,727 INFO o.a.j.s.FileServer: Stored: testData\\input\\serviceRequests\\serviceRequest_testData_blockCard.csv
+2023-03-13 19:09:18,727 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file testData\\input\\serviceRequests\\serviceRequest_testData_blockCard.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.TransactionController.nextWithTransactionSampler(TransactionController.java:161) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.TransactionController.next(TransactionController.java:133) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:175) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:99) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:266) ~[ApacheJMeter_core.jar:5.5]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: File serviceRequest_testData_blockCard.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.5]
+	... 13 more
+2023-03-13 19:09:18,727 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file testData\\input\\serviceRequests\\serviceRequest_testData_blockCard.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.TransactionController.nextWithTransactionSampler(TransactionController.java:161) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.TransactionController.next(TransactionController.java:133) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:175) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:99) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:266) ~[ApacheJMeter_core.jar:5.5]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: File serviceRequest_testData_blockCard.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.5]
+	... 13 more
+2023-03-13 19:09:18,728 INFO o.a.j.t.JMeterThread: Thread finished: +++ Create Travel Memo +++ 1-1
+2023-03-13 19:09:18,728 INFO o.a.j.t.JMeterThread: Thread finished: +++ Block Card +++ 2-1
+2023-03-13 19:09:18,728 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-03-13 19:09:18,728 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-03-13 19:11:00,706 INFO o.a.j.g.a.Load: Loading file: D:\Qcentris\qcs\MDI\GitJmeter\MDI_Perf_Repo\bin\scripts\crm\CRM_Testplan_13032023.jmx
+2023-03-13 19:11:00,706 INFO o.a.j.s.FileServer: Set new base='D:\Qcentris\qcs\MDI\GitJmeter\MDI_Perf_Repo\bin\scripts\crm'
+2023-03-13 19:11:00,706 INFO o.a.j.s.SaveService: Loading file: D:\Qcentris\qcs\MDI\GitJmeter\MDI_Perf_Repo\bin\scripts\crm\CRM_Testplan_13032023.jmx
+2023-03-13 19:11:00,762 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-03-13 19:11:00,784 INFO o.a.j.s.FileServer: Set new base='D:\Qcentris\qcs\MDI\GitJmeter\MDI_Perf_Repo\bin\scripts\crm'
+2023-03-13 19:11:30,212 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-03-13 19:11:30,669 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-03-13 19:12:16,662 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-03-13 19:15:32,035 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-03-13 19:15:32,035 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-03-13 19:15:32,036 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-03-13 19:15:32,076 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : +++ Block Card +++
+2023-03-13 19:15:32,076 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group +++ Block Card +++.
+2023-03-13 19:15:32,076 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-03-13 19:15:32,076 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 1
+2023-03-13 19:15:32,077 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2023-03-13 19:15:32,077 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : +++ Create Travel Memo +++
+2023-03-13 19:15:32,077 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group +++ Create Travel Memo +++.
+2023-03-13 19:15:32,077 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-03-13 19:15:32,077 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 2 threads 1
+2023-03-13 19:15:32,077 INFO o.a.j.t.JMeterThread: Thread started: +++ Block Card +++ 1-1
+2023-03-13 19:15:32,077 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 2
+2023-03-13 19:15:32,077 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-03-13 19:15:32,078 INFO o.a.j.s.FileServer: Stored: testData\\input\\serviceRequests\\serviceRequest_testData_blockCard.csv
+2023-03-13 19:15:32,078 INFO o.a.j.t.JMeterThread: Thread started: +++ Create Travel Memo +++ 2-1
+2023-03-13 19:15:32,078 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file testData\\input\\serviceRequests\\serviceRequest_testData_blockCard.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.TransactionController.nextWithTransactionSampler(TransactionController.java:161) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.TransactionController.next(TransactionController.java:133) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:175) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:99) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:266) ~[ApacheJMeter_core.jar:5.5]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: File serviceRequest_testData_blockCard.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.5]
+	... 13 more
+2023-03-13 19:15:32,078 INFO o.a.j.t.JMeterThread: Thread finished: +++ Block Card +++ 1-1
+2023-03-13 19:15:32,078 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file testData\\input\\serviceRequests\\serviceRequest_testData_blockCard.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.TransactionController.nextWithTransactionSampler(TransactionController.java:161) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.TransactionController.next(TransactionController.java:133) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:175) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:99) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:266) ~[ApacheJMeter_core.jar:5.5]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: File serviceRequest_testData_blockCard.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.5]
+	... 13 more
+2023-03-13 19:15:32,078 INFO o.a.j.t.JMeterThread: Thread finished: +++ Create Travel Memo +++ 2-1
+2023-03-13 19:15:32,078 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-03-13 19:15:32,079 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
