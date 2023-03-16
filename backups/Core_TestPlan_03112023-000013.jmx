@@ -4,7 +4,6 @@
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
       <boolProp name="TestPlan.functional_mode">false</boolProp>
-      <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
       <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
         <collectionProp name="Arguments.arguments"/>
@@ -2562,7 +2561,7 @@ fileWriter.close();</stringProp>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Update Account Posting Restriction - Input  Data Set Config" enabled="true">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">testData\\input\\core\\Core_TestData_UpdatePostingRestrictionCustomer.csv</stringProp>
+          <stringProp name="filename">D:/MDI/Jmeter files/updatePostingRestrictionCustomer/Input.csv</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
           <boolProp name="quotedData">false</boolProp>
           <boolProp name="recycle">false</boolProp>
@@ -2744,7 +2743,7 @@ fileWriter.close();</stringProp>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Get Customer Posting Restriction - Input CSV Data Set Config" enabled="true">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">testData\\input\\core\\Core_TestData_GetCustomerPostingRestriction.csv</stringProp>
+          <stringProp name="filename">D:/MDI/Jmeter files/getCustomerPostingRestriction/Input.csv</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
           <boolProp name="quotedData">false</boolProp>
           <boolProp name="recycle">false</boolProp>
@@ -2908,7 +2907,7 @@ fileWriter.close();</stringProp>
           </hashTree>
         </hashTree>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Get KYC +++" enabled="true">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Get KYC +++" enabled="false">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="-2114595297">
             <stringProp name="697193213">${GetKYC_Threads}</stringProp>
@@ -2962,7 +2961,7 @@ fileWriter.close();</stringProp>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">testData\\input\\core\\Core_TestData_GetKYC.csv</stringProp>
+          <stringProp name="filename">D:/MDI Performance/CIF perferomance.csv</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
           <boolProp name="quotedData">false</boolProp>
           <boolProp name="recycle">true</boolProp>
@@ -3046,7 +3045,7 @@ fileWriter.close();</stringProp>
       </kg.apc.jmeter.threads.UltimateThreadGroup>
       <hashTree>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Update Account Posting Restriction - Input CSV Data Set Config" enabled="true">
-          <stringProp name="filename">testData\\input\\core\\Core_TestData_UpdatePostingRestrictionAccount.csv</stringProp>
+          <stringProp name="filename">D:\MDI\Jmeter files\updatePostingRestrictionAccount_API\Input.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">customerID,startDate,effectiveDate,postingRestriction</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
@@ -3224,7 +3223,7 @@ fileWriter.close();</stringProp>
           </hashTree>
         </hashTree>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Get Account Posting Restriction +++" enabled="false">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Get Account Posting Restriction +++" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="1926663811">
             <stringProp name="-1690945413">${GetAccountPostingRestriction_Threads}</stringProp>
@@ -3245,7 +3244,7 @@ fileWriter.close();</stringProp>
           <stringProp name="TestPlan.comments">The Threads will stop at EOF</stringProp>
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">testData\\input\\core\\Core_TestData_GetAccountPostingRestrictions.csv</stringProp>
+          <stringProp name="filename">D:/MDI/Jmeter files/getAccountPostingRestrictions/Input.csv</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
           <boolProp name="quotedData">false</boolProp>
           <boolProp name="recycle">false</boolProp>
@@ -3329,7 +3328,7 @@ fileWriter.close();</stringProp>
               <boolProp name="ISREGEX">true</boolProp>
             </JSONPathAssertion>
             <hashTree/>
-            <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="JSR223 Assertion" enabled="true">
+            <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="JSR223 Assertion" enabled="false">
               <stringProp name="cacheKey">true</stringProp>
               <stringProp name="filename"></stringProp>
               <stringProp name="parameters"></stringProp>
@@ -3391,7 +3390,7 @@ fileWriter.close();</stringProp>
           </hashTree>
         </hashTree>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Get Account Summary +++" enabled="false">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Get Account Summary +++" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="1261436815">
             <stringProp name="1816647899">${GetAccountSummary_Threads}</stringProp>
@@ -3412,7 +3411,7 @@ fileWriter.close();</stringProp>
           <stringProp name="TestPlan.comments">The Threads will stop at the EOF</stringProp>
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">testData\\input\\core\\Core_TestData_GetAccountSummary.csv</stringProp>
+          <stringProp name="filename">D:/MDI/Jmeter files/getAccountSummary/Input.csv</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
           <boolProp name="quotedData">false</boolProp>
           <boolProp name="recycle">false</boolProp>
@@ -3497,7 +3496,7 @@ fileWriter.close();</stringProp>
 char SEPARATOR = &apos;,&apos;;
 
 
-String csvFile = props.get(&quot;coreOutputFolder&quot;)+vars.get(&quot;CsvPath_GetAccountSummary&quot;)
+String csvFile = &quot;&quot;+vars.get(&quot;CsvPath_GetAccountSummary&quot;)
 
 
 def params = [vars.get(&quot;accountNo&quot;).toString(),vars.get(&quot;status&quot;).toString()];
@@ -3586,7 +3585,7 @@ fileWriter.close();</stringProp>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config_inputsheet" enabled="true">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">testData\\input\\core\\Core_TestData_CaptureBill.csv</stringProp>
+          <stringProp name="filename">C:/Users/Smartec/Documents/jmeter/APIs/CaptureBill_input.csv</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
           <boolProp name="quotedData">false</boolProp>
           <boolProp name="recycle">false</boolProp>
@@ -3790,7 +3789,7 @@ fileWriter.close();</stringProp>
             </HeaderManager>
             <hashTree/>
             <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
-              <stringProp name="filename">testData\\input\\core\\Core_TestData_BlockAmount.csv</stringProp>
+              <stringProp name="filename">D:/MDI Performance/Holdamount.csv</stringProp>
               <stringProp name="fileEncoding"></stringProp>
               <stringProp name="variableNames">AccountID</stringProp>
               <boolProp name="ignoreFirstLine">true</boolProp>
@@ -3813,7 +3812,7 @@ fileWriter.close();</stringProp>
           </hashTree>
         </hashTree>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Account Closure +++" enabled="false">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Account Closure +++" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="964894728">
             <stringProp name="-209865457">${AccountClosure_Users}</stringProp>
@@ -3833,7 +3832,7 @@ fileWriter.close();</stringProp>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">testData\\input\\core\\Core_TestData_AccountClosure.csv</stringProp>
+          <stringProp name="filename">C:/Users/hamza.zaki/Desktop/MDI-Scripts/API-UsingJmeter/CSV_Files/Account Closure/Account_Closure_Input.csv</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
           <boolProp name="quotedData">false</boolProp>
           <boolProp name="recycle">false</boolProp>
@@ -3973,7 +3972,7 @@ fileWriter.close();</stringProp>
 char SEPARATOR = &apos;,&apos;;
 
 
-String csvFile = props.get(&quot;coreOutputFolder&quot;)+vars.get(&quot;CsvPath_AccountClosureAA_ID&quot;)
+String csvFile = &quot;&quot;+vars.get(&quot;CsvPath_AccountClosureAA_ID&quot;)
 
 
 def params = [&quot;Account closure AA&quot;,vars.get(&quot;ACC_ClosureID&quot;).toString(),&quot;&quot;,&quot;&quot;];
@@ -4086,7 +4085,7 @@ fileWriter.close();</stringProp>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config_input" enabled="true">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">testData\\input\\core\\Core_TestData_CreateTD.csv</stringProp>
+          <stringProp name="filename">C:/Users/Smartec/Documents/jmeter/APIs/CreateTD.csv</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
           <boolProp name="quotedData">false</boolProp>
           <boolProp name="recycle">false</boolProp>
@@ -4231,7 +4230,7 @@ fileWriter.close();</stringProp>
 char SEPARATOR = &apos;,&apos;;
 
 
-String csvFile = props.get(&quot;coreOutputFolder&quot;)+vars.get(&quot;CsvPath_CreateTD&quot;)
+String csvFile = &quot;&quot;+vars.get(&quot;CsvPath_CreateTD&quot;)
 
 
 def params = [&quot;Arrangment ID&quot;,vars.get(&quot;ArrangmentID&quot;).toString(),&quot;&quot;,&quot;&quot;];
@@ -4278,7 +4277,7 @@ fileWriter.close();</stringProp>
           </hashTree>
         </hashTree>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Create Saving Plan +++" enabled="false">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Create Saving Plan +++" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="-1512545920">
             <stringProp name="-957254381">${CreateSavingGoal_threads}</stringProp>
@@ -4437,7 +4436,7 @@ fileWriter.close();</stringProp>
             <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
               <stringProp name="delimiter">,</stringProp>
               <stringProp name="fileEncoding"></stringProp>
-              <stringProp name="filename">testData\\input\\core\\Core_TestData_CreateSavingPlan.csv</stringProp>
+              <stringProp name="filename">C:/Users/hamza.zaki/Desktop/MDI-Scripts/API-UsingJmeter/CSV_Files/Create saving goal/CreateSavingGoal.csv</stringProp>
               <boolProp name="ignoreFirstLine">true</boolProp>
               <boolProp name="quotedData">false</boolProp>
               <boolProp name="recycle">true</boolProp>
@@ -4490,7 +4489,7 @@ fileWriter.close();</stringProp>
 char SEPARATOR = &apos;,&apos;;
 
 
-String csvFile = props.get(&quot;coreOutputFolder&quot;)+vars.get(&quot;CsvPath_CreatedGoals&quot;)
+String csvFile = &quot;&quot;+vars.get(&quot;CsvPath_CreatedGoals&quot;)
 
 
 def params = [&quot;Created Goals REF&quot;,vars.get(&quot;Trans-CreatedGoal&quot;).toString(),&quot;&quot;,&quot;&quot;];
@@ -4569,7 +4568,7 @@ fileWriter.close();</stringProp>
         </TransactionController>
         <hashTree>
           <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
-            <stringProp name="filename">testData\\input\\core\\Core_TestData_GetDeposit.csv</stringProp>
+            <stringProp name="filename">D:/MDI Performance/GetDepositDetails.csv</stringProp>
             <stringProp name="fileEncoding"></stringProp>
             <stringProp name="variableNames">DepostIDs </stringProp>
             <boolProp name="ignoreFirstLine">true</boolProp>
@@ -4636,7 +4635,7 @@ fileWriter.close();</stringProp>
           </hashTree>
         </hashTree>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Get Deposits Per Customer +++" enabled="false">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Get Deposits Per Customer +++" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="1933199171">
             <stringProp name="824487665">${Get_DepositPerCus_Threads}</stringProp>
@@ -4669,7 +4668,7 @@ fileWriter.close();</stringProp>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">testData\\input\\core\\Core_TestData_GetDepositsPerCustomer.csv</stringProp>
+          <stringProp name="filename">C:/Users/hamza.zaki/Desktop/MDI-Scripts/API-UsingJmeter/CSV_Files/Deposits Per Customer/DepositsPerCus_input.csv</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
           <boolProp name="quotedData">false</boolProp>
           <boolProp name="recycle">false</boolProp>
@@ -4743,7 +4742,7 @@ fileWriter.close();</stringProp>
           </hashTree>
         </hashTree>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Get Payment Order Details +++" enabled="false">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Get Payment Order Details +++" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="-685848250">
             <stringProp name="1411840792">${GetPaymentOrderDetails_Threads}</stringProp>
@@ -4768,13 +4767,13 @@ fileWriter.close();</stringProp>
           <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
             <stringProp name="delimiter">,</stringProp>
             <stringProp name="fileEncoding"></stringProp>
-            <stringProp name="filename">testData\\input\\core\\Core_TestData_GetPaymentOrderDetails.csv</stringProp>
+            <stringProp name="filename">C:/Users/hamza.zaki/Desktop/MDI-Scripts/API-UsingJmeter/CSV_Files/PaymentOrder/GET-Payment_Details_Input.csv</stringProp>
             <boolProp name="ignoreFirstLine">true</boolProp>
             <boolProp name="quotedData">false</boolProp>
             <boolProp name="recycle">false</boolProp>
             <stringProp name="shareMode">shareMode.all</stringProp>
             <boolProp name="stopThread">true</boolProp>
-            <stringProp name="variableNames">PaymentOrderPI</stringProp>
+            <stringProp name="variableNames"></stringProp>
           </CSVDataSet>
           <hashTree/>
           <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
@@ -4858,7 +4857,7 @@ fileWriter.close();</stringProp>
 char SEPARATOR = &apos;,&apos;;
 
 
-String csvFile = props.get(&quot;coreOutputFolder&quot;)+vars.get(&quot;CsvPath_GetPaymentOrderDetails&quot;)
+String csvFile = &quot;&quot;+vars.get(&quot;CsvPath_GetPaymentOrderDetails&quot;)
 
 
 def params = [&quot;PaymentOrderODB&quot;,vars.get(&quot;transId_ODB&quot;).toString(),&quot;&quot;,&quot;&quot;];
@@ -4905,7 +4904,7 @@ fileWriter.close();</stringProp>
           </hashTree>
         </hashTree>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Create Outgoing Transfer +++" enabled="false">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Create Outgoing Transfer +++" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="-1385012891">
             <stringProp name="-338504599">${CreateOutgoingTransfer_Threads}</stringProp>
@@ -4973,13 +4972,13 @@ fileWriter.close();</stringProp>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">testData\\input\\core\\Core_TestData_CreateOutgoingTransfer.csv</stringProp>
+          <stringProp name="filename">C:/Users/hamza.zaki/Desktop/MDI-Scripts/API-UsingJmeter/CSV_Files/API_MT103_PEG_Create Outgoing Transfe/EGRTGS.csv</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
           <boolProp name="quotedData">false</boolProp>
           <boolProp name="recycle">false</boolProp>
           <stringProp name="shareMode">shareMode.group</stringProp>
           <boolProp name="stopThread">true</boolProp>
-          <stringProp name="variableNames">amount,orderingCustomerId,debitAccountId,beneficiaryAccountId,accountWithBankBIC,paymentCurrencyId</stringProp>
+          <stringProp name="variableNames"></stringProp>
         </CSVDataSet>
         <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="MT103 PEG Outgoing " enabled="true">
@@ -5056,7 +5055,7 @@ fileWriter.close();</stringProp>
 char SEPARATOR = &apos;,&apos;;
 
 
-String csvFile = props.get(&quot;coreOutputFolder&quot;)+vars.get(&quot;CsvPath_CreateEGRTGSPayment&quot;)
+String csvFile = &quot;&quot;+vars.get(&quot;CsvPath_CreateEGRTGSPayment&quot;)
 
 
 def params = [&quot;ID&quot;,vars.get(&quot;EGRTGS Payment&quot;).toString(),vars.get(&quot;EGRTGS_PI_REF&quot;).toString(),&quot;&quot;,&quot;&quot;];
@@ -5119,10 +5118,10 @@ fileWriter.close();</stringProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
       </kg.apc.jmeter.threads.UltimateThreadGroup>
       <hashTree>
-        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Payment Reverse CSV Data Set Config" enabled="true">
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Defied Variables" enabled="true">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding">PaymentOrderODB</stringProp>
-          <stringProp name="filename">testData\\input\\core\\Core_TestData_PaymentReverse.csv</stringProp>
+          <stringProp name="filename">D:/MDI/Perfomance/API/API.PaymentReverse.csv</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
           <boolProp name="quotedData">false</boolProp>
           <boolProp name="recycle">false</boolProp>
@@ -5248,7 +5247,7 @@ fileWriter.close();</stringProp>
 char SEPARATOR = &apos;,&apos;;
 
 
-String csvFile = props.get(&quot;coreOutputFolder&quot;)+vars.get(&quot;CsvPath_PaymentReverse&quot;)
+String csvFile = &quot;&quot;+vars.get(&quot;CsvPath_PaymentReverse&quot;)
 
 
 def params = [&quot;PaymentReverse&quot;,vars.get(&quot;Status ID&quot;).toString(),&quot;&quot;,&quot;&quot;];
@@ -5295,7 +5294,7 @@ fileWriter.close();</stringProp>
           </hashTree>
         </hashTree>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Create Standing Order +++" enabled="false">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Create Standing Order +++" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="-2030597629">
             <stringProp name="30270436">${CreateStandingOrder_Threads}</stringProp>
@@ -5315,7 +5314,7 @@ fileWriter.close();</stringProp>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Create Standing Order - Input CSV Data Set Config" enabled="true">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">testData\\input\\core\\Core_TestData_StandingOrder.csv</stringProp>
+          <stringProp name="filename">D:/MDI/Jmeter files/Standing Order/Input.csv</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
           <boolProp name="quotedData">false</boolProp>
           <boolProp name="recycle">false</boolProp>
@@ -5442,7 +5441,7 @@ fileWriter.close();</stringProp>
               <stringProp name="script">//Default separator
 char SEPARATOR = &apos;,&apos;;
 
-String csvFile = props.get(&quot;coreOutputFolder&quot;)+vars.get(&quot;CsvPath_CreateStandingOrder&quot;)
+String csvFile = &quot;&quot;+vars.get(&quot;CsvPath_CreateStandingOrder&quot;)
 
 
 def params = [vars.get(&quot;id&quot;).toString(),vars.get(&quot;uniqueIdentifier&quot;).toString(),vars.get(&quot;status&quot;).toString(),&quot;&quot;,&quot;&quot;];
@@ -5489,7 +5488,7 @@ fileWriter.close();</stringProp>
           </hashTree>
         </hashTree>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Create Sweep +++" enabled="false">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Create Sweep +++" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="725358914">
             <stringProp name="393452954">${CreateSweep_Threads}</stringProp>
@@ -5509,7 +5508,7 @@ fileWriter.close();</stringProp>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Create Sweep - Input CSV Data Set Config" enabled="true">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">testData\\input\\core\\Core_TestData_CreateSweep.csv</stringProp>
+          <stringProp name="filename">D:/MDI/Jmeter files/createSweep/Input.csv</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
           <boolProp name="quotedData">false</boolProp>
           <boolProp name="recycle">false</boolProp>
@@ -5645,7 +5644,7 @@ fileWriter.close();</stringProp>
 char SEPARATOR = &apos;,&apos;;
 
 
-String csvFile = props.get(&quot;coreOutputFolder&quot;)+vars.get(&quot;CsvPath_CreateSweep&quot;)
+String csvFile = &quot;&quot;+vars.get(&quot;CsvPath_CreateSweep&quot;)
 
 
 def params = [&quot;ID&quot;,vars.get(&quot;id&quot;).toString(),vars.get(&quot;status&quot;).toString(),&quot;&quot;,&quot;&quot;];

@@ -1,0 +1,2 @@
+amount,orderingCustomerId,debitAccountId,beneficiaryAccountId,accountWithBankBIC,paymentCurrencyId
+500,1000000005,100000006526,100000002822,CIBEEGCXXXX,EGP
