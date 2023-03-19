@@ -179,6 +179,86 @@
             <stringProp name="Argument.desc">7200 SEC 6000</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
+          <elementProp name="CreateTravelMemo_NUM_Threads" elementType="Argument">
+            <stringProp name="Argument.name">CreateTravelMemo_NUM_Threads</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="CreateTravelMemo_RampUp" elementType="Argument">
+            <stringProp name="Argument.name">CreateTravelMemo_RampUp</stringProp>
+            <stringProp name="Argument.value">0</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="CreateTravelMemo_RampDown" elementType="Argument">
+            <stringProp name="Argument.name">CreateTravelMemo_RampDown</stringProp>
+            <stringProp name="Argument.value">0</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="CreateTravelMemo_SteadtState" elementType="Argument">
+            <stringProp name="Argument.name">CreateTravelMemo_SteadtState</stringProp>
+            <stringProp name="Argument.value">60</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="BlockCard_NUM_Threads" elementType="Argument">
+            <stringProp name="Argument.name">BlockCard_NUM_Threads</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="BlockCard_Rampup" elementType="Argument">
+            <stringProp name="Argument.name">BlockCard_Rampup</stringProp>
+            <stringProp name="Argument.value">0</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="BlockCard_RampDown" elementType="Argument">
+            <stringProp name="Argument.name">BlockCard_RampDown</stringProp>
+            <stringProp name="Argument.value">0</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="BlockCard_SteadyState" elementType="Argument">
+            <stringProp name="Argument.name">BlockCard_SteadyState</stringProp>
+            <stringProp name="Argument.value">60</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="AccountPayoffClosure_NUM_Threads" elementType="Argument">
+            <stringProp name="Argument.name">AccountPayoffClosure_NUM_Threads</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="AccountPayoffClosure_Rampup" elementType="Argument">
+            <stringProp name="Argument.name">AccountPayoffClosure_Rampup</stringProp>
+            <stringProp name="Argument.value">0</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="AccountPayoffClosure_RampDown" elementType="Argument">
+            <stringProp name="Argument.name">AccountPayoffClosure_RampDown</stringProp>
+            <stringProp name="Argument.value">0</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="AccountPayoffClosure_SteadyState" elementType="Argument">
+            <stringProp name="Argument.name">AccountPayoffClosure_SteadyState</stringProp>
+            <stringProp name="Argument.value">60</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="VCNCheck_NUM_Threads" elementType="Argument">
+            <stringProp name="Argument.name">VCNCheck_NUM_Threads</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="VCNCheck_Rampup" elementType="Argument">
+            <stringProp name="Argument.name">VCNCheck_Rampup</stringProp>
+            <stringProp name="Argument.value">0</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="VCNCheck_RampDown" elementType="Argument">
+            <stringProp name="Argument.name">VCNCheck_RampDown</stringProp>
+            <stringProp name="Argument.value">0</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="VCNCheck_SteadyState" elementType="Argument">
+            <stringProp name="Argument.name">VCNCheck_SteadyState</stringProp>
+            <stringProp name="Argument.value">60</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
         </collectionProp>
       </Arguments>
       <hashTree/>
@@ -264,7 +344,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Authorization" elementType="Header">
                   <stringProp name="Header.name">Authorization</stringProp>
-                  <stringProp name="Header.value">Basic ${Token}</stringProp>
+                  <stringProp name="Header.value">Basic ${basicToken}</stringProp>
                 </elementProp>
                 <elementProp name="Postman-Token" elementType="Header">
                   <stringProp name="Header.name">Postman-Token</stringProp>
@@ -305,9 +385,9 @@
               <stringProp name="variableNames">customerId,vpan</stringProp>
             </CSVDataSet>
             <hashTree/>
-            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters" enabled="true">
+            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="basicToken Generator User Parameters" enabled="true">
               <collectionProp name="UserParameters.names">
-                <stringProp name="80988633">Token</stringProp>
+                <stringProp name="-1134271893">basicToken</stringProp>
               </collectionProp>
               <collectionProp name="UserParameters.thread_values">
                 <collectionProp name="-776560449">
@@ -411,7 +491,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Authorization" elementType="Header">
                   <stringProp name="Header.name">Authorization</stringProp>
-                  <stringProp name="Header.value">Basic ${Token}</stringProp>
+                  <stringProp name="Header.value">Basic ${basicToken}</stringProp>
                 </elementProp>
                 <elementProp name="Postman-Token" elementType="Header">
                   <stringProp name="Header.name">Postman-Token</stringProp>
@@ -440,9 +520,9 @@
               </collectionProp>
             </HeaderManager>
             <hashTree/>
-            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters" enabled="true">
+            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="basicToken Generator User Parameters" enabled="true">
               <collectionProp name="UserParameters.names">
-                <stringProp name="80988633">Token</stringProp>
+                <stringProp name="-1134271893">basicToken</stringProp>
               </collectionProp>
               <collectionProp name="UserParameters.thread_values">
                 <collectionProp name="-776560449">
@@ -488,7 +568,7 @@
           <hashTree/>
         </hashTree>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++Close Online Card +++" enabled="false">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++Close Card +++" enabled="false">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="-1103770246">
             <stringProp name="-188351941">${CloseCard_NUM_Threads}</stringProp>
@@ -503,6 +583,7 @@
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <stringProp name="TestPlan.comments">IN-11914</stringProp>
       </kg.apc.jmeter.threads.UltimateThreadGroup>
       <hashTree>
         <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="false">
@@ -672,7 +753,7 @@
               <stringProp name="shareMode">shareMode.all</stringProp>
             </CSVDataSet>
             <hashTree/>
-            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="basicToken User Parameters" enabled="true">
+            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="basicToken Generator User Parameters" enabled="true">
               <collectionProp name="UserParameters.names">
                 <stringProp name="-1134271893">basicToken</stringProp>
               </collectionProp>
@@ -748,7 +829,7 @@ fileWriter.close();</stringProp>
           <hashTree/>
         </hashTree>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++Get T24 Account Details +++" enabled="true">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++Get T24 Account Details +++" enabled="false">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="164494605">
             <stringProp name="-1882565952">${GetT24AccountDetails_NUM_Threads}</stringProp>
@@ -793,11 +874,7 @@ fileWriter.close();</stringProp>
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Authorization" elementType="Header">
                   <stringProp name="Header.name">Authorization</stringProp>
-                  <stringProp name="Header.value">${Token}</stringProp>
-                </elementProp>
-                <elementProp name="Postman-Token" elementType="Header">
-                  <stringProp name="Header.name">Postman-Token</stringProp>
-                  <stringProp name="Header.value">a4721293-f71c-417d-8256-b8f73c96c7c9</stringProp>
+                  <stringProp name="Header.value">${JWTToken}</stringProp>
                 </elementProp>
                 <elementProp name="X-Correlation-Id" elementType="Header">
                   <stringProp name="Header.name">X-Correlation-Id</stringProp>
@@ -847,19 +924,7 @@ fileWriter.close();</stringProp>
               <stringProp name="variableNames">customerId,accountId</stringProp>
             </CSVDataSet>
             <hashTree/>
-            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters" enabled="true">
-              <collectionProp name="UserParameters.names">
-                <stringProp name="80988633">Token</stringProp>
-              </collectionProp>
-              <collectionProp name="UserParameters.thread_values">
-                <collectionProp name="-776560449">
-                  <stringProp name="-3885065">${__base64Encode(MDI:MDI@Atos2021:${customerId},)}</stringProp>
-                </collectionProp>
-              </collectionProp>
-              <boolProp name="UserParameters.per_iteration">false</boolProp>
-            </UserParameters>
-            <hashTree/>
-            <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="JSR223 PreProcessor" enabled="false">
+            <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="JWT Generator - JSR223 PreProcessor - " enabled="true">
               <stringProp name="cacheKey">true</stringProp>
               <stringProp name="filename"></stringProp>
               <stringProp name="parameters"></stringProp>
@@ -869,7 +934,7 @@ try{
 	
 JWT JWT_Generator = new JWT();
 String token = JWT_Generator.generateToken(vars.get(&quot;customerId&quot;));
-vars.put(&quot;token&quot;,&quot;Bearer &quot;+token);
+vars.put(&quot;JWTToken&quot;,&quot;Bearer &quot;+token);
 
 }
 catch (Throwable ex) {
@@ -1044,7 +1109,7 @@ fileWriter.close();</stringProp>
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Authorization" elementType="Header">
                   <stringProp name="Header.name">Authorization</stringProp>
-                  <stringProp name="Header.value">Basic ${Token}</stringProp>
+                  <stringProp name="Header.value">Basic ${basicToken}</stringProp>
                 </elementProp>
                 <elementProp name="X-Correlation-Id" elementType="Header">
                   <stringProp name="Header.name">X-Correlation-Id</stringProp>
@@ -1069,9 +1134,9 @@ fileWriter.close();</stringProp>
               </collectionProp>
             </HeaderManager>
             <hashTree/>
-            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters" enabled="true">
+            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="basicToken Generator User Parameters" enabled="true">
               <collectionProp name="UserParameters.names">
-                <stringProp name="80988633">Token</stringProp>
+                <stringProp name="-1134271893">basicToken</stringProp>
               </collectionProp>
               <collectionProp name="UserParameters.thread_values">
                 <collectionProp name="-776560449">
@@ -1199,7 +1264,7 @@ fileWriter.close();</stringProp>
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Authorization" elementType="Header">
                   <stringProp name="Header.name">Authorization</stringProp>
-                  <stringProp name="Header.value">Basic ${Token}</stringProp>
+                  <stringProp name="Header.value">Basic ${basicToken}</stringProp>
                 </elementProp>
                 <elementProp name="X-Correlation-Id" elementType="Header">
                   <stringProp name="Header.name">X-Correlation-Id</stringProp>
@@ -1224,9 +1289,699 @@ fileWriter.close();</stringProp>
               </collectionProp>
             </HeaderManager>
             <hashTree/>
-            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters" enabled="true">
+            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="basicToken Generator User Parameters" enabled="true">
               <collectionProp name="UserParameters.names">
-                <stringProp name="80988633">Token</stringProp>
+                <stringProp name="-1134271893">basicToken</stringProp>
+              </collectionProp>
+              <collectionProp name="UserParameters.thread_values">
+                <collectionProp name="-776560449">
+                  <stringProp name="-3885065">${__base64Encode(MDI:MDI@Atos2021:${customerId},)}</stringProp>
+                </collectionProp>
+              </collectionProp>
+              <boolProp name="UserParameters.per_iteration">false</boolProp>
+            </UserParameters>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+      </hashTree>
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Block Card +++" enabled="false">
+        <collectionProp name="ultimatethreadgroupdata">
+          <collectionProp name="-1022178357">
+            <stringProp name="788885574">${BlockCard_NUM_Threads}</stringProp>
+            <stringProp name="0">0</stringProp>
+            <stringProp name="-1632820553">${BlockCard_Rampup}</stringProp>
+            <stringProp name="971302487">${BlockCard_SteadyState}</stringProp>
+            <stringProp name="-1522772944">${BlockCard_RampDown}</stringProp>
+          </collectionProp>
+        </collectionProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <intProp name="LoopController.loops">-1</intProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+      </kg.apc.jmeter.threads.UltimateThreadGroup>
+      <hashTree>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="+++ Block Card +++" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">true</boolProp>
+        </TransactionController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Block Card_/domain/v1/system/secure/cards/customer/card/block" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&#xd;
+    &quot;cardIdentifier&quot;: {&#xd;
+        &quot;vpan&quot;: &quot;${vpan_CloseAccount}&quot;&#xd;
+    },&#xd;
+    &quot;newStatus&quot;: &quot;STOLEN&quot;,&#xd;
+    &quot;description&quot;: &quot;REPORT LOST Reason of 50 characters&quot;&#xd;
+}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">card-management.sit.apps.openshift.dev.mdi</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">http</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+            <stringProp name="HTTPSampler.path">/domain/v1/system/secure/cards/customer/card/block</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="BlockCard - CSV Data Set Config" enabled="true">
+              <stringProp name="delimiter">,</stringProp>
+              <stringProp name="fileEncoding"></stringProp>
+              <stringProp name="filename">testData\\input\\serviceRequests\\SR_TestData_blockCard.csv</stringProp>
+              <boolProp name="ignoreFirstLine">true</boolProp>
+              <boolProp name="quotedData">false</boolProp>
+              <boolProp name="recycle">true</boolProp>
+              <stringProp name="shareMode">shareMode.all</stringProp>
+              <boolProp name="stopThread">false</boolProp>
+              <stringProp name="variableNames">customerId_CloseAccount,vpan_CloseAccount,guid</stringProp>
+            </CSVDataSet>
+            <hashTree/>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Basic ${basicToken}</stringProp>
+                </elementProp>
+                <elementProp name="Postman-Token" elementType="Header">
+                  <stringProp name="Header.name">Postman-Token</stringProp>
+                  <stringProp name="Header.value">db5e58ec-20e0-4eb2-943c-767ba86e99ad</stringProp>
+                </elementProp>
+                <elementProp name="X-Correlation-Id" elementType="Header">
+                  <stringProp name="Header.name">X-Correlation-Id</stringProp>
+                  <stringProp name="Header.value">${guid}</stringProp>
+                </elementProp>
+                <elementProp name="Content-Type" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Postman</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="basicToken Generator User Parameters" enabled="true">
+              <collectionProp name="UserParameters.names">
+                <stringProp name="-1134271893">basicToken</stringProp>
+              </collectionProp>
+              <collectionProp name="UserParameters.thread_values">
+                <collectionProp name="1952800339">
+                  <stringProp name="-161030237">${__base64Encode(MDI:MDI@Atos2021:${customerId_CloseAccount},)}</stringProp>
+                </collectionProp>
+              </collectionProp>
+              <boolProp name="UserParameters.per_iteration">false</boolProp>
+            </UserParameters>
+            <hashTree/>
+            <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSON Assertion" enabled="true">
+              <stringProp name="JSON_PATH">$.message</stringProp>
+              <stringProp name="EXPECTED_VALUE">Success</stringProp>
+              <boolProp name="JSONVALIDATION">true</boolProp>
+              <boolProp name="EXPECT_NULL">false</boolProp>
+              <boolProp name="INVERT">false</boolProp>
+              <boolProp name="ISREGEX">true</boolProp>
+            </JSONPathAssertion>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="ThinkTime" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">0</stringProp>
+        </TestAction>
+        <hashTree>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+            <stringProp name="ConstantTimer.delay">${ThinkTime}</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Create Travel Memo +++" enabled="true">
+        <collectionProp name="ultimatethreadgroupdata">
+          <collectionProp name="1897706556">
+            <stringProp name="1757462405">${CreateTravelMemo_NUM_Threads}</stringProp>
+            <stringProp name="0">0</stringProp>
+            <stringProp name="1188990968">${CreateTravelMemo_RampUp}</stringProp>
+            <stringProp name="1797328209">${CreateTravelMemo_SteadtState}</stringProp>
+            <stringProp name="143287633">${CreateTravelMemo_RampDown}</stringProp>
+          </collectionProp>
+        </collectionProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <intProp name="LoopController.loops">-1</intProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+      </kg.apc.jmeter.threads.UltimateThreadGroup>
+      <hashTree>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="+++ Create Travel Memo +++" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">true</boolProp>
+        </TransactionController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Create Travel Memo_/process/v1/system/secure/bpm/service-request/cards/customer/card/travel-memo/add" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&#xd;
+    &quot;cardIdentifier&quot;: {&#xd;
+        &quot;vPan&quot;: &quot;${Vpan_CreateTravelMemo}&quot;&#xd;
+    },&#xd;
+    &quot;internationalUse&quot;: {&#xd;
+        &quot;restrictionPeriod&quot;: {&#xd;
+            &quot;dateTimeFrom&quot;: 1709848651,&#xd;
+            &quot;dateTimeTo&quot;: 1709858651&#xd;
+        },&#xd;
+        &quot;countryRestrictions&quot;: {&#xd;
+            &quot;allowedList&quot;: [&#xd;
+                {&#xd;
+                    &quot;iso2&quot;: &quot;EG&quot;,&#xd;
+                    &quot;isoNum&quot;: &quot;818&quot;&#xd;
+                }&#xd;
+            ]&#xd;
+        }&#xd;
+    }&#xd;
+}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">process-workflow-microgateway.sit.apps.openshift.dev.mdi</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">http</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+            <stringProp name="HTTPSampler.path">/process/v1/system/secure/bpm/service-request/cards/customer/card/travel-memo/add</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Basic ${basicToken}</stringProp>
+                </elementProp>
+                <elementProp name="Postman-Token" elementType="Header">
+                  <stringProp name="Header.name">Postman-Token</stringProp>
+                  <stringProp name="Header.value">22af731f-2b45-490d-89eb-da2f20c93aff</stringProp>
+                </elementProp>
+                <elementProp name="X-Correlation-Id" elementType="Header">
+                  <stringProp name="Header.name">X-Correlation-Id</stringProp>
+                  <stringProp name="Header.value">1c99fefa-6ca5-4363-8c11-a5ad0fb48e37</stringProp>
+                </elementProp>
+                <elementProp name="Content-Type" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Postman</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="basicToken Generator User Parameters" enabled="true">
+              <collectionProp name="UserParameters.names">
+                <stringProp name="-1134271893">basicToken</stringProp>
+              </collectionProp>
+              <collectionProp name="UserParameters.thread_values">
+                <collectionProp name="1963569265">
+                  <stringProp name="1682271518">${__base64Encode(MDI:MDI@Atos2021:${customerId_CreateTravelMemo},)}</stringProp>
+                </collectionProp>
+              </collectionProp>
+              <boolProp name="UserParameters.per_iteration">false</boolProp>
+            </UserParameters>
+            <hashTree/>
+            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Create Travel memo - CSV Data Set Config" enabled="true">
+              <stringProp name="filename">testData/input/serviceRequests/SR_TestData_CreateTravelMemo.csv</stringProp>
+              <stringProp name="fileEncoding"></stringProp>
+              <stringProp name="variableNames">customerId_CreateTravelMemo,Vpan_CreateTravelMemo</stringProp>
+              <boolProp name="ignoreFirstLine">true</boolProp>
+              <stringProp name="delimiter">,</stringProp>
+              <boolProp name="quotedData">false</boolProp>
+              <boolProp name="recycle">true</boolProp>
+              <boolProp name="stopThread">false</boolProp>
+              <stringProp name="shareMode">shareMode.all</stringProp>
+            </CSVDataSet>
+            <hashTree/>
+            <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSON Assertion" enabled="true">
+              <stringProp name="JSON_PATH">$.message</stringProp>
+              <stringProp name="EXPECTED_VALUE">Success</stringProp>
+              <boolProp name="JSONVALIDATION">true</boolProp>
+              <boolProp name="EXPECT_NULL">false</boolProp>
+              <boolProp name="INVERT">false</boolProp>
+              <boolProp name="ISREGEX">true</boolProp>
+            </JSONPathAssertion>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="ThinkTime" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">0</stringProp>
+        </TestAction>
+        <hashTree>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+            <stringProp name="ConstantTimer.delay">${ThinkTime}</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++Account Payoff For Closure+++" enabled="false">
+        <collectionProp name="ultimatethreadgroupdata">
+          <collectionProp name="1733060902">
+            <stringProp name="-245833042">${AccountPayoffClosure_NUM_Threads}</stringProp>
+            <stringProp name="0">0</stringProp>
+            <stringProp name="-1606037681">${AccountPayoffClosure_Rampup}</stringProp>
+            <stringProp name="-63416129">${AccountPayoffClosure_SteadyState}</stringProp>
+            <stringProp name="-1524684056">${AccountPayoffClosure_Rampdown}</stringProp>
+          </collectionProp>
+        </collectionProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <intProp name="LoopController.loops">-1</intProp>
+        </elementProp>
+        <stringProp name="TestPlan.comments">This API needs testdata (arrangment Id) to be extracted from script mobile onboarding to create Testdata</stringProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+      </kg.apc.jmeter.threads.UltimateThreadGroup>
+      <hashTree>
+        <RecordingController guiclass="RecordController" testclass="RecordingController" testname="++Account Payoff For Closure++" enabled="true"/>
+        <hashTree>
+          <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="host" elementType="Argument">
+                <stringProp name="Argument.name">host</stringProp>
+                <stringProp name="Argument.value">www.example.com</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+              <elementProp name="scheme" elementType="Argument">
+                <stringProp name="Argument.name">scheme</stringProp>
+                <stringProp name="Argument.value">https</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+              <elementProp name="guid" elementType="Argument">
+                <stringProp name="Argument.name">guid</stringProp>
+                <stringProp name="Argument.value">73f4ddf2-de20-44fd-817b-f648bea0decd</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+              <elementProp name="arrangementID" elementType="Argument">
+                <stringProp name="Argument.name">arrangementID</stringProp>
+                <stringProp name="Argument.value">AA230677CD2B</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+              <elementProp name="customerId" elementType="Argument">
+                <stringProp name="Argument.name">customerId</stringProp>
+                <stringProp name="Argument.value">1200011851</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </Arguments>
+          <hashTree/>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Account Payoff For Closure" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+            <boolProp name="TransactionController.parent">false</boolProp>
+          </TransactionController>
+          <hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Account Payoff For Closure_/domain/v1/system/secure/accounts/customer/accounts/(arrangementID)/payoff" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">account-management.sit.apps.openshift.dev.mdi</stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">http</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/domain/v1/system/secure/accounts/customer/accounts/${arrangementID}/payoff</stringProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="arrangment Ids for account closure - CSV Data Set Config" enabled="false">
+                <stringProp name="filename">testData/input/serviceRequests/SR_TestData_AccountPayoffForClosure.csv</stringProp>
+                <stringProp name="fileEncoding"></stringProp>
+                <stringProp name="variableNames">customerId,arrangementId</stringProp>
+                <boolProp name="ignoreFirstLine">false</boolProp>
+                <stringProp name="delimiter">,</stringProp>
+                <boolProp name="quotedData">false</boolProp>
+                <boolProp name="recycle">true</boolProp>
+                <boolProp name="stopThread">false</boolProp>
+                <stringProp name="shareMode">shareMode.all</stringProp>
+              </CSVDataSet>
+              <hashTree/>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Authorization" elementType="Header">
+                    <stringProp name="Header.name">Authorization</stringProp>
+                    <stringProp name="Header.value">Basic ${basicToken}</stringProp>
+                  </elementProp>
+                  <elementProp name="Postman-Token" elementType="Header">
+                    <stringProp name="Header.name">Postman-Token</stringProp>
+                    <stringProp name="Header.value">fb6aa17f-5b42-4f78-9770-013275d8e180</stringProp>
+                  </elementProp>
+                  <elementProp name="X-Correlation-Id" elementType="Header">
+                    <stringProp name="Header.name">X-Correlation-Id</stringProp>
+                    <stringProp name="Header.value">${guid}</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Postman</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept" elementType="Header">
+                    <stringProp name="Header.name">Accept</stringProp>
+                    <stringProp name="Header.value">application/json</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+              <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="basicToken Generator User Parameters" enabled="true">
+                <collectionProp name="UserParameters.names">
+                  <stringProp name="-1134271893">basicToken</stringProp>
+                </collectionProp>
+                <collectionProp name="UserParameters.thread_values">
+                  <collectionProp name="-3885034">
+                    <stringProp name="-3885065">${__base64Encode(MDI:MDI@Atos2021:${customerId},)}</stringProp>
+                  </collectionProp>
+                </collectionProp>
+                <boolProp name="UserParameters.per_iteration">false</boolProp>
+              </UserParameters>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+        </hashTree>
+      </hashTree>
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++Check VCN Existance+++" enabled="false">
+        <collectionProp name="ultimatethreadgroupdata">
+          <collectionProp name="-53794638">
+            <stringProp name="419913038">${VCNCheck_NUM_Threads}</stringProp>
+            <stringProp name="0">0</stringProp>
+            <stringProp name="1759326383">${VCNCheck_Rampup}</stringProp>
+            <stringProp name="602329951">${VCNCheck_SteadyState}</stringProp>
+            <stringProp name="-1549745112">${VCNCheck_RampDown}</stringProp>
+          </collectionProp>
+        </collectionProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <intProp name="LoopController.loops">-1</intProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+      </kg.apc.jmeter.threads.UltimateThreadGroup>
+      <hashTree>
+        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+          <collectionProp name="Arguments.arguments">
+            <elementProp name="host" elementType="Argument">
+              <stringProp name="Argument.name">host</stringProp>
+              <stringProp name="Argument.value">www.example.com</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="scheme" elementType="Argument">
+              <stringProp name="Argument.name">scheme</stringProp>
+              <stringProp name="Argument.value">https</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="guid" elementType="Argument">
+              <stringProp name="Argument.name">guid</stringProp>
+              <stringProp name="Argument.value">73f4ddf2-de20-44fd-817b-f648bea0decd</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="arrangementID" elementType="Argument">
+              <stringProp name="Argument.name">arrangementID</stringProp>
+              <stringProp name="Argument.value">AA230677CD2B</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="CustomerID" elementType="Argument">
+              <stringProp name="Argument.name">CustomerID</stringProp>
+              <stringProp name="Argument.value">1200011851</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+          </collectionProp>
+        </Arguments>
+        <hashTree/>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Check Active VCN Existence" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">false</boolProp>
+        </TransactionController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Check Active VCN Existence_/domain/v1/system/secure/cards/customer/cards/active/pre-paid/existence/check" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">card-management.sit.apps.openshift.dev.mdi</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">http</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+            <stringProp name="HTTPSampler.path">/domain/v1/system/secure/cards/customer/cards/active/pre-paid/existence/check</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Basic ${basicToken}</stringProp>
+                </elementProp>
+                <elementProp name="Postman-Token" elementType="Header">
+                  <stringProp name="Header.name">Postman-Token</stringProp>
+                  <stringProp name="Header.value">c6756ebf-57dd-4598-8a2f-2872397bf92a</stringProp>
+                </elementProp>
+                <elementProp name="X-Correlation-Id" elementType="Header">
+                  <stringProp name="Header.name">X-Correlation-Id</stringProp>
+                  <stringProp name="Header.value">c6ea0549-8dda-4712-8363-5a0a317f5b5d</stringProp>
+                </elementProp>
+                <elementProp name="Content-Type" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Postman</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="false">
+              <stringProp name="TestPlan.comments">customerIds</stringProp>
+              <stringProp name="filename"></stringProp>
+              <stringProp name="fileEncoding"></stringProp>
+              <stringProp name="variableNames">customerId</stringProp>
+              <boolProp name="ignoreFirstLine">false</boolProp>
+              <stringProp name="delimiter">,</stringProp>
+              <boolProp name="quotedData">false</boolProp>
+              <boolProp name="recycle">true</boolProp>
+              <boolProp name="stopThread">false</boolProp>
+              <stringProp name="shareMode">shareMode.all</stringProp>
+            </CSVDataSet>
+            <hashTree/>
+            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="basicToken Generator User Parameters" enabled="true">
+              <collectionProp name="UserParameters.names">
+                <stringProp name="-1134271893">basicToken</stringProp>
+              </collectionProp>
+              <collectionProp name="UserParameters.thread_values">
+                <collectionProp name="-776560449">
+                  <stringProp name="-3885065">${__base64Encode(MDI:MDI@Atos2021:${customerId},)}</stringProp>
+                </collectionProp>
+              </collectionProp>
+              <boolProp name="UserParameters.per_iteration">false</boolProp>
+            </UserParameters>
+            <hashTree/>
+            <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSON Assertion" enabled="true">
+              <stringProp name="JSON_PATH">$.message</stringProp>
+              <stringProp name="EXPECTED_VALUE">Success</stringProp>
+              <boolProp name="JSONVALIDATION">true</boolProp>
+              <boolProp name="EXPECT_NULL">false</boolProp>
+              <boolProp name="INVERT">false</boolProp>
+              <boolProp name="ISREGEX">true</boolProp>
+            </JSONPathAssertion>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+      </hashTree>
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ReportCardLostOrStolen+++" enabled="false">
+        <collectionProp name="ultimatethreadgroupdata"/>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <intProp name="LoopController.loops">-1</intProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+      </kg.apc.jmeter.threads.UltimateThreadGroup>
+      <hashTree>
+        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+          <collectionProp name="Arguments.arguments">
+            <elementProp name="host" elementType="Argument">
+              <stringProp name="Argument.name">host</stringProp>
+              <stringProp name="Argument.value">www.example.com</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="scheme" elementType="Argument">
+              <stringProp name="Argument.name">scheme</stringProp>
+              <stringProp name="Argument.value">https</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="vPan" elementType="Argument">
+              <stringProp name="Argument.name">vPan</stringProp>
+              <stringProp name="Argument.value">1000000000010706</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="guid" elementType="Argument">
+              <stringProp name="Argument.name">guid</stringProp>
+              <stringProp name="Argument.value">73f4ddf2-de20-44fd-817b-f648bea0decd</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="customerId" elementType="Argument">
+              <stringProp name="Argument.name">customerId</stringProp>
+              <stringProp name="Argument.value">1200011893</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+          </collectionProp>
+        </Arguments>
+        <hashTree/>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Report Card Lost OR Stolen" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">true</boolProp>
+        </TransactionController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Report Card Lost OR Stolen_/process/v1/system/secure/bpm/service-request/cards/customer/card/report" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&#xd;
+    &quot;cardIdentifier&quot;: {&#xd;
+        &quot;vPan&quot;: &quot;${vPan}&quot;&#xd;
+    }&#xd;
+}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">process-workflow-microgateway.sit.apps.openshift.dev.mdi</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">http</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+            <stringProp name="HTTPSampler.path">/process/v1/system/secure/bpm/service-request/cards/customer/card/report</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Basic ${basicToken}</stringProp>
+                </elementProp>
+                <elementProp name="Postman-Token" elementType="Header">
+                  <stringProp name="Header.name">Postman-Token</stringProp>
+                  <stringProp name="Header.value">5cb87106-d3fe-42c8-af7b-3ccf0a1fea4e</stringProp>
+                </elementProp>
+                <elementProp name="X-Correlation-Id" elementType="Header">
+                  <stringProp name="Header.name">X-Correlation-Id</stringProp>
+                  <stringProp name="Header.value">${guid}</stringProp>
+                </elementProp>
+                <elementProp name="Content-Type" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Cache-Control" elementType="Header">
+                  <stringProp name="Header.name">Cache-Control</stringProp>
+                  <stringProp name="Header.value">no-cache</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Postman</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="customerId and vPan ,CSV Data Set Config" enabled="false">
+              <stringProp name="filename"></stringProp>
+              <stringProp name="fileEncoding"></stringProp>
+              <stringProp name="variableNames">customerId,vPan</stringProp>
+              <boolProp name="ignoreFirstLine">false</boolProp>
+              <stringProp name="delimiter">,</stringProp>
+              <boolProp name="quotedData">false</boolProp>
+              <boolProp name="recycle">true</boolProp>
+              <boolProp name="stopThread">false</boolProp>
+              <stringProp name="shareMode">shareMode.all</stringProp>
+            </CSVDataSet>
+            <hashTree/>
+            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="basicToken Generator User Parameters " enabled="true">
+              <collectionProp name="UserParameters.names">
+                <stringProp name="-1134271893">basicToken</stringProp>
               </collectionProp>
               <collectionProp name="UserParameters.thread_values">
                 <collectionProp name="-776560449">
