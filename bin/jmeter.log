@@ -1,26 +1,26 @@
-2023-03-16 15:32:50,606 INFO o.a.j.u.JMeterUtils: Setting Locale to en_GB
-2023-03-16 15:32:50,642 INFO o.a.j.JMeter: Loading user properties from: user.properties
-2023-03-16 15:32:50,642 INFO o.a.j.JMeter: Loading system properties from: system.properties
-2023-03-16 15:32:50,654 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
-2023-03-16 15:32:50,654 INFO o.a.j.JMeter: Version 5.5
-2023-03-16 15:32:50,654 INFO o.a.j.JMeter: java.version=19.0.2
-2023-03-16 15:32:50,654 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2023-03-16 15:32:50,654 INFO o.a.j.JMeter: os.name=Windows 11
-2023-03-16 15:32:50,654 INFO o.a.j.JMeter: os.arch=amd64
-2023-03-16 15:32:50,654 INFO o.a.j.JMeter: os.version=10.0
-2023-03-16 15:32:50,654 INFO o.a.j.JMeter: file.encoding=UTF-8
-2023-03-16 15:32:50,654 INFO o.a.j.JMeter: java.awt.headless=null
-2023-03-16 15:32:50,654 INFO o.a.j.JMeter: Max memory     =4267704320
-2023-03-16 15:32:50,654 INFO o.a.j.JMeter: Available Processors =8
-2023-03-16 15:32:50,667 INFO o.a.j.JMeter: Default Locale=English (United Kingdom)
-2023-03-16 15:32:50,667 INFO o.a.j.JMeter: JMeter  Locale=English (United Kingdom)
-2023-03-16 15:32:50,667 INFO o.a.j.JMeter: JMeterHome=C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo
-2023-03-16 15:32:50,667 INFO o.a.j.JMeter: user.dir  =C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo\bin
-2023-03-16 15:32:50,669 INFO o.a.j.JMeter: PWD       =C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo\bin
-2023-03-16 15:32:50,669 INFO o.a.j.JMeter: IP: 172.20.50.53 Name: DESKTOP-HH83MMN FullName: DESKTOP-HH83MMN.Qcentriseg.com
-2023-03-16 15:32:50,684 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
-2023-03-16 15:32:50,909 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
-2023-03-16 15:32:52,872 WARN o.j.r.PluginManagerMenuCreator: Was unable to install pmgr cmdline tool
+2023-03-19 12:11:13,695 INFO o.a.j.u.JMeterUtils: Setting Locale to en_GB
+2023-03-19 12:11:13,722 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2023-03-19 12:11:13,724 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2023-03-19 12:11:13,733 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2023-03-19 12:11:13,733 INFO o.a.j.JMeter: Version 5.5
+2023-03-19 12:11:13,733 INFO o.a.j.JMeter: java.version=19.0.2
+2023-03-19 12:11:13,733 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2023-03-19 12:11:13,733 INFO o.a.j.JMeter: os.name=Windows 11
+2023-03-19 12:11:13,733 INFO o.a.j.JMeter: os.arch=amd64
+2023-03-19 12:11:13,733 INFO o.a.j.JMeter: os.version=10.0
+2023-03-19 12:11:13,733 INFO o.a.j.JMeter: file.encoding=UTF-8
+2023-03-19 12:11:13,733 INFO o.a.j.JMeter: java.awt.headless=null
+2023-03-19 12:11:13,733 INFO o.a.j.JMeter: Max memory     =4267704320
+2023-03-19 12:11:13,733 INFO o.a.j.JMeter: Available Processors =8
+2023-03-19 12:11:13,748 INFO o.a.j.JMeter: Default Locale=English (United Kingdom)
+2023-03-19 12:11:13,748 INFO o.a.j.JMeter: JMeter  Locale=English (United Kingdom)
+2023-03-19 12:11:13,748 INFO o.a.j.JMeter: JMeterHome=C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo
+2023-03-19 12:11:13,748 INFO o.a.j.JMeter: user.dir  =C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo\bin
+2023-03-19 12:11:13,749 INFO o.a.j.JMeter: PWD       =C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo\bin
+2023-03-19 12:11:13,751 INFO o.a.j.JMeter: IP: 10.50.6.214 Name: DESKTOP-HH83MMN FullName: DESKTOP-HH83MMN.Qcentriseg.com
+2023-03-19 12:11:13,767 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2023-03-19 12:11:14,113 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2023-03-19 12:11:16,392 WARN o.j.r.PluginManagerMenuCreator: Was unable to install pmgr cmdline tool
 java.nio.file.NoSuchFileException: C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\bin\PluginsManagerCMD.bat
 	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
@@ -77,33 +77,31 @@ java.nio.file.NoSuchFileException: C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTI
 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
 	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
-2023-03-16 15:32:52,949 WARN o.j.r.PluginManager: Found JAR conflict: C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo\lib\ext\jmeter-plugins-manager-1.8.jar and C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo\lib\jmeter-plugins-manager-1.8.jar
-2023-03-16 15:32:52,952 WARN o.j.r.PluginManager: Found JAR conflict: C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo\lib\ext\jmeter-plugins-manager-1.9.jar and C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo\lib\ext\jmeter-plugins-manager-1.8.jar
-2023-03-16 15:32:52,952 WARN o.j.r.PluginManager: Found JAR conflict: C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo\lib\ext\JWT_Gen.jar and C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo\lib\JWT_Gen.jar
-2023-03-16 15:32:53,292 INFO o.j.r.JARSourceHTTP: Found cached repo
-2023-03-16 15:32:53,499 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=2.0, jpgc-graphs-additional=2.0, jpgc-functions=2.2, jpgc-casutg=2.10, jpgc-plugins-manager=1.8, jmeter-core=5.5, jmeter-ftp=5.5, jmeter-http=5.5, jmeter-jdbc=5.5, jmeter-jms=5.5, jmeter-junit=5.5, jmeter-java=5.5, jmeter-ldap=5.5, jmeter-mail=5.5, jmeter-mongodb=5.5, jmeter-native=5.5, jmeter-tcp=5.5, jmeter-components=5.5]
-2023-03-16 15:32:53,499 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-plugins-manager]
-2023-03-16 15:33:17,831 INFO o.a.j.s.FileServer: Default base='C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo\bin'
-2023-03-16 15:33:17,833 INFO o.a.j.g.a.Load: Loading file: C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo\bin\scripts\core\Core_TestPlan_03112023.jmx
-2023-03-16 15:33:17,835 INFO o.a.j.s.FileServer: Set new base='C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo\bin\scripts\core'
-2023-03-16 15:33:18,147 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2023-03-16 15:33:18,160 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2023-03-16 15:33:18,160 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2023-03-16 15:33:18,163 INFO o.a.j.s.SaveService: Loading file: C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo\bin\scripts\core\Core_TestPlan_03112023.jmx
-2023-03-16 15:33:18,459 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
-2023-03-16 15:33:18,495 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2023-03-16 15:33:18,495 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2023-03-16 15:33:18,495 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2023-03-16 15:33:18,495 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2023-03-16 15:33:18,495 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2023-03-16 15:33:18,495 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2023-03-16 15:33:19,217 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2023-03-16 15:33:19,217 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2023-03-16 15:33:20,649 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2023-03-16 15:33:20,649 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2023-03-16 15:33:20,649 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2023-03-16 15:33:20,649 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2023-03-16 15:33:20,714 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
-2023-03-16 15:33:21,352 INFO o.a.j.s.FileServer: Set new base='C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo\bin\scripts\core'
-2023-03-16 15:36:47,318 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
-2023-03-16 15:36:48,524 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-03-19 12:11:16,476 WARN o.j.r.PluginManager: Found JAR conflict: C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo\lib\ext\jmeter-plugins-manager-1.8.jar and C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo\lib\jmeter-plugins-manager-1.8.jar
+2023-03-19 12:11:16,476 WARN o.j.r.PluginManager: Found JAR conflict: C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo\lib\ext\jmeter-plugins-manager-1.9.jar and C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo\lib\ext\jmeter-plugins-manager-1.8.jar
+2023-03-19 12:11:16,477 WARN o.j.r.PluginManager: Found JAR conflict: C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo\lib\ext\JWT_Gen.jar and C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo\lib\JWT_Gen.jar
+2023-03-19 12:11:16,861 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=windows_11-3e1b57023c8ba577c748f4c1d1a14812-gui
+2023-03-19 12:11:19,820 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=2.0, jpgc-graphs-additional=2.0, jpgc-functions=2.2, jpgc-casutg=2.10, jpgc-plugins-manager=1.8, jmeter-core=5.5, jmeter-ftp=5.5, jmeter-http=5.5, jmeter-jdbc=5.5, jmeter-jms=5.5, jmeter-junit=5.5, jmeter-java=5.5, jmeter-ldap=5.5, jmeter-mail=5.5, jmeter-mongodb=5.5, jmeter-native=5.5, jmeter-tcp=5.5, jmeter-components=5.5]
+2023-03-19 12:11:19,821 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-plugins-manager]
+2023-03-19 12:11:25,179 INFO o.a.j.s.FileServer: Default base='C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo\bin'
+2023-03-19 12:11:25,182 INFO o.a.j.g.a.Load: Loading file: C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo\bin\scripts\core\Core_TestPlan_03112023.jmx
+2023-03-19 12:11:25,182 INFO o.a.j.s.FileServer: Set new base='C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo\bin\scripts\core'
+2023-03-19 12:11:25,451 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-03-19 12:11:25,458 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-03-19 12:11:25,460 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-03-19 12:11:25,462 INFO o.a.j.s.SaveService: Loading file: C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo\bin\scripts\core\Core_TestPlan_03112023.jmx
+2023-03-19 12:11:25,657 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2023-03-19 12:11:25,684 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-03-19 12:11:25,684 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-03-19 12:11:25,684 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-03-19 12:11:25,684 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-03-19 12:11:25,684 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-03-19 12:11:25,684 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-03-19 12:11:26,246 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-03-19 12:11:26,246 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-03-19 12:11:26,737 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-03-19 12:11:26,737 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2023-03-19 12:11:26,737 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-03-19 12:11:26,737 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-03-19 12:11:26,802 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-03-19 12:11:27,223 INFO o.a.j.s.FileServer: Set new base='C:\Users\Youssef.AbdEl-Hafez\OneDrive - QESTIT\Documents\GitHub\MDI_Perf_Repo\bin\scripts\core'
