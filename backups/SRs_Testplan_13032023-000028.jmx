@@ -748,7 +748,7 @@ fileWriter.close();</stringProp>
           <hashTree/>
         </hashTree>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++Get T24 Account Details +++" enabled="false">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++Get T24 Account Details +++" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="164494605">
             <stringProp name="-1882565952">${GetT24AccountDetails_NUM_Threads}</stringProp>
@@ -794,6 +794,10 @@ fileWriter.close();</stringProp>
                 <elementProp name="Authorization" elementType="Header">
                   <stringProp name="Header.name">Authorization</stringProp>
                   <stringProp name="Header.value">${token}</stringProp>
+                </elementProp>
+                <elementProp name="Postman-Token" elementType="Header">
+                  <stringProp name="Header.name">Postman-Token</stringProp>
+                  <stringProp name="Header.value">a4721293-f71c-417d-8256-b8f73c96c7c9</stringProp>
                 </elementProp>
                 <elementProp name="X-Correlation-Id" elementType="Header">
                   <stringProp name="Header.name">X-Correlation-Id</stringProp>
@@ -843,7 +847,7 @@ fileWriter.close();</stringProp>
               <stringProp name="variableNames">customerId,accountId</stringProp>
             </CSVDataSet>
             <hashTree/>
-            <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="JSR223 PreProcessor - JWT Generator" enabled="true">
+            <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="JSR223 PreProcessor" enabled="true">
               <stringProp name="cacheKey">true</stringProp>
               <stringProp name="filename"></stringProp>
               <stringProp name="parameters"></stringProp>
@@ -1053,7 +1057,7 @@ fileWriter.close();</stringProp>
               </collectionProp>
             </HeaderManager>
             <hashTree/>
-            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters - Authorization Token" enabled="true">
+            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters" enabled="true">
               <collectionProp name="UserParameters.names">
                 <stringProp name="80988633">Token</stringProp>
               </collectionProp>
@@ -1088,7 +1092,7 @@ fileWriter.close();</stringProp>
           <hashTree/>
         </hashTree>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++Block Customer on T24 - Cortex +++" enabled="true">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++Block Customer on T24 - Cortex +++" enabled="false">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="-277106071">
             <stringProp name="-1675672544">${BlockCustomerT24-Cortex_NUM_Threads}</stringProp>
