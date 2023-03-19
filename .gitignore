@@ -4,3 +4,4 @@ bin/jmeter.log
 bin/null
 bin/jmeter.log
 *.log
+bin/jmeter.log
