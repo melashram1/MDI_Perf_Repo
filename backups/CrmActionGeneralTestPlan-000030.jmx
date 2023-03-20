@@ -79,80 +79,9 @@
             <stringProp name="Argument.value">60</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
-          <elementProp name="ActivateCard_vpan" elementType="Argument">
-            <stringProp name="Argument.name">ActivateCard_vpan</stringProp>
-            <stringProp name="Argument.value">1000000000010741</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="ActivateCard_customerId" elementType="Argument">
-            <stringProp name="Argument.name">ActivateCard_customerId</stringProp>
-            <stringProp name="Argument.value">1200011947</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
           <elementProp name="CsvPath_RestPin" elementType="Argument">
             <stringProp name="Argument.name">CsvPath_RestPin</stringProp>
             <stringProp name="Argument.value">\\CRM_Output_RestPin.csv</stringProp>
-            <stringProp name="Argument.desc">Card Closed</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="RestPin_NUM_Threads" elementType="Argument">
-            <stringProp name="Argument.name">RestPin_NUM_Threads</stringProp>
-            <stringProp name="Argument.value">1</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="RestPin_RampUp" elementType="Argument">
-            <stringProp name="Argument.name">RestPin_RampUp</stringProp>
-            <stringProp name="Argument.value">1</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="RestPin_SteadyState" elementType="Argument">
-            <stringProp name="Argument.name">RestPin_SteadyState</stringProp>
-            <stringProp name="Argument.value">5</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="RestPin_RampDown" elementType="Argument">
-            <stringProp name="Argument.name">RestPin_RampDown</stringProp>
-            <stringProp name="Argument.value">1</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="CreateTravelMemo_Threads" elementType="Argument">
-            <stringProp name="Argument.name">CreateTravelMemo_Threads</stringProp>
-            <stringProp name="Argument.value">1</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="CreateTravelMemo_RampUp" elementType="Argument">
-            <stringProp name="Argument.name">CreateTravelMemo_RampUp</stringProp>
-            <stringProp name="Argument.value">0</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="CreateTravelMemo_RampDown" elementType="Argument">
-            <stringProp name="Argument.name">CreateTravelMemo_RampDown</stringProp>
-            <stringProp name="Argument.value">0</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="CreateTravelMemo_SteadtState" elementType="Argument">
-            <stringProp name="Argument.name">CreateTravelMemo_SteadtState</stringProp>
-            <stringProp name="Argument.value">60</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="BlockCard_Threads" elementType="Argument">
-            <stringProp name="Argument.name">BlockCard_Threads</stringProp>
-            <stringProp name="Argument.value">1</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="BlockCard_Rampup" elementType="Argument">
-            <stringProp name="Argument.name">BlockCard_Rampup</stringProp>
-            <stringProp name="Argument.value">0</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="BlockCard_RampDown" elementType="Argument">
-            <stringProp name="Argument.name">BlockCard_RampDown</stringProp>
-            <stringProp name="Argument.value">0</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="BlockCard_SteadyState" elementType="Argument">
-            <stringProp name="Argument.name">BlockCard_SteadyState</stringProp>
-            <stringProp name="Argument.value">60</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="resetPinTries_Threads" elementType="Argument">
@@ -173,16 +102,6 @@
           <elementProp name="resetPinTries_SteadyState" elementType="Argument">
             <stringProp name="Argument.name">resetPinTries_SteadyState</stringProp>
             <stringProp name="Argument.value">60</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="SetCardLimit_vpan" elementType="Argument">
-            <stringProp name="Argument.name">SetCardLimit_vpan</stringProp>
-            <stringProp name="Argument.value">1000000000010743</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="SetCardLimit_customerId" elementType="Argument">
-            <stringProp name="Argument.name">SetCardLimit_customerId</stringProp>
-            <stringProp name="Argument.value">1200011950</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="SetCardLimit _Threads" elementType="Argument">
@@ -235,6 +154,46 @@
             <stringProp name="Argument.value">\\CRM_Output_UpdateCardStatus.csv</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
+          <elementProp name="ActivateCard_Threads" elementType="Argument">
+            <stringProp name="Argument.name">ActivateCard_Threads</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="ActivateCard_RampUp" elementType="Argument">
+            <stringProp name="Argument.name">ActivateCard_RampUp</stringProp>
+            <stringProp name="Argument.value">0</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="ActivateCard_RampDown" elementType="Argument">
+            <stringProp name="Argument.name">ActivateCard_RampDown</stringProp>
+            <stringProp name="Argument.value">0</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="ActivateCard_SteadyState" elementType="Argument">
+            <stringProp name="Argument.name">ActivateCard_SteadyState</stringProp>
+            <stringProp name="Argument.value">60</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="UpdateCardStatus_Threads" elementType="Argument">
+            <stringProp name="Argument.name">UpdateCardStatus_Threads</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="UpdateCardStatus_RampUp" elementType="Argument">
+            <stringProp name="Argument.name">UpdateCardStatus_RampUp</stringProp>
+            <stringProp name="Argument.value">0</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="UpdateCardStatus_RampDown" elementType="Argument">
+            <stringProp name="Argument.name">UpdateCardStatus_RampDown</stringProp>
+            <stringProp name="Argument.value">0</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="UpdateCardStatus_SteadyState" elementType="Argument">
+            <stringProp name="Argument.name">UpdateCardStatus_SteadyState</stringProp>
+            <stringProp name="Argument.value">60</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
         </collectionProp>
       </Arguments>
       <hashTree/>
@@ -258,7 +217,7 @@
         <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
       </CookieManager>
       <hashTree/>
-      <SetupThreadGroup guiclass="SetupThreadGroupGui" testclass="SetupThreadGroup" testname="setUp the Run Output folders" enabled="true">
+      <SetupThreadGroup guiclass="SetupThreadGroupGui" testclass="SetupThreadGroup" testname="setUp the Run Output folders" enabled="false">
         <stringProp name="TestPlan.comments">This Thread will run before the other threads thats included in the run get executed </stringProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
@@ -322,7 +281,7 @@
 def String runNo = vars.get(&quot;runNo&quot;);
 def String basePath = vars.get(&quot;basePathExecution&quot;);
 new File(basePath+runNo).mkdir()
-def String pathBuilderWebFolder = basePath+runNo+&quot;web_&quot;+${__time(MMDDYYYY_HHMM,)};
+def String pathBuilderWebFolder = basePath+runNo+&quot;web_&quot;+&quot;${__time(MMDDYYYY_HHMM,)}&quot;;
 new File(pathBuilderWebFolder).mkdir()
 props.put(&quot;webFolder&quot;, pathBuilderWebFolder)
 
@@ -331,35 +290,35 @@ props.put(&quot;webFolder&quot;, pathBuilderWebFolder)
 //Core Execution Run Folder Creation
 def String CoreFolder = vars.get(&quot;CoreFolder&quot;);
 new File(basePath+runNo+CoreFolder).mkdir();
-def String pathBuilderCoreOutputFolder = basePath+runNo+CoreFolder+&quot;output_&quot;+${__time(MMDDYYYY_HHMM,)};
+def String pathBuilderCoreOutputFolder = basePath+runNo+CoreFolder+&quot;output_&quot;+&quot;${__time(MMDDYYYY_HHMM,)}&quot;;
 new File(pathBuilderCoreOutputFolder).mkdir();
 props.put(&quot;coreOutputFolder&quot;, pathBuilderCoreOutputFolder)
 
 //CRM Execution Run Folder Creation
 def String CRMFolder = vars.get(&quot;CRMFolder&quot;);
 new File(basePath+runNo+CRMFolder).mkdir();
-def String pathBuilderCRMOutputFolder = basePath+runNo+CRMFolder+&quot;output_&quot;+${__time(MMDDYYYY_HHMM,)};
+def String pathBuilderCRMOutputFolder = basePath+runNo+CRMFolder+&quot;output_&quot;+&quot;${__time(MMDDYYYY_HHMM,)}&quot;;
 new File(pathBuilderCRMOutputFolder).mkdir();
 props.put(&quot;CRMOutputFolder&quot;, pathBuilderCRMOutputFolder)
 
 //IVR Execution Run Folder Creation
 def String IVRFolder = vars.get(&quot;IVRFolder&quot;);
 new File(basePath+runNo+IVRFolder).mkdir();
-def String pathBuilderIVROutputFolder = basePath+runNo+IVRFolder+&quot;output_&quot;+${__time(MMDDYYYY_HHMM,)};
+def String pathBuilderIVROutputFolder = basePath+runNo+IVRFolder+&quot;output_&quot;+&quot;${__time(MMDDYYYY_HHMM,)}&quot;;
 new File(pathBuilderIVROutputFolder).mkdir();
 props.put(&quot;IVROutputFolder&quot;,pathBuilderIVROutputFolder)
 
 //SRs Execution Run Folder Creation
 def String SRsFolder = vars.get(&quot;SRsFolder&quot;);
 new File(basePath+runNo+SRsFolder).mkdir();
-def String pathBuilderSRsOutputFolder = basePath+runNo+SRsFolder+&quot;output_&quot;+${__time(MMDDYYYY_HHMM,)};
+def String pathBuilderSRsOutputFolder = basePath+runNo+SRsFolder+&quot;output_&quot;+&quot;${__time(MMDDYYYY_HHMM,)}&quot;;
 new File(pathBuilderSRsOutputFolder).mkdir();
 props.put(&quot;SRsOutputFolder&quot;,pathBuilderSRsOutputFolder)
 
 //ATM Execution Run Folder Creation
 def String ATMFolder = vars.get(&quot;ATMFolder&quot;);
 new File(basePath+runNo+ATMFolder).mkdir();
-def String pathBuilderATMOutputFolder = basePath+runNo+ATMFolder+&quot;output_&quot;+${__time(MMDDYYYY_HHMM,)};
+def String pathBuilderATMOutputFolder = basePath+runNo+ATMFolder+&quot;output_&quot;+&quot;${__time(MMDDYYYY_HHMM,)}&quot;;
 new File(pathBuilderATMOutputFolder).mkdir();
 props.put(&quot;ATMOutputFolder&quot;,pathBuilderATMOutputFolder)
 
@@ -370,7 +329,7 @@ props.put(&quot;ATMOutputFolder&quot;,pathBuilderATMOutputFolder)
         </JSR223Sampler>
         <hashTree/>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Rereive Card Restrictions +++" enabled="true">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Rereive Card Restrictions +++" enabled="false">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="266788987">
             <stringProp name="-878368351">${RereiveCardRestrictions_Threads}</stringProp>
@@ -485,13 +444,25 @@ props.put(&quot;ATMOutputFolder&quot;,pathBuilderATMOutputFolder)
               <boolProp name="AuthManager.controlledByThreadGroup">false</boolProp>
             </AuthManager>
             <hashTree/>
-            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters" enabled="true">
+            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters" enabled="false">
               <collectionProp name="UserParameters.names">
                 <stringProp name="962455753">RereiveCardRestrictions</stringProp>
               </collectionProp>
               <collectionProp name="UserParameters.thread_values">
                 <collectionProp name="1531031488">
                   <stringProp name="82063566">${__base64Encode(MDI:MDI@Atos2021:${CusID_RereiveCardRestrictions},)}</stringProp>
+                </collectionProp>
+              </collectionProp>
+              <boolProp name="UserParameters.per_iteration">false</boolProp>
+            </UserParameters>
+            <hashTree/>
+            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters" enabled="true">
+              <collectionProp name="UserParameters.names">
+                <stringProp name="962455753">RereiveCardRestrictions</stringProp>
+              </collectionProp>
+              <collectionProp name="UserParameters.thread_values">
+                <collectionProp name="-629733201">
+                  <stringProp name="563084586">${__base64Encode(MDI:MDI@Atos2021,)}</stringProp>
                 </collectionProp>
               </collectionProp>
               <boolProp name="UserParameters.per_iteration">false</boolProp>
@@ -520,7 +491,7 @@ props.put(&quot;ATMOutputFolder&quot;,pathBuilderATMOutputFolder)
           </hashTree>
         </hashTree>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Manage Ecommerce +++" enabled="true">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Manage Ecommerce +++" enabled="false">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="-1451134015">
             <stringProp name="-550295697">${ManageEcommerce_Threads}</stringProp>
@@ -587,7 +558,7 @@ props.put(&quot;ATMOutputFolder&quot;,pathBuilderATMOutputFolder)
               <stringProp name="shareMode">shareMode.all</stringProp>
             </CSVDataSet>
             <hashTree/>
-            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters" enabled="true">
+            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters" enabled="false">
               <collectionProp name="UserParameters.names">
                 <stringProp name="-1855160363">Token_ManageEcommerce</stringProp>
               </collectionProp>
@@ -654,6 +625,18 @@ props.put(&quot;ATMOutputFolder&quot;,pathBuilderATMOutputFolder)
               <boolProp name="ISREGEX">true</boolProp>
             </JSONPathAssertion>
             <hashTree/>
+            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters" enabled="true">
+              <collectionProp name="UserParameters.names">
+                <stringProp name="-1855160363">Token_ManageEcommerce</stringProp>
+              </collectionProp>
+              <collectionProp name="UserParameters.thread_values">
+                <collectionProp name="-629733201">
+                  <stringProp name="563084586">${__base64Encode(MDI:MDI@Atos2021,)}</stringProp>
+                </collectionProp>
+              </collectionProp>
+              <boolProp name="UserParameters.per_iteration">false</boolProp>
+            </UserParameters>
+            <hashTree/>
           </hashTree>
           <TestAction guiclass="TestActionGui" testclass="TestAction" testname="ThinkTime" enabled="true">
             <intProp name="ActionProcessor.action">1</intProp>
@@ -668,8 +651,16 @@ props.put(&quot;ATMOutputFolder&quot;,pathBuilderATMOutputFolder)
           </hashTree>
         </hashTree>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Activate Card +++" enabled="true">
-        <collectionProp name="ultimatethreadgroupdata"/>
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Activate Card +++" enabled="false">
+        <collectionProp name="ultimatethreadgroupdata">
+          <collectionProp name="-445261167">
+            <stringProp name="-1788472423">${ActivateCard_Threads}</stringProp>
+            <stringProp name="0">0</stringProp>
+            <stringProp name="1010636171">${ActivateCard_RampUp}</stringProp>
+            <stringProp name="409285603">${ActivateCard_SteadyState}</stringProp>
+            <stringProp name="543019556">${ActivateCard_RampDown}</stringProp>
+          </collectionProp>
+        </collectionProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <intProp name="LoopController.loops">-1</intProp>
@@ -723,7 +714,7 @@ props.put(&quot;ATMOutputFolder&quot;,pathBuilderATMOutputFolder)
           </HTTPSamplerProxy>
           <hashTree>
             <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
-              <stringProp name="filename">testData\\input\\CRM_Action_API\\CRMAction_TestData_ActivateCard.csv</stringProp>
+              <stringProp name="filename">testData/input/CRM_Action_API/CRMAction_TestData_ActivateCard.csv</stringProp>
               <stringProp name="fileEncoding"></stringProp>
               <stringProp name="variableNames">ActivateCard_customerId,ActivateCard_vpan</stringProp>
               <boolProp name="ignoreFirstLine">true</boolProp>
@@ -784,13 +775,25 @@ props.put(&quot;ATMOutputFolder&quot;,pathBuilderATMOutputFolder)
               </collectionProp>
             </HeaderManager>
             <hashTree/>
-            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters" enabled="true">
+            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters" enabled="false">
               <collectionProp name="UserParameters.names">
                 <stringProp name="-1039160082">Token_fn</stringProp>
               </collectionProp>
               <collectionProp name="UserParameters.thread_values">
                 <collectionProp name="-776560449">
                   <stringProp name="-3885065">${__base64Encode(MDI:MDI@Atos2021:${customerId},)}</stringProp>
+                </collectionProp>
+              </collectionProp>
+              <boolProp name="UserParameters.per_iteration">false</boolProp>
+            </UserParameters>
+            <hashTree/>
+            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters" enabled="true">
+              <collectionProp name="UserParameters.names">
+                <stringProp name="-1039160082">Token_fn</stringProp>
+              </collectionProp>
+              <collectionProp name="UserParameters.thread_values">
+                <collectionProp name="-629733201">
+                  <stringProp name="563084586">${__base64Encode(MDI:MDI@Atos2021,)}</stringProp>
                 </collectionProp>
               </collectionProp>
               <boolProp name="UserParameters.per_iteration">false</boolProp>
@@ -810,7 +813,7 @@ props.put(&quot;ATMOutputFolder&quot;,pathBuilderATMOutputFolder)
           </hashTree>
         </hashTree>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Reset Pin Tries +++" enabled="true">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Reset Pin Tries +++" enabled="false">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="1581802281">
             <stringProp name="-411853577">${resetPinTries_Threads}</stringProp>
@@ -840,8 +843,8 @@ props.put(&quot;ATMOutputFolder&quot;,pathBuilderATMOutputFolder)
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
                   <stringProp name="Argument.value">{&#xd;
     &quot;cardIdentifier&quot;: {&#xd;
-        &quot;pan&quot;: &quot;${pan}&quot;,&#xd;
-        &quot;vpan&quot;: &quot;${vpan}&quot;&#xd;
+        &quot;pan&quot;: &quot;${ResetPinTries_pan}&quot;,&#xd;
+        &quot;vpan&quot;: &quot;${ResetPinTries_vpan}&quot;&#xd;
     }&#xd;
 }</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
@@ -899,7 +902,7 @@ props.put(&quot;ATMOutputFolder&quot;,pathBuilderATMOutputFolder)
             <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="ResetPinTries" enabled="true">
               <stringProp name="delimiter">,</stringProp>
               <stringProp name="fileEncoding"></stringProp>
-              <stringProp name="filename">testData\\input\\CRM\\CRMAction_TestData_ResetPinTries.csv</stringProp>
+              <stringProp name="filename">testData/input/CRM_Action_API/CRMAction_TestData_ResetPinTries.csv</stringProp>
               <boolProp name="ignoreFirstLine">true</boolProp>
               <boolProp name="quotedData">false</boolProp>
               <boolProp name="recycle">true</boolProp>
@@ -908,13 +911,25 @@ props.put(&quot;ATMOutputFolder&quot;,pathBuilderATMOutputFolder)
               <stringProp name="variableNames">ResetPinTries_customerId,ResetPinTries_vpan,ResetPinTries_pan</stringProp>
             </CSVDataSet>
             <hashTree/>
-            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters" enabled="true">
+            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters" enabled="false">
               <collectionProp name="UserParameters.names">
                 <stringProp name="80988633">Token</stringProp>
               </collectionProp>
               <collectionProp name="UserParameters.thread_values">
                 <collectionProp name="-776560449">
                   <stringProp name="-3885065">${__base64Encode(MDI:MDI@Atos2021:${customerId},)}</stringProp>
+                </collectionProp>
+              </collectionProp>
+              <boolProp name="UserParameters.per_iteration">false</boolProp>
+            </UserParameters>
+            <hashTree/>
+            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters" enabled="true">
+              <collectionProp name="UserParameters.names">
+                <stringProp name="80988633">Token</stringProp>
+              </collectionProp>
+              <collectionProp name="UserParameters.thread_values">
+                <collectionProp name="-629733201">
+                  <stringProp name="563084586">${__base64Encode(MDI:MDI@Atos2021,)}</stringProp>
                 </collectionProp>
               </collectionProp>
               <boolProp name="UserParameters.per_iteration">false</boolProp>
@@ -1004,7 +1019,7 @@ props.put(&quot;ATMOutputFolder&quot;,pathBuilderATMOutputFolder)
           </HTTPSamplerProxy>
           <hashTree>
             <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
-              <stringProp name="filename">testData\\input\\CRM_Action_API\\CRMAction_TestData_SetCardLimit.csv</stringProp>
+              <stringProp name="filename">testData/input/CRM_Action_API/CRMAction_TestData_SetCardLimit.csv</stringProp>
               <stringProp name="fileEncoding"></stringProp>
               <stringProp name="variableNames">SetCardLimit_customerId,SetCardLimit_vpan</stringProp>
               <boolProp name="ignoreFirstLine">true</boolProp>
@@ -1061,13 +1076,25 @@ props.put(&quot;ATMOutputFolder&quot;,pathBuilderATMOutputFolder)
               </collectionProp>
             </HeaderManager>
             <hashTree/>
-            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters" enabled="true">
+            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters" enabled="false">
               <collectionProp name="UserParameters.names">
                 <stringProp name="-1039160082">Token_fn</stringProp>
               </collectionProp>
               <collectionProp name="UserParameters.thread_values">
                 <collectionProp name="-776560449">
                   <stringProp name="-3885065">${__base64Encode(MDI:MDI@Atos2021:${customerId},)}</stringProp>
+                </collectionProp>
+              </collectionProp>
+              <boolProp name="UserParameters.per_iteration">false</boolProp>
+            </UserParameters>
+            <hashTree/>
+            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters" enabled="true">
+              <collectionProp name="UserParameters.names">
+                <stringProp name="-1039160082">Token_fn</stringProp>
+              </collectionProp>
+              <collectionProp name="UserParameters.thread_values">
+                <collectionProp name="-629733201">
+                  <stringProp name="563084586">${__base64Encode(MDI:MDI@Atos2021,)}</stringProp>
                 </collectionProp>
               </collectionProp>
               <boolProp name="UserParameters.per_iteration">false</boolProp>
@@ -1088,7 +1115,7 @@ props.put(&quot;ATMOutputFolder&quot;,pathBuilderATMOutputFolder)
           </hashTree>
         </hashTree>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Unlock OTP +++" enabled="true">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Unlock OTP +++" enabled="false">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="-80473247">
             <stringProp name="1831293763">${UnlockOTP_Threads}</stringProp>
@@ -1142,7 +1169,7 @@ props.put(&quot;ATMOutputFolder&quot;,pathBuilderATMOutputFolder)
             <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Input CSV Data Set Config" enabled="true">
               <stringProp name="delimiter">,</stringProp>
               <stringProp name="fileEncoding"></stringProp>
-              <stringProp name="filename">testData\\input\\CRM_Action_API\\CRMAction_TestData_UnlockOTP.csv</stringProp>
+              <stringProp name="filename">testData/input/CRM_Action_API/CRMAction_TestData_UnlockOTP.csv</stringProp>
               <boolProp name="ignoreFirstLine">true</boolProp>
               <boolProp name="quotedData">false</boolProp>
               <boolProp name="recycle">false</boolProp>
@@ -1192,7 +1219,7 @@ props.put(&quot;ATMOutputFolder&quot;,pathBuilderATMOutputFolder)
 char SEPARATOR = &apos;,&apos;;
 
 
-String csvFile = &quot;&quot;+vars.get(&quot;CsvPath_UnlockOTP&quot;)
+String csvFile = props.get(&quot;CRMOutputFolder&quot;)+vars.get(&quot;CsvPath_UnlockOTP&quot;)
 
 
 def params = [vars.get(&quot;customerId&quot;).toString(),vars.get(&quot;reason&quot;).toString()];
@@ -1243,13 +1270,25 @@ fileWriter.close();</stringProp>
               <stringProp name="JSONPostProcessor.defaultValues">Failed</stringProp>
             </JSONPostProcessor>
             <hashTree/>
-            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters" enabled="true">
+            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters" enabled="false">
               <collectionProp name="UserParameters.names">
                 <stringProp name="-1134271893">basicToken</stringProp>
               </collectionProp>
               <collectionProp name="UserParameters.thread_values">
                 <collectionProp name="-776560449">
                   <stringProp name="-3885065">${__base64Encode(MDI:MDI@Atos2021:${customerId},)}</stringProp>
+                </collectionProp>
+              </collectionProp>
+              <boolProp name="UserParameters.per_iteration">false</boolProp>
+            </UserParameters>
+            <hashTree/>
+            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters" enabled="true">
+              <collectionProp name="UserParameters.names">
+                <stringProp name="-1134271893">basicToken</stringProp>
+              </collectionProp>
+              <collectionProp name="UserParameters.thread_values">
+                <collectionProp name="-629733201">
+                  <stringProp name="563084586">${__base64Encode(MDI:MDI@Atos2021,)}</stringProp>
                 </collectionProp>
               </collectionProp>
               <boolProp name="UserParameters.per_iteration">false</boolProp>
@@ -1265,16 +1304,28 @@ fileWriter.close();</stringProp>
             </JSONPathAssertion>
             <hashTree/>
           </hashTree>
+          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Think Time" enabled="true">
+            <intProp name="ActionProcessor.action">1</intProp>
+            <intProp name="ActionProcessor.target">0</intProp>
+            <stringProp name="ActionProcessor.duration">0</stringProp>
+          </TestAction>
+          <hashTree>
+            <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Pause" enabled="true">
+              <stringProp name="ConstantTimer.delay">1000</stringProp>
+              <stringProp name="RandomTimer.range">100</stringProp>
+            </UniformRandomTimer>
+            <hashTree/>
+          </hashTree>
         </hashTree>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Update Card Status +++" enabled="true">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++ Update Card Status +++" enabled="false">
         <collectionProp name="ultimatethreadgroupdata">
-          <collectionProp name="2119987198">
-            <stringProp name="49">1</stringProp>
+          <collectionProp name="956534015">
+            <stringProp name="-56910351">${UpdateCardStatus_Threads}</stringProp>
             <stringProp name="0">0</stringProp>
-            <stringProp name="48">0</stringProp>
-            <stringProp name="60">60</stringProp>
-            <stringProp name="48">0</stringProp>
+            <stringProp name="-41885645">${UpdateCardStatus_RampUp}</stringProp>
+            <stringProp name="2057163323">${UpdateCardStatus_SteadyState}</stringProp>
+            <stringProp name="-1613131060">${UpdateCardStatus_RampDown}</stringProp>
           </collectionProp>
         </collectionProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
@@ -1332,7 +1383,7 @@ fileWriter.close();</stringProp>
             <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Input CSV Data Set Config" enabled="true">
               <stringProp name="delimiter">,</stringProp>
               <stringProp name="fileEncoding"></stringProp>
-              <stringProp name="filename">testData\\input\\CRM_Action_API\\CRMActio_TestData_UpdateCardStatus.csv</stringProp>
+              <stringProp name="filename">testData\\input\\CRM_Action_API\\CRMAction_TestData_UpdateCardStatus.csv</stringProp>
               <boolProp name="ignoreFirstLine">true</boolProp>
               <boolProp name="quotedData">false</boolProp>
               <boolProp name="recycle">false</boolProp>
@@ -1379,13 +1430,25 @@ fileWriter.close();</stringProp>
               <boolProp name="ISREGEX">true</boolProp>
             </JSONPathAssertion>
             <hashTree/>
-            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters" enabled="true">
+            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters" enabled="false">
               <collectionProp name="UserParameters.names">
                 <stringProp name="-1134271893">basicToken</stringProp>
               </collectionProp>
               <collectionProp name="UserParameters.thread_values">
                 <collectionProp name="-776560449">
                   <stringProp name="-3885065">${__base64Encode(MDI:MDI@Atos2021:${customerId},)}</stringProp>
+                </collectionProp>
+              </collectionProp>
+              <boolProp name="UserParameters.per_iteration">false</boolProp>
+            </UserParameters>
+            <hashTree/>
+            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="User Parameters" enabled="true">
+              <collectionProp name="UserParameters.names">
+                <stringProp name="-1134271893">basicToken</stringProp>
+              </collectionProp>
+              <collectionProp name="UserParameters.thread_values">
+                <collectionProp name="-629733201">
+                  <stringProp name="563084586">${__base64Encode(MDI:MDI@Atos2021,)}</stringProp>
                 </collectionProp>
               </collectionProp>
               <boolProp name="UserParameters.per_iteration">false</boolProp>
@@ -1406,7 +1469,7 @@ fileWriter.close();</stringProp>
 char SEPARATOR = &apos;,&apos;;
 
 
-String csvFile = &quot;&quot;+vars.get(&quot;UpdateCardStatus_CsvPath&quot;)
+String csvFile = props.get(&quot;CRMOutputFolder&quot;)+vars.get(&quot;UpdateCardStatus_CsvPath&quot;)
 
 def params = [vars.get(&quot;customerId&quot;).toString(),vars.get(&quot;reason&quot;).toString()];
 
@@ -1448,6 +1511,18 @@ fileWriter.flush();
 fileWriter.close();</stringProp>
               <stringProp name="scriptLanguage">groovy</stringProp>
             </JSR223Assertion>
+            <hashTree/>
+          </hashTree>
+          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Think Time" enabled="true">
+            <intProp name="ActionProcessor.action">1</intProp>
+            <intProp name="ActionProcessor.target">0</intProp>
+            <stringProp name="ActionProcessor.duration">0</stringProp>
+          </TestAction>
+          <hashTree>
+            <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Pause" enabled="true">
+              <stringProp name="ConstantTimer.delay">1000</stringProp>
+              <stringProp name="RandomTimer.range">100</stringProp>
+            </UniformRandomTimer>
             <hashTree/>
           </hashTree>
         </hashTree>
