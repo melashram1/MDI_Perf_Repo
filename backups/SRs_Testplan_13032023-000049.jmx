@@ -83,7 +83,7 @@
           </elementProp>
           <elementProp name="GetT24AccountDetails_SteadyState" elementType="Argument">
             <stringProp name="Argument.name">GetT24AccountDetails_SteadyState</stringProp>
-            <stringProp name="Argument.value">60</stringProp>
+            <stringProp name="Argument.value">5</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="GetT24AccountDetails_RampDown" elementType="Argument">
@@ -108,7 +108,7 @@
           </elementProp>
           <elementProp name="ActivateCard_SteadyState" elementType="Argument">
             <stringProp name="Argument.name">ActivateCard_SteadyState</stringProp>
-            <stringProp name="Argument.value">30</stringProp>
+            <stringProp name="Argument.value">5</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="ReplaceCard_NUM_Threads" elementType="Argument">
@@ -128,7 +128,7 @@
           </elementProp>
           <elementProp name="ReplaceCard_SteadyState" elementType="Argument">
             <stringProp name="Argument.name">ReplaceCard_SteadyState</stringProp>
-            <stringProp name="Argument.value">30</stringProp>
+            <stringProp name="Argument.value">5</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="UpdateCustomerDataOnT24-Cortex_NUM_Threads" elementType="Argument">
@@ -151,7 +151,7 @@
           </elementProp>
           <elementProp name="UpdateCustomerDataOnT24-Cortex_SteadyState" elementType="Argument">
             <stringProp name="Argument.name">UpdateCustomerDataOnT24-Cortex_SteadyState</stringProp>
-            <stringProp name="Argument.value">30</stringProp>
+            <stringProp name="Argument.value">5</stringProp>
             <stringProp name="Argument.desc">7200 SEC 6000</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
@@ -175,7 +175,7 @@
           </elementProp>
           <elementProp name="BlockCustomerT24-Cortex_SteadyState" elementType="Argument">
             <stringProp name="Argument.name">BlockCustomerT24-Cortex_SteadyState</stringProp>
-            <stringProp name="Argument.value">30</stringProp>
+            <stringProp name="Argument.value">5</stringProp>
             <stringProp name="Argument.desc">7200 SEC 6000</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
@@ -196,7 +196,7 @@
           </elementProp>
           <elementProp name="CreateTravelMemo_SteadtState" elementType="Argument">
             <stringProp name="Argument.name">CreateTravelMemo_SteadtState</stringProp>
-            <stringProp name="Argument.value">30</stringProp>
+            <stringProp name="Argument.value">5</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="BlockCard_NUM_Threads" elementType="Argument">
@@ -216,7 +216,7 @@
           </elementProp>
           <elementProp name="BlockCard_SteadyState" elementType="Argument">
             <stringProp name="Argument.name">BlockCard_SteadyState</stringProp>
-            <stringProp name="Argument.value">30</stringProp>
+            <stringProp name="Argument.value">5</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="AccountPayoffClosure_NUM_Threads" elementType="Argument">
@@ -236,7 +236,7 @@
           </elementProp>
           <elementProp name="AccountPayoffClosure_SteadyState" elementType="Argument">
             <stringProp name="Argument.name">AccountPayoffClosure_SteadyState</stringProp>
-            <stringProp name="Argument.value">30</stringProp>
+            <stringProp name="Argument.value">5</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="VCNCheck_NUM_Threads" elementType="Argument">
@@ -256,7 +256,7 @@
           </elementProp>
           <elementProp name="VCNCheck_SteadyState" elementType="Argument">
             <stringProp name="Argument.name">VCNCheck_SteadyState</stringProp>
-            <stringProp name="Argument.value">30</stringProp>
+            <stringProp name="Argument.value">5</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="ReportLost_NUM_Threads" elementType="Argument">
@@ -276,7 +276,27 @@
           </elementProp>
           <elementProp name="ReportLost_SteadyState" elementType="Argument">
             <stringProp name="Argument.name">ReportLost_SteadyState</stringProp>
-            <stringProp name="Argument.value">30</stringProp>
+            <stringProp name="Argument.value">5</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="CloseCardCust_NUM_Threads" elementType="Argument">
+            <stringProp name="Argument.name">CloseCardCust_NUM_Threads</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="CloseCardCust_Rampup" elementType="Argument">
+            <stringProp name="Argument.name">CloseCardCust_Rampup</stringProp>
+            <stringProp name="Argument.value">0</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="CloseCardCust_RampDown" elementType="Argument">
+            <stringProp name="Argument.name">CloseCardCust_RampDown</stringProp>
+            <stringProp name="Argument.value">0</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="CloseCardCust_SteadyState" elementType="Argument">
+            <stringProp name="Argument.name">CloseCardCust_SteadyState</stringProp>
+            <stringProp name="Argument.value">5</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -296,7 +316,7 @@
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
       </ConfigTestElement>
       <hashTree/>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++Activate Card+++" enabled="true">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++Activate Card+++" enabled="false">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="1584816634">
             <stringProp name="226868690">${ActivateCard_NUM_Threads}</stringProp>
@@ -311,7 +331,7 @@
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
-        <stringProp name="TestPlan.comments">Must be run after IN-11914 (Close Card)</stringProp>
+        <stringProp name="TestPlan.comments">Must be run after IN-11914 (Close Card)-Needes Testdata</stringProp>
       </kg.apc.jmeter.threads.UltimateThreadGroup>
       <hashTree>
         <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
@@ -478,7 +498,7 @@
         </ResultCollector>
         <hashTree/>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++Replace Card+++" enabled="true">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++Replace Card+++" enabled="false">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="1590114435">
             <stringProp name="-1030675649">${ReplaceCard_NUM_Threads}</stringProp>
@@ -493,6 +513,7 @@
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <stringProp name="TestPlan.comments">Needs - Testdata</stringProp>
       </kg.apc.jmeter.threads.UltimateThreadGroup>
       <hashTree>
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="+++ Replace Card +++" enabled="true">
@@ -662,7 +683,7 @@
         </ResultCollector>
         <hashTree/>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++Close Card +++" enabled="true">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++Close Card_System+++" enabled="false">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="-1103770246">
             <stringProp name="-188351941">${CloseCard_NUM_Threads}</stringProp>
@@ -677,97 +698,15 @@
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
-        <stringProp name="TestPlan.comments">IN-11914</stringProp>
+        <stringProp name="TestPlan.comments">IN-11914 - Needs Testdata</stringProp>
       </kg.apc.jmeter.threads.UltimateThreadGroup>
       <hashTree>
-        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="false">
-          <collectionProp name="Arguments.arguments">
-            <elementProp name="host" elementType="Argument">
-              <stringProp name="Argument.name">host</stringProp>
-              <stringProp name="Argument.value">www.example.com</stringProp>
-              <stringProp name="Argument.metadata">=</stringProp>
-            </elementProp>
-            <elementProp name="scheme" elementType="Argument">
-              <stringProp name="Argument.name">scheme</stringProp>
-              <stringProp name="Argument.value">https</stringProp>
-              <stringProp name="Argument.metadata">=</stringProp>
-            </elementProp>
-            <elementProp name="ThinkTime" elementType="Argument">
-              <stringProp name="Argument.name">ThinkTime</stringProp>
-              <stringProp name="Argument.value">2000</stringProp>
-              <stringProp name="Argument.metadata">=</stringProp>
-            </elementProp>
-            <elementProp name="runNo" elementType="Argument">
-              <stringProp name="Argument.name">runNo</stringProp>
-              <stringProp name="Argument.value">run1</stringProp>
-              <stringProp name="Argument.metadata">=</stringProp>
-            </elementProp>
-            <elementProp name="basePathExecution" elementType="Argument">
-              <stringProp name="Argument.name">basePathExecution</stringProp>
-              <stringProp name="Argument.value">execution</stringProp>
-              <stringProp name="Argument.metadata">=</stringProp>
-            </elementProp>
-            <elementProp name="CsvPath_CloseCard" elementType="Argument">
-              <stringProp name="Argument.name">CsvPath_CloseCard</stringProp>
-              <stringProp name="Argument.value">\\SR_Output_CloseCard.csv</stringProp>
-              <stringProp name="Argument.desc">Card Closed</stringProp>
-              <stringProp name="Argument.metadata">=</stringProp>
-            </elementProp>
-            <elementProp name="CloseCard_NUM_Threads" elementType="Argument">
-              <stringProp name="Argument.name">CloseCard_NUM_Threads</stringProp>
-              <stringProp name="Argument.value">7</stringProp>
-              <stringProp name="Argument.metadata">=</stringProp>
-            </elementProp>
-            <elementProp name="CloseCard_RampUp" elementType="Argument">
-              <stringProp name="Argument.name">CloseCard_RampUp</stringProp>
-              <stringProp name="Argument.value">0</stringProp>
-              <stringProp name="Argument.metadata">=</stringProp>
-            </elementProp>
-            <elementProp name="CloseCard_SteadyState" elementType="Argument">
-              <stringProp name="Argument.name">CloseCard_SteadyState</stringProp>
-              <stringProp name="Argument.value">600</stringProp>
-              <stringProp name="Argument.metadata">=</stringProp>
-            </elementProp>
-            <elementProp name="CloseCard_RampDown" elementType="Argument">
-              <stringProp name="Argument.name">CloseCard_RampDown</stringProp>
-              <stringProp name="Argument.value">600</stringProp>
-              <stringProp name="Argument.metadata">=</stringProp>
-            </elementProp>
-            <elementProp name="CsvPath_GetT24AccountDetails" elementType="Argument">
-              <stringProp name="Argument.name">CsvPath_GetT24AccountDetails</stringProp>
-              <stringProp name="Argument.value">\\SR_Output_GetT24AccountDetails.csv</stringProp>
-              <stringProp name="Argument.desc">Get Acount Details</stringProp>
-              <stringProp name="Argument.metadata">=</stringProp>
-            </elementProp>
-            <elementProp name="GetT24AccountDetails_NUM_Threads" elementType="Argument">
-              <stringProp name="Argument.name">GetT24AccountDetails_NUM_Threads</stringProp>
-              <stringProp name="Argument.value">7</stringProp>
-              <stringProp name="Argument.metadata">=</stringProp>
-            </elementProp>
-            <elementProp name="GetT24AccountDetails_RampUp" elementType="Argument">
-              <stringProp name="Argument.name">GetT24AccountDetails_RampUp</stringProp>
-              <stringProp name="Argument.value">0</stringProp>
-              <stringProp name="Argument.metadata">=</stringProp>
-            </elementProp>
-            <elementProp name="GetT24AccountDetails_SteadyState" elementType="Argument">
-              <stringProp name="Argument.name">GetT24AccountDetails_SteadyState</stringProp>
-              <stringProp name="Argument.value">600</stringProp>
-              <stringProp name="Argument.metadata">=</stringProp>
-            </elementProp>
-            <elementProp name="GetT24AccountDetails_RampDown" elementType="Argument">
-              <stringProp name="Argument.name">GetT24AccountDetails_RampDown</stringProp>
-              <stringProp name="Argument.value">600</stringProp>
-              <stringProp name="Argument.metadata">=</stringProp>
-            </elementProp>
-          </collectionProp>
-        </Arguments>
-        <hashTree/>
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="+++Close Card+++" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">true</boolProp>
         </TransactionController>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Close Card_/process/v1/system/secure/bpm/service-requerst/cards/customer/card/close" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Close Card System_/process/v1/system/secure/bpm/service-requerst/cards/customer/card/close" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
               <collectionProp name="Arguments.arguments">
@@ -960,7 +899,7 @@ fileWriter.close();</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++Get T24 Account Details +++" enabled="true">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++Get T24 Account Details +++" enabled="false">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="164494605">
             <stringProp name="-1882565952">${GetT24AccountDetails_NUM_Threads}</stringProp>
@@ -977,7 +916,7 @@ fileWriter.close();</stringProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
       </kg.apc.jmeter.threads.UltimateThreadGroup>
       <hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Get T24 Account Details" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="+++Get T24 Account Details+++" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">true</boolProp>
         </TransactionController>
@@ -1036,6 +975,13 @@ fileWriter.close();</stringProp>
                   <stringProp name="Authorization.url">https://10.10.90.40:9446/MDICORE/api/v1.0.1/order/</stringProp>
                   <stringProp name="Authorization.username">INPUTT</stringProp>
                   <stringProp name="Authorization.password">123456</stringProp>
+                  <stringProp name="Authorization.domain"></stringProp>
+                  <stringProp name="Authorization.realm"></stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Authorization">
+                  <stringProp name="Authorization.url">http://card-management.sit.apps.openshift.dev.mdi/domain/v1/system/secure/cards/customer/card/</stringProp>
+                  <stringProp name="Authorization.username">MDI</stringProp>
+                  <stringProp name="Authorization.password">D^�V�x&amp;�w�T3��杰D�&#x4;&#x17;F�3#&#x3;#&#x13;�&#x13;#&#x3;&#x3;&#x3;&#x3;c��</stringProp>
                   <stringProp name="Authorization.domain"></stringProp>
                   <stringProp name="Authorization.realm"></stringProp>
                 </elementProp>
@@ -1197,7 +1143,7 @@ fileWriter.close();</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++Update customer data on T24 - Cortex +++" enabled="true">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++Update customer data on T24 - Cortex +++" enabled="false">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="-1938662871">
             <stringProp name="-125885075">${UpdateCustomerDataOnT24-Cortex_NUM_Threads}</stringProp>
@@ -1215,7 +1161,7 @@ fileWriter.close();</stringProp>
         <stringProp name="TestPlan.comments">IN-11537 </stringProp>
       </kg.apc.jmeter.threads.UltimateThreadGroup>
       <hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Update customer data on T24 - Cortex" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="+++Update customer data on T24 - Cortex+++" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">true</boolProp>
         </TransactionController>
@@ -1388,7 +1334,7 @@ fileWriter.close();</stringProp>
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
-        <stringProp name="TestPlan.comments">IN-11536</stringProp>
+        <stringProp name="TestPlan.comments">IN-11536 - Needs Testdata</stringProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
       </kg.apc.jmeter.threads.UltimateThreadGroup>
       <hashTree>
@@ -1412,7 +1358,7 @@ fileWriter.close();</stringProp>
           </collectionProp>
         </Arguments>
         <hashTree/>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Block Customer on T24" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="+++Block Customer on T24+++" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">true</boolProp>
         </TransactionController>
@@ -1561,6 +1507,7 @@ fileWriter.close();</stringProp>
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <stringProp name="TestPlan.comments">Needs Testdata</stringProp>
       </kg.apc.jmeter.threads.UltimateThreadGroup>
       <hashTree>
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="+++ Block Card +++" enabled="true">
@@ -1732,6 +1679,7 @@ fileWriter.close();</stringProp>
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <stringProp name="TestPlan.comments">Needs Testdata</stringProp>
       </kg.apc.jmeter.threads.UltimateThreadGroup>
       <hashTree>
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="+++ Create Travel Memo +++" enabled="true">
@@ -1918,8 +1866,84 @@ fileWriter.close();</stringProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
       </kg.apc.jmeter.threads.UltimateThreadGroup>
       <hashTree>
-        <RecordingController guiclass="RecordController" testclass="RecordingController" testname="++Account Payoff For Closure++" enabled="true"/>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="+++Account Payoff For Closure+++" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">true</boolProp>
+        </TransactionController>
         <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Account Payoff For Closure_/domain/v1/system/secure/accounts/customer/accounts/(arrangementID)/payoff" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">account-management.sit.apps.openshift.dev.mdi</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">http</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+            <stringProp name="HTTPSampler.path">/domain/v1/system/secure/accounts/customer/accounts/${arrangementID}/payoff</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="arrangment Ids for account closure - CSV Data Set Config" enabled="false">
+              <stringProp name="filename">testData/input/serviceRequests/SR_TestData_AccountPayoffForClosure.csv</stringProp>
+              <stringProp name="fileEncoding"></stringProp>
+              <stringProp name="variableNames">customerId,arrangementId</stringProp>
+              <boolProp name="ignoreFirstLine">false</boolProp>
+              <stringProp name="delimiter">,</stringProp>
+              <boolProp name="quotedData">false</boolProp>
+              <boolProp name="recycle">true</boolProp>
+              <boolProp name="stopThread">false</boolProp>
+              <stringProp name="shareMode">shareMode.all</stringProp>
+            </CSVDataSet>
+            <hashTree/>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Authorization" elementType="Header">
+                  <stringProp name="Header.name">Authorization</stringProp>
+                  <stringProp name="Header.value">Basic ${basicToken}</stringProp>
+                </elementProp>
+                <elementProp name="Postman-Token" elementType="Header">
+                  <stringProp name="Header.name">Postman-Token</stringProp>
+                  <stringProp name="Header.value">fb6aa17f-5b42-4f78-9770-013275d8e180</stringProp>
+                </elementProp>
+                <elementProp name="X-Correlation-Id" elementType="Header">
+                  <stringProp name="Header.name">X-Correlation-Id</stringProp>
+                  <stringProp name="Header.value">${guid}</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Postman</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="basicToken Generator User Parameters" enabled="true">
+              <collectionProp name="UserParameters.names">
+                <stringProp name="-1134271893">basicToken</stringProp>
+              </collectionProp>
+              <collectionProp name="UserParameters.thread_values">
+                <collectionProp name="-776560449">
+                  <stringProp name="-3885065">${__base64Encode(MDI:MDI@Atos2021:${customerId},)}</stringProp>
+                </collectionProp>
+              </collectionProp>
+              <boolProp name="UserParameters.per_iteration">false</boolProp>
+            </UserParameters>
+            <hashTree/>
+          </hashTree>
           <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments">
               <elementProp name="host" elementType="Argument">
@@ -1950,85 +1974,6 @@ fileWriter.close();</stringProp>
             </collectionProp>
           </Arguments>
           <hashTree/>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Account Payoff For Closure" enabled="true">
-            <boolProp name="TransactionController.includeTimers">false</boolProp>
-            <boolProp name="TransactionController.parent">false</boolProp>
-          </TransactionController>
-          <hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Account Payoff For Closure_/domain/v1/system/secure/accounts/customer/accounts/(arrangementID)/payoff" enabled="true">
-              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
-                <collectionProp name="Arguments.arguments"/>
-              </elementProp>
-              <stringProp name="HTTPSampler.domain">account-management.sit.apps.openshift.dev.mdi</stringProp>
-              <stringProp name="HTTPSampler.port"></stringProp>
-              <stringProp name="HTTPSampler.protocol">http</stringProp>
-              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
-              <stringProp name="HTTPSampler.path">/domain/v1/system/secure/accounts/customer/accounts/${arrangementID}/payoff</stringProp>
-              <stringProp name="HTTPSampler.method">GET</stringProp>
-              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-              <stringProp name="HTTPSampler.response_timeout"></stringProp>
-            </HTTPSamplerProxy>
-            <hashTree>
-              <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="arrangment Ids for account closure - CSV Data Set Config" enabled="false">
-                <stringProp name="filename">testData/input/serviceRequests/SR_TestData_AccountPayoffForClosure.csv</stringProp>
-                <stringProp name="fileEncoding"></stringProp>
-                <stringProp name="variableNames">customerId,arrangementId</stringProp>
-                <boolProp name="ignoreFirstLine">false</boolProp>
-                <stringProp name="delimiter">,</stringProp>
-                <boolProp name="quotedData">false</boolProp>
-                <boolProp name="recycle">true</boolProp>
-                <boolProp name="stopThread">false</boolProp>
-                <stringProp name="shareMode">shareMode.all</stringProp>
-              </CSVDataSet>
-              <hashTree/>
-              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
-                <collectionProp name="HeaderManager.headers">
-                  <elementProp name="Authorization" elementType="Header">
-                    <stringProp name="Header.name">Authorization</stringProp>
-                    <stringProp name="Header.value">Basic ${basicToken}</stringProp>
-                  </elementProp>
-                  <elementProp name="Postman-Token" elementType="Header">
-                    <stringProp name="Header.name">Postman-Token</stringProp>
-                    <stringProp name="Header.value">fb6aa17f-5b42-4f78-9770-013275d8e180</stringProp>
-                  </elementProp>
-                  <elementProp name="X-Correlation-Id" elementType="Header">
-                    <stringProp name="Header.name">X-Correlation-Id</stringProp>
-                    <stringProp name="Header.value">${guid}</stringProp>
-                  </elementProp>
-                  <elementProp name="Accept-Encoding" elementType="Header">
-                    <stringProp name="Header.name">Accept-Encoding</stringProp>
-                    <stringProp name="Header.value">gzip, deflate, br</stringProp>
-                  </elementProp>
-                  <elementProp name="User-Agent" elementType="Header">
-                    <stringProp name="Header.name">User-Agent</stringProp>
-                    <stringProp name="Header.value">Postman</stringProp>
-                  </elementProp>
-                  <elementProp name="Accept" elementType="Header">
-                    <stringProp name="Header.name">Accept</stringProp>
-                    <stringProp name="Header.value">application/json</stringProp>
-                  </elementProp>
-                </collectionProp>
-              </HeaderManager>
-              <hashTree/>
-              <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="basicToken Generator User Parameters" enabled="true">
-                <collectionProp name="UserParameters.names">
-                  <stringProp name="-1134271893">basicToken</stringProp>
-                </collectionProp>
-                <collectionProp name="UserParameters.thread_values">
-                  <collectionProp name="-776560449">
-                    <stringProp name="-3885065">${__base64Encode(MDI:MDI@Atos2021:${customerId},)}</stringProp>
-                  </collectionProp>
-                </collectionProp>
-                <boolProp name="UserParameters.per_iteration">false</boolProp>
-              </UserParameters>
-              <hashTree/>
-            </hashTree>
-          </hashTree>
         </hashTree>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
@@ -2115,9 +2060,9 @@ fileWriter.close();</stringProp>
           </collectionProp>
         </Arguments>
         <hashTree/>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Check Active VCN Existence" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="+++Check Active VCN Existence+++" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
-          <boolProp name="TransactionController.parent">false</boolProp>
+          <boolProp name="TransactionController.parent">true</boolProp>
         </TransactionController>
         <hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Check Active VCN Existence_/domain/v1/system/secure/cards/customer/cards/active/pre-paid/existence/check" enabled="true">
@@ -2260,6 +2205,7 @@ fileWriter.close();</stringProp>
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
+        <stringProp name="TestPlan.comments">Needs Testdata</stringProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
       </kg.apc.jmeter.threads.UltimateThreadGroup>
       <hashTree>
@@ -2293,7 +2239,7 @@ fileWriter.close();</stringProp>
           </collectionProp>
         </Arguments>
         <hashTree/>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Report Card Lost OR Stolen" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="+++Report Card Lost OR Stolen+++" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">true</boolProp>
         </TransactionController>
@@ -2429,7 +2375,191 @@ fileWriter.close();</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++Close Card_Customer+++" enabled="true">
+        <collectionProp name="ultimatethreadgroupdata">
+          <collectionProp name="-358304427">
+            <stringProp name="-762170584">${CloseCardCust_NUM_Threads}</stringProp>
+            <stringProp name="0">0</stringProp>
+            <stringProp name="1581654645">${CloseCardCust_RampUp}</stringProp>
+            <stringProp name="-579753671">${CloseCardCust_SteadyState}</stringProp>
+            <stringProp name="-464040818">${CloseCardCust_RampDown}</stringProp>
+          </collectionProp>
+        </collectionProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <intProp name="LoopController.loops">-1</intProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <stringProp name="TestPlan.comments">IN-11914 - Needs Testdata</stringProp>
+      </kg.apc.jmeter.threads.UltimateThreadGroup>
+      <hashTree>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="+++Close Card+++" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">true</boolProp>
+        </TransactionController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Close Card Customer_/domain/v1/system/secure/cards/customer/card/close" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&#xd;
+    &quot;cardIdentifier&quot;: {&#xd;
+        &quot;vpan&quot;: &quot;1000000000002511&quot;&#xd;
+    },&#xd;
+    &quot;action&quot;: &quot;CUSTOMER_CLOSE&quot;,&#xd;
+    &quot;description&quot;: &quot;Close Card&quot;&#xd;
+}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">card-management.sit.apps.openshift.dev.mdi</stringProp>
+            <stringProp name="HTTPSampler.port">${BlockCard_RampDown}</stringProp>
+            <stringProp name="HTTPSampler.protocol">http</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/domain/v1/system/secure/cards/customer/card/close</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Postman-Token" elementType="Header">
+                  <stringProp name="Header.name">Postman-Token</stringProp>
+                  <stringProp name="Header.value">873${BlockCard_RampDown}28d${ReplaceCard_NUM_Threads}-8${ReplaceCard_NUM_Threads}f8-4826-83f9-f89ab6d3a97f</stringProp>
+                </elementProp>
+                <elementProp name="X-Correlation-Id" elementType="Header">
+                  <stringProp name="Header.name">X-Correlation-Id</stringProp>
+                  <stringProp name="Header.value">93c783f${VCNCheck_SteadyState}-84c7-4e8d-a7a9-8f84d384cecb</stringProp>
+                </elementProp>
+                <elementProp name="Content-Type" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Postman</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Close Card - Input CSV Data Set Config" enabled="true">
+              <stringProp name="filename">testData\\input\\serviceRequests\\SR_TestData_CloseCardCust.csv</stringProp>
+              <stringProp name="fileEncoding"></stringProp>
+              <stringProp name="variableNames">customerId,vPan</stringProp>
+              <boolProp name="ignoreFirstLine">true</boolProp>
+              <stringProp name="delimiter">,</stringProp>
+              <boolProp name="quotedData">false</boolProp>
+              <boolProp name="recycle">false</boolProp>
+              <boolProp name="stopThread">true</boolProp>
+              <stringProp name="shareMode">shareMode.all</stringProp>
+            </CSVDataSet>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="ThinkTime" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">0</stringProp>
+        </TestAction>
+        <hashTree>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+            <stringProp name="ConstantTimer.delay">${ThinkTime}</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+        </hashTree>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+      </hashTree>
       <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="false">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
