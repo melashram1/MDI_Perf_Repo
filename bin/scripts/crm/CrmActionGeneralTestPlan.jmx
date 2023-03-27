@@ -1183,7 +1183,7 @@ props.put(&quot;ATMOutputFolder&quot;,pathBuilderATMOutputFolder)
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
                   <stringProp name="Argument.value">{&#xd;
   &quot;customerId&quot;: ${UnlockOTP_customerId},&#xd;
-  &quot;OTP&quot;: &quot;123&quot;&#xd;
+  &quot;OTP&quot;: &quot;1234&quot;&#xd;
 }</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
