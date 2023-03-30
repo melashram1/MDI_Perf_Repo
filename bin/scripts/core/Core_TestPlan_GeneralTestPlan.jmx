@@ -60,13 +60,13 @@
           </elementProp>
           <elementProp name="CreateOnBoardingCusomter_RampDown" elementType="Argument">
             <stringProp name="Argument.name">CreateOnBoardingCusomter_RampDown</stringProp>
-            <stringProp name="Argument.value">600</stringProp>
+            <stringProp name="Argument.value">0</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
             <stringProp name="Argument.desc">SEC 600 </stringProp>
           </elementProp>
           <elementProp name="CreateOnBoardingCusomter_SteadyState" elementType="Argument">
             <stringProp name="Argument.name">CreateOnBoardingCusomter_SteadyState</stringProp>
-            <stringProp name="Argument.value">6000</stringProp>
+            <stringProp name="Argument.value">30</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
             <stringProp name="Argument.desc">7200 SEC 6000</stringProp>
           </elementProp>
@@ -78,7 +78,7 @@
           </elementProp>
           <elementProp name="CreateAccount_Threads" elementType="Argument">
             <stringProp name="Argument.name">CreateAccount_Threads</stringProp>
-            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.value">2</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="CreateAccount_RampUp" elementType="Argument">
@@ -88,12 +88,12 @@
           </elementProp>
           <elementProp name="CreateAccount_RampDown" elementType="Argument">
             <stringProp name="Argument.name">CreateAccount_RampDown</stringProp>
-            <stringProp name="Argument.value">600</stringProp>
+            <stringProp name="Argument.value">0</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="CreateAccount_SteadyState" elementType="Argument">
             <stringProp name="Argument.name">CreateAccount_SteadyState</stringProp>
-            <stringProp name="Argument.value">6000</stringProp>
+            <stringProp name="Argument.value">30</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="CsvPath_CreatePaymentOrder" elementType="Argument">
@@ -1147,7 +1147,7 @@ fileWriter.close();</stringProp>
             <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CreateDefaultCurrentAccount CSV Data Set Config" enabled="true">
               <stringProp name="delimiter">,</stringProp>
               <stringProp name="fileEncoding"></stringProp>
-              <stringProp name="filename">testData\\input\\core\\CreateDefaultCurrentAccount.csv</stringProp>
+              <stringProp name="filename">testData\\input\\core\\Core_TestData_CreateDefaultCurrentAccount.csv</stringProp>
               <boolProp name="ignoreFirstLine">true</boolProp>
               <boolProp name="quotedData">false</boolProp>
               <boolProp name="recycle">true</boolProp>
@@ -1186,7 +1186,7 @@ fileWriter.close();</stringProp>
               <boolProp name="ISREGEX">true</boolProp>
             </JSONPathAssertion>
             <hashTree/>
-            <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="If Account Created_WriteOutputFile" enabled="true">
+            <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="If Account Created_WriteOutputFile" enabled="false">
               <stringProp name="cacheKey">true</stringProp>
               <stringProp name="filename"></stringProp>
               <stringProp name="parameters"></stringProp>
