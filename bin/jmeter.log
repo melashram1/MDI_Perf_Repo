@@ -111,3 +111,81 @@ java.nio.file.NoSuchFileException: F:\MDI-GIT-Performance\bin\PluginsManagerCMD.
 2023-04-02 11:29:07,024 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
 2023-04-02 11:29:07,079 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
 2023-04-02 11:29:07,288 INFO o.a.j.s.FileServer: Set new base='F:\MDI-GIT-Performance\MDI_Perf_Repo\bin\scripts\core'
+2023-04-02 11:54:23,887 INFO o.a.j.g.a.Load: Loading file: F:\MDI-GIT-Performance\MDI_Perf_Repo\bin\scripts\core\Emad Scripts\Get_CustomerInfo.jmx
+2023-04-02 11:54:23,887 INFO o.a.j.s.FileServer: Set new base='F:\MDI-GIT-Performance\MDI_Perf_Repo\bin\scripts\core\Emad Scripts'
+2023-04-02 11:54:23,887 INFO o.a.j.s.SaveService: Loading file: F:\MDI-GIT-Performance\MDI_Perf_Repo\bin\scripts\core\Emad Scripts\Get_CustomerInfo.jmx
+2023-04-02 11:54:23,942 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-04-02 11:54:25,572 INFO o.a.j.s.FileServer: Set new base='F:\MDI-GIT-Performance\MDI_Perf_Repo\bin\scripts\core\Emad Scripts'
+2023-04-02 11:54:39,559 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-04-02 11:54:39,567 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-04-02 11:54:39,567 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-04-02 11:54:39,567 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-04-02 11:54:39,588 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : +++ getCustomerInfo +++
+2023-04-02 11:54:39,588 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group +++ getCustomerInfo +++.
+2023-04-02 11:54:39,588 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-04-02 11:54:39,588 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 1
+2023-04-02 11:54:39,588 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2023-04-02 11:54:39,588 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-04-02 11:54:39,588 INFO o.a.j.t.JMeterThread: Thread started: +++ getCustomerInfo +++ 1-1
+2023-04-02 11:54:39,596 INFO o.a.j.s.FileServer: Stored: testData\\input\\core\\Core_TestData_GetCustomerIformation.csv
+2023-04-02 11:54:39,733 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-GHRD74R
+2023-04-02 11:54:39,765 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2023-04-02 11:54:39,821 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2023-04-02 11:54:39,829 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2023-04-02 11:54:39,829 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2023-04-02 11:54:39,854 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2023-04-02 11:54:39,854 INFO o.a.j.u.SSLManager: KeyStore created OK
+2023-04-02 11:54:39,854 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2023-04-02 11:54:44,081 INFO o.a.j.g.a.Start: Stopping test
+2023-04-02 11:54:44,089 INFO o.a.j.t.JMeterThread: Stopping: +++ getCustomerInfo +++ 1-1
+2023-04-02 11:54:44,089 WARN o.a.j.t.JMeterThread: Interrupting: +++ getCustomerInfo +++ 1-1 sampler: +++ getCustomerInfo +++
+2023-04-02 11:54:44,089 INFO o.a.j.t.JMeterThread: Thread finished: +++ getCustomerInfo +++ 1-1
+2023-04-02 11:54:44,089 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-04-02 11:54:44,089 INFO o.a.j.s.FileServer: Close: testData\\input\\core\\Core_TestData_GetCustomerIformation.csv
+2023-04-02 11:54:44,089 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-04-02 11:54:53,306 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-04-02 11:54:53,330 INFO o.a.j.g.a.Load: Loading file: F:\MDI-GIT-Performance\MDI_Perf_Repo\bin\scripts\core\Emad Scripts\Get_StandingOrderDetails.jmx
+2023-04-02 11:54:53,330 INFO o.a.j.s.FileServer: Set new base='F:\MDI-GIT-Performance\MDI_Perf_Repo\bin\scripts\core\Emad Scripts'
+2023-04-02 11:54:53,330 INFO o.a.j.s.SaveService: Loading file: F:\MDI-GIT-Performance\MDI_Perf_Repo\bin\scripts\core\Emad Scripts\Get_StandingOrderDetails.jmx
+2023-04-02 11:54:53,378 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-04-02 11:54:53,418 INFO o.a.j.s.FileServer: Set new base='F:\MDI-GIT-Performance\MDI_Perf_Repo\bin\scripts\core\Emad Scripts'
+2023-04-02 11:55:14,942 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-04-02 11:55:14,942 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-04-02 11:55:14,942 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-04-02 11:55:14,982 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : +++getStandingOrderDetail+++
+2023-04-02 11:55:14,982 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group +++getStandingOrderDetail+++.
+2023-04-02 11:55:14,982 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-04-02 11:55:14,982 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 1
+2023-04-02 11:55:14,982 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2023-04-02 11:55:14,982 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-04-02 11:55:14,982 INFO o.a.j.t.JMeterThread: Thread started: +++getStandingOrderDetail+++ 1-1
+2023-04-02 11:55:14,982 INFO o.a.j.s.FileServer: Stored: testData//input/core//Core_TestData_GetStandingOrderDetails.csv
+2023-04-02 11:55:18,094 INFO o.a.j.g.a.Start: Stopping test
+2023-04-02 11:55:18,102 INFO o.a.j.t.JMeterThread: Stopping: +++getStandingOrderDetail+++ 1-1
+2023-04-02 11:55:18,102 WARN o.a.j.t.JMeterThread: Interrupting: +++getStandingOrderDetail+++ 1-1 sampler: +++getStandingOrderDetail+++
+2023-04-02 11:55:18,118 INFO o.a.j.t.JMeterThread: Thread finished: +++getStandingOrderDetail+++ 1-1
+2023-04-02 11:55:18,118 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-04-02 11:55:18,118 INFO o.a.j.s.FileServer: Close: testData//input/core//Core_TestData_GetStandingOrderDetails.csv
+2023-04-02 11:55:18,118 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-04-02 11:55:19,823 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-04-02 11:55:19,847 INFO o.a.j.g.a.Load: Loading file: F:\MDI-GIT-Performance\MDI_Perf_Repo\bin\scripts\core\Emad Scripts\Get_Sweeps.jmx
+2023-04-02 11:55:19,847 INFO o.a.j.s.FileServer: Set new base='F:\MDI-GIT-Performance\MDI_Perf_Repo\bin\scripts\core\Emad Scripts'
+2023-04-02 11:55:19,847 INFO o.a.j.s.SaveService: Loading file: F:\MDI-GIT-Performance\MDI_Perf_Repo\bin\scripts\core\Emad Scripts\Get_Sweeps.jmx
+2023-04-02 11:55:19,887 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-04-02 11:55:19,919 INFO o.a.j.s.FileServer: Set new base='F:\MDI-GIT-Performance\MDI_Perf_Repo\bin\scripts\core\Emad Scripts'
+2023-04-02 11:55:21,416 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-04-02 11:55:21,416 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-04-02 11:55:21,416 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-04-02 11:55:21,416 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : +++getSweep+++
+2023-04-02 11:55:21,424 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group +++getSweep+++.
+2023-04-02 11:55:21,424 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-04-02 11:55:21,424 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 1
+2023-04-02 11:55:21,424 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2023-04-02 11:55:21,424 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-04-02 11:55:21,424 INFO o.a.j.t.JMeterThread: Thread started: +++getSweep+++ 1-1
+2023-04-02 11:55:25,149 INFO o.a.j.g.a.Start: Stopping test
+2023-04-02 11:55:25,157 INFO o.a.j.t.JMeterThread: Stopping: +++getSweep+++ 1-1
+2023-04-02 11:55:25,157 WARN o.a.j.t.JMeterThread: Interrupting: +++getSweep+++ 1-1 sampler: +++getSweep+++
+2023-04-02 11:55:25,157 INFO o.a.j.t.JMeterThread: Thread finished: +++getSweep+++ 1-1
+2023-04-02 11:55:25,157 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-04-02 11:55:25,157 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
