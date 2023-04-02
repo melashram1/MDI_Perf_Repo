@@ -233,7 +233,7 @@
           </collectionProp>
         </nz.co.breakpoint.jmeter.iso8583.ISO8583Config>
         <hashTree/>
-        <nz.co.breakpoint.jmeter.iso8583.ISO8583Sampler guiclass="TestBeanGUI" testclass="nz.co.breakpoint.jmeter.iso8583.ISO8583Sampler" testname="BALANCE_INQUIRY" enabled="true">
+        <nz.co.breakpoint.jmeter.iso8583.ISO8583Sampler guiclass="TestBeanGUI" testclass="nz.co.breakpoint.jmeter.iso8583.ISO8583Sampler" testname="BALANCE_INQUIRY" enabled="false">
           <stringProp name="configKey">conf_90_40_1234</stringProp>
           <stringProp name="header"></stringProp>
           <stringProp name="responseCodeField">39</stringProp>
@@ -413,7 +413,7 @@
           </collectionProp>
         </nz.co.breakpoint.jmeter.iso8583.ISO8583Sampler>
         <hashTree/>
-        <nz.co.breakpoint.jmeter.iso8583.ISO8583Sampler guiclass="TestBeanGUI" testclass="nz.co.breakpoint.jmeter.iso8583.ISO8583Sampler" testname="MiniStatment " enabled="false">
+        <nz.co.breakpoint.jmeter.iso8583.ISO8583Sampler guiclass="TestBeanGUI" testclass="nz.co.breakpoint.jmeter.iso8583.ISO8583Sampler" testname="MiniStatment " enabled="true">
           <stringProp name="configKey">conf_90_40_1234</stringProp>
           <stringProp name="header"></stringProp>
           <stringProp name="responseCodeField">39</stringProp>
