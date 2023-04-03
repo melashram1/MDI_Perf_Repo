@@ -34,4 +34,37 @@ Accept: */*
   <java.net.URL>https://10.10.90.40:9446/MDICORE/api/v4.0.0/party/customers?customerId=2000000019</java.net.URL>
 </httpSample>
 
+<httpSample t="1149" it="0" lt="1147" ct="265" ts="1680432748520" s="true" lb="getSimulationDetails-1" rc="200" rm="OK" tn="" dt="text" de="" by="1021" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-GHRD74R">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+X-Powered-By: Servlet/3.1
+Server-Timing: intid;desc=628ef1f07678e99d
+Cache-Control: no-store
+Content-Type: application/json
+Access-Control-Allow-Headers: Origin, Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers
+Access-Control-Allow-Methods: GET, HEAD, POST, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 3600
+Content-Language: en-US
+Transfer-Encoding: chunked
+Connection: Close
+Date: Sun, 02 Apr 2023 10:40:07 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Authorization: Basic SU5QVVRUOjEyMzQ1Ng==
+companyId: EG0011001
+Postman-Token: ad9230b6-cf27-4ce0-853b-c0c914786360
+Host: 10.10.90.40:9446
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: PostmanRuntime/7.31.3
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;header&quot;:{&quot;audit&quot;:{&quot;T24_time&quot;:771,&quot;responseParse_time&quot;:0,&quot;requestParse_time&quot;:1},&quot;page_start&quot;:1,&quot;page_token&quot;:&quot;202304021733745606.01,99&quot;,&quot;total_size&quot;:1,&quot;page_size&quot;:99,&quot;status&quot;:&quot;success&quot;},&quot;body&quot;:[{&quot;runDate&quot;:&quot;08 MAR 2023&quot;,&quot;endDate&quot;:&quot;08 MAR 2023&quot;,&quot;chargeProperties&quot;:[{&quot;propertyName&quot;:&quot;Fiscal Stamp Duty&quot;,&quot;chargeAmount&quot;:0.25}],&quot;description&quot;:&quot;AASIM230670XDDXMSK - 1&quot;,&quot;userActivity&quot;:&quot;Calculate Payoff For Accounts&quot;,&quot;simulationId&quot;:&quot;AASIMR23067GG11QD5&quot;,&quot;live&quot;:&quot;Yes&quot;}]}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://10.10.90.40:9446/MDICORE/api/v3.0.0/holdings/arrangements/AA230677CD2B/simulations</java.net.URL>
+</httpSample>
+
 </testResults>
