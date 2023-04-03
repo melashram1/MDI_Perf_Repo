@@ -144,6 +144,46 @@
             <stringProp name="Argument.value">10</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
+          <elementProp name="getLoanSschedule_Thread" elementType="Argument">
+            <stringProp name="Argument.name">getLoanSschedule_Thread</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="getLoanSschedule_RampUp" elementType="Argument">
+            <stringProp name="Argument.name">getLoanSschedule_RampUp</stringProp>
+            <stringProp name="Argument.value">0</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="getLoanSschedule_Steadystate" elementType="Argument">
+            <stringProp name="Argument.name">getLoanSschedule_Steadystate</stringProp>
+            <stringProp name="Argument.value">10</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="getLoanSschedule_RampDown" elementType="Argument">
+            <stringProp name="Argument.name">getLoanSschedule_RampDown</stringProp>
+            <stringProp name="Argument.value">0</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="getEligibleProductsForCustomer_Thread" elementType="Argument">
+            <stringProp name="Argument.name">getEligibleProductsForCustomer_Thread</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="getEligibleProductsForCustomer_RampUp" elementType="Argument">
+            <stringProp name="Argument.name">getEligibleProductsForCustomer_RampUp</stringProp>
+            <stringProp name="Argument.value">0</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="getEligibleProductsForCustomer_SteadyState" elementType="Argument">
+            <stringProp name="Argument.name">getEligibleProductsForCustomer_SteadyState</stringProp>
+            <stringProp name="Argument.value">60</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="getEligibleProductsForCustomer_RampDown" elementType="Argument">
+            <stringProp name="Argument.name">getEligibleProductsForCustomer_RampDown</stringProp>
+            <stringProp name="Argument.value">0</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
         </collectionProp>
       </Arguments>
       <hashTree/>
@@ -297,7 +337,7 @@
       <hashTree>
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="+++getDepositSchedule+++" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
-          <boolProp name="TransactionController.parent">false</boolProp>
+          <boolProp name="TransactionController.parent">true</boolProp>
         </TransactionController>
         <hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="+++getDepositSchedule+++" enabled="true">
@@ -869,6 +909,212 @@
               <stringProp name="JSON_PATH">$..status</stringProp>
               <stringProp name="EXPECTED_VALUE">success</stringProp>
               <boolProp name="JSONVALIDATION">true</boolProp>
+              <boolProp name="EXPECT_NULL">false</boolProp>
+              <boolProp name="INVERT">false</boolProp>
+              <boolProp name="ISREGEX">true</boolProp>
+            </JSONPathAssertion>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+      </hashTree>
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++getLoanSschedule+++" enabled="true">
+        <collectionProp name="ultimatethreadgroupdata">
+          <collectionProp name="-2057303944">
+            <stringProp name="1217409903">${getLoanSschedule_Thread}</stringProp>
+            <stringProp name="0">0</stringProp>
+            <stringProp name="-762302580">${getLoanSschedule_RampUp}</stringProp>
+            <stringProp name="339887714">${getLoanSschedule_Steadystate}</stringProp>
+            <stringProp name="1850896357">${getLoanSschedule_RampDown}</stringProp>
+          </collectionProp>
+        </collectionProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <intProp name="LoopController.loops">-1</intProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+      </kg.apc.jmeter.threads.UltimateThreadGroup>
+      <hashTree>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="+++getLoanSschedule+++" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">false</boolProp>
+        </TransactionController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="+++getLoanSschedule+++" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">10.10.90.40</stringProp>
+            <stringProp name="HTTPSampler.port">9446</stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+            <stringProp name="HTTPSampler.path">/MDICORE/api/v3.0.0/holdings/arrangements/${Arrangement}/paymentSchedules</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
+              <collectionProp name="AuthManager.auth_list">
+                <elementProp name="" elementType="Authorization">
+                  <stringProp name="Authorization.url">https://10.10.90.40:9446/MDICORE/api/v3.0.0/holdings/arrangements</stringProp>
+                  <stringProp name="Authorization.username">INPUTT</stringProp>
+                  <stringProp name="Authorization.password">123456</stringProp>
+                  <stringProp name="Authorization.domain"></stringProp>
+                  <stringProp name="Authorization.realm"></stringProp>
+                </elementProp>
+              </collectionProp>
+              <boolProp name="AuthManager.controlledByThreadGroup">false</boolProp>
+            </AuthManager>
+            <hashTree/>
+            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+              <stringProp name="delimiter">,</stringProp>
+              <stringProp name="fileEncoding"></stringProp>
+              <stringProp name="filename">testData/input/core/Core_TestData_getLoanSchedule.csv</stringProp>
+              <boolProp name="ignoreFirstLine">true</boolProp>
+              <boolProp name="quotedData">false</boolProp>
+              <boolProp name="recycle">false</boolProp>
+              <stringProp name="shareMode">shareMode.all</stringProp>
+              <boolProp name="stopThread">true</boolProp>
+              <stringProp name="variableNames"></stringProp>
+            </CSVDataSet>
+            <hashTree/>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="companyId" elementType="Header">
+                  <stringProp name="Header.name">companyId</stringProp>
+                  <stringProp name="Header.value">EG0011001</stringProp>
+                </elementProp>
+                <elementProp name="Postman-Token" elementType="Header">
+                  <stringProp name="Header.name">Postman-Token</stringProp>
+                  <stringProp name="Header.value">165d0b28-c8b5-4556-931d-bffc075eae1b</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">PostmanRuntime/7.29.2</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">*/*</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSON Assertion" enabled="true">
+              <stringProp name="JSON_PATH">$..status</stringProp>
+              <stringProp name="EXPECTED_VALUE">success</stringProp>
+              <boolProp name="JSONVALIDATION">true</boolProp>
+              <boolProp name="EXPECT_NULL">false</boolProp>
+              <boolProp name="INVERT">false</boolProp>
+              <boolProp name="ISREGEX">true</boolProp>
+            </JSONPathAssertion>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+      </hashTree>
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="+++getEligibleProductsForCustomer+++" enabled="true">
+        <collectionProp name="ultimatethreadgroupdata">
+          <collectionProp name="1153993068">
+            <stringProp name="-1809786079">${getEligibleProductsForCustomer_Thread}</stringProp>
+            <stringProp name="48">0</stringProp>
+            <stringProp name="505468734">${getEligibleProductsForCustomer_RampUp}</stringProp>
+            <stringProp name="1965394448">${getEligibleProductsForCustomer_SteadyState}</stringProp>
+            <stringProp name="408417047">${getEligibleProductsForCustomer_RampDown}</stringProp>
+          </collectionProp>
+        </collectionProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <intProp name="LoopController.loops">-1</intProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+      </kg.apc.jmeter.threads.UltimateThreadGroup>
+      <hashTree>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="+++getEligibleProductsForCustomer+++" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">false</boolProp>
+        </TransactionController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="+++getEligibleProductsForCustomer+++" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">10.10.90.40</stringProp>
+            <stringProp name="HTTPSampler.port">9446</stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+            <stringProp name="HTTPSampler.path">/MDICORE/api/v1.0.0/product/customers/${Customer No}/eligibleProducts</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
+              <collectionProp name="AuthManager.auth_list">
+                <elementProp name="" elementType="Authorization">
+                  <stringProp name="Authorization.url">https://10.10.90.40:9446/MDICORE/api/v1.0.0/product/customers</stringProp>
+                  <stringProp name="Authorization.username">INPUTT</stringProp>
+                  <stringProp name="Authorization.password">123456</stringProp>
+                  <stringProp name="Authorization.domain"></stringProp>
+                  <stringProp name="Authorization.realm"></stringProp>
+                </elementProp>
+              </collectionProp>
+              <boolProp name="AuthManager.controlledByThreadGroup">false</boolProp>
+            </AuthManager>
+            <hashTree/>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="companyId" elementType="Header">
+                  <stringProp name="Header.name">companyId</stringProp>
+                  <stringProp name="Header.value">EG0011001</stringProp>
+                </elementProp>
+                <elementProp name="Postman-Token" elementType="Header">
+                  <stringProp name="Header.name">Postman-Token</stringProp>
+                  <stringProp name="Header.value">a746e02d-8c48-4bf4-919c-5dd8388f6249</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">PostmanRuntime/7.29.2</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">*/*</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+              <stringProp name="delimiter">,</stringProp>
+              <stringProp name="fileEncoding"></stringProp>
+              <stringProp name="filename">testData/input/core/Core_TestData_getEligibleProductsForCustomer.csv</stringProp>
+              <boolProp name="ignoreFirstLine">true</boolProp>
+              <boolProp name="quotedData">false</boolProp>
+              <boolProp name="recycle">false</boolProp>
+              <stringProp name="shareMode">shareMode.all</stringProp>
+              <boolProp name="stopThread">true</boolProp>
+              <stringProp name="variableNames">Customer No</stringProp>
+            </CSVDataSet>
+            <hashTree/>
+            <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSON Assertion" enabled="true">
+              <stringProp name="JSON_PATH">$..status</stringProp>
+              <stringProp name="EXPECTED_VALUE">success</stringProp>
+              <boolProp name="JSONVALIDATION">false</boolProp>
               <boolProp name="EXPECT_NULL">false</boolProp>
               <boolProp name="INVERT">false</boolProp>
               <boolProp name="ISREGEX">true</boolProp>
