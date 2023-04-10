@@ -61,6 +61,11 @@
             <stringProp name="Argument.metadata">=</stringProp>
             <stringProp name="Argument.desc">9066</stringProp>
           </elementProp>
+          <elementProp name="hardbinding_sit" elementType="Argument">
+            <stringProp name="Argument.name">hardbinding_sit</stringProp>
+            <stringProp name="Argument.value">hard-binding-simulator.sit.apps.openshift.dev.mdi</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
           <elementProp name="hardbinding_dev" elementType="Argument">
             <stringProp name="Argument.name">hardbinding_dev</stringProp>
             <stringProp name="Argument.value">hard-binding-simulator.dev.apps.openshift.dev.mdi</stringProp>
@@ -75,11 +80,6 @@
           <elementProp name="port_sit" elementType="Argument">
             <stringProp name="Argument.name">port_sit</stringProp>
             <stringProp name="Argument.value">9066</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="hardbinding_sit" elementType="Argument">
-            <stringProp name="Argument.name">hardbinding_sit</stringProp>
-            <stringProp name="Argument.value">hard-binding-simulator.sit.apps.openshift.dev.mdi</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -132,8 +132,8 @@
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${hardbinding_dev}</stringProp>
-            <stringProp name="HTTPSampler.port">${port_dev}</stringProp>
+            <stringProp name="HTTPSampler.domain">${hardbinding_sit}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol">http</stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
             <stringProp name="HTTPSampler.path">/domain/v1/hard-binding-simulator/do-hard-binding</stringProp>
@@ -193,7 +193,7 @@
             <hashTree/>
             <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="publicKey JSON Extractor" enabled="true">
               <stringProp name="JSONPostProcessor.referenceNames">publicKey</stringProp>
-              <stringProp name="JSONPostProcessor.jsonPathExprs">$..publicKey</stringProp>
+              <stringProp name="JSONPostProcessor.jsonPathExprs">$..diffieHellmanPublicKey</stringProp>
               <stringProp name="JSONPostProcessor.match_numbers">1</stringProp>
               <stringProp name="JSONPostProcessor.defaultValues">NOT_FOUND</stringProp>
             </JSONPostProcessor>
@@ -223,8 +223,8 @@
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${hardbinding_dev}</stringProp>
-            <stringProp name="HTTPSampler.port">${port_dev}</stringProp>
+            <stringProp name="HTTPSampler.domain">${hardbinding_sit}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol">http</stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
             <stringProp name="HTTPSampler.path">/domain/v1/hard-binding-simulator/encrypt-timestamp</stringProp>
@@ -364,8 +364,8 @@ fileWriter.close();
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
-            <stringProp name="HTTPSampler.port">${port}</stringProp>
+            <stringProp name="HTTPSampler.domain">${host_sit}</stringProp>
+            <stringProp name="HTTPSampler.port">${port_sit}</stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
             <stringProp name="HTTPSampler.path">/api/v1/customer-management/customers</stringProp>
@@ -523,7 +523,7 @@ fileWriter.close();
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="RegisterUser" enabled="false">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="RegisterUser" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">true</boolProp>
         </TransactionController>
@@ -544,8 +544,8 @@ fileWriter.close();
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
-            <stringProp name="HTTPSampler.port">${port}</stringProp>
+            <stringProp name="HTTPSampler.domain">${host_sit}</stringProp>
+            <stringProp name="HTTPSampler.port">${port_sit}</stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
             <stringProp name="HTTPSampler.path">/api/v1/customer-management/customers/register</stringProp>
@@ -634,7 +634,7 @@ fileWriter.close();
             <hashTree/>
           </hashTree>
         </hashTree>
-        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If User Registered Successfully " enabled="false">
+        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If User Registered Successfully " enabled="true">
           <stringProp name="IfController.condition">${JMeterThread.last_sample_ok}</stringProp>
           <boolProp name="IfController.evaluateAll">false</boolProp>
           <boolProp name="IfController.useExpression">true</boolProp>
@@ -659,8 +659,8 @@ fileWriter.close();
                   </elementProp>
                 </collectionProp>
               </elementProp>
-              <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
-              <stringProp name="HTTPSampler.port">${port}</stringProp>
+              <stringProp name="HTTPSampler.domain">${host_sit}</stringProp>
+              <stringProp name="HTTPSampler.port">${port_sit}</stringProp>
               <stringProp name="HTTPSampler.protocol"></stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oauth5/dynamic/ropc</stringProp>
@@ -785,8 +785,8 @@ fileWriter.close();
                   </elementProp>
                 </collectionProp>
               </elementProp>
-              <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
-              <stringProp name="HTTPSampler.port">${port}</stringProp>
+              <stringProp name="HTTPSampler.domain">${host_sit}</stringProp>
+              <stringProp name="HTTPSampler.port">${port_sit}</stringProp>
               <stringProp name="HTTPSampler.protocol"></stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/api/v1/process-workflow/customer/onboarding/start</stringProp>
@@ -894,8 +894,8 @@ fileWriter.close();
                   </elementProp>
                 </collectionProp>
               </elementProp>
-              <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
-              <stringProp name="HTTPSampler.port">${port}</stringProp>
+              <stringProp name="HTTPSampler.domain">${host_sit}</stringProp>
+              <stringProp name="HTTPSampler.port">${port_sit}</stringProp>
               <stringProp name="HTTPSampler.protocol"></stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/api/v1/process-workflow/customer/onboarding/continue</stringProp>
@@ -990,8 +990,8 @@ fileWriter.close();
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
-              <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
-              <stringProp name="HTTPSampler.port">${port}</stringProp>
+              <stringProp name="HTTPSampler.domain">${host_sit}</stringProp>
+              <stringProp name="HTTPSampler.port">${port_sit}</stringProp>
               <stringProp name="HTTPSampler.protocol"></stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/api/v1/process-workflow/customer/status/check</stringProp>
@@ -1062,8 +1062,8 @@ fileWriter.close();
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
-              <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
-              <stringProp name="HTTPSampler.port">${port}</stringProp>
+              <stringProp name="HTTPSampler.domain">${host_sit}</stringProp>
+              <stringProp name="HTTPSampler.port">${port_sit}</stringProp>
               <stringProp name="HTTPSampler.protocol"></stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/api/v1/products/customer/product</stringProp>
@@ -1141,8 +1141,8 @@ fileWriter.close();
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
-              <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
-              <stringProp name="HTTPSampler.port">${port}</stringProp>
+              <stringProp name="HTTPSampler.domain">${host_sit}</stringProp>
+              <stringProp name="HTTPSampler.port">${port_sit}</stringProp>
               <stringProp name="HTTPSampler.protocol"></stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oauth5/logout</stringProp>
@@ -1361,8 +1361,8 @@ fileWriter.close();
                   </elementProp>
                 </collectionProp>
               </elementProp>
-              <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
-              <stringProp name="HTTPSampler.port">${port}</stringProp>
+              <stringProp name="HTTPSampler.domain">${host_sit}</stringProp>
+              <stringProp name="HTTPSampler.port">${port_sit}</stringProp>
               <stringProp name="HTTPSampler.protocol"></stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/api/v1/process-workflow/card/order</stringProp>
@@ -1447,8 +1447,8 @@ fileWriter.close();
                   </elementProp>
                 </collectionProp>
               </elementProp>
-              <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
-              <stringProp name="HTTPSampler.port">${port}</stringProp>
+              <stringProp name="HTTPSampler.domain">${host_sit}</stringProp>
+              <stringProp name="HTTPSampler.port">${port_sit}</stringProp>
               <stringProp name="HTTPSampler.protocol"></stringProp>
               <stringProp name="HTTPSampler.contentEncoding"></stringProp>
               <stringProp name="HTTPSampler.path">/api/v1/process-workflow/online-card/order</stringProp>
@@ -1531,8 +1531,8 @@ fileWriter.close();
                   </elementProp>
                 </collectionProp>
               </elementProp>
-              <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
-              <stringProp name="HTTPSampler.port">${port}</stringProp>
+              <stringProp name="HTTPSampler.domain">${host_sit}</stringProp>
+              <stringProp name="HTTPSampler.port">${port_sit}</stringProp>
               <stringProp name="HTTPSampler.protocol"></stringProp>
               <stringProp name="HTTPSampler.contentEncoding"></stringProp>
               <stringProp name="HTTPSampler.path">/api/v1/process-workflow/service-requerst/cards/customer/prepaid-card/close</stringProp>
@@ -1694,7 +1694,7 @@ fileWriter.close();
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+            <stringProp name="HTTPSampler.domain">${host_sit}</stringProp>
             <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -1789,7 +1789,7 @@ fileWriter.close();
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+            <stringProp name="HTTPSampler.domain">${host_sit}</stringProp>
             <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -1920,7 +1920,7 @@ fileWriter.close();
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+            <stringProp name="HTTPSampler.domain">${host_sit}</stringProp>
             <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -2129,7 +2129,7 @@ fileWriter.close();
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+            <stringProp name="HTTPSampler.domain">${host_sit}</stringProp>
             <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -2224,7 +2224,7 @@ fileWriter.close();
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+            <stringProp name="HTTPSampler.domain">${host_sit}</stringProp>
             <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -2381,7 +2381,7 @@ fileWriter.close();
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+            <stringProp name="HTTPSampler.domain">${host_sit}</stringProp>
             <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -2467,7 +2467,7 @@ fileWriter.close();
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+            <stringProp name="HTTPSampler.domain">${host_sit}</stringProp>
             <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -2551,7 +2551,7 @@ fileWriter.close();
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+            <stringProp name="HTTPSampler.domain">${host_sit}</stringProp>
             <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -2639,7 +2639,7 @@ fileWriter.close();
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+            <stringProp name="HTTPSampler.domain">${host_sit}</stringProp>
             <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -2825,6 +2825,43 @@ fileWriter.close();
         <stringProp name="ProxyControlGui.content_type_include"></stringProp>
         <stringProp name="ProxyControlGui.content_type_exclude"></stringProp>
       </ProxyControl>
+      <hashTree/>
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
       <hashTree/>
     </hashTree>
   </hashTree>

@@ -13,9 +13,10 @@
     <hashTree>
       <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
         <collectionProp name="Arguments.arguments">
-          <elementProp name="host" elementType="Argument">
-            <stringProp name="Argument.name">host</stringProp>
-            <stringProp name="Argument.value">www.example.com</stringProp>
+          <elementProp name="" elementType="Argument">
+            <stringProp name="Argument.name"></stringProp>
+            <stringProp name="Argument.value">Dev_Env</stringProp>
+            <stringProp name="Argument.desc">SIT</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="scheme" elementType="Argument">
@@ -46,6 +47,39 @@
           <elementProp name="publicKey" elementType="Argument">
             <stringProp name="Argument.name">publicKey</stringProp>
             <stringProp name="Argument.value">MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEL0yggG9ba+xuEdWfrF6ZIR3uLKJnl/6CcDz5uiqm8AJVZub2Lw+RCEireWejgDLQBzX2c8dqQOj8H/H5dRc+QA== </stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="host_dev" elementType="Argument">
+            <stringProp name="Argument.name">host_dev</stringProp>
+            <stringProp name="Argument.value">apigee.dev.apps.apigee.dev.mdi</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.desc">apigee02.sit.apps.apigee.dev.mdi</stringProp>
+          </elementProp>
+          <elementProp name="port_dev" elementType="Argument">
+            <stringProp name="Argument.name">port_dev</stringProp>
+            <stringProp name="Argument.value">9006</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.desc">9066</stringProp>
+          </elementProp>
+          <elementProp name="hardbinding_dev" elementType="Argument">
+            <stringProp name="Argument.name">hardbinding_dev</stringProp>
+            <stringProp name="Argument.value">hard-binding-simulator.dev.apps.openshift.dev.mdi</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.desc">hard-binding-simulator.sit.apps.openshift.dev.mdi</stringProp>
+          </elementProp>
+          <elementProp name="host_sit" elementType="Argument">
+            <stringProp name="Argument.name">host_sit</stringProp>
+            <stringProp name="Argument.value">apigee02.sit.apps.apigee.dev.mdi</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="port_sit" elementType="Argument">
+            <stringProp name="Argument.name">port_sit</stringProp>
+            <stringProp name="Argument.value">9066</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="hardbinding_sit" elementType="Argument">
+            <stringProp name="Argument.name">hardbinding_sit</stringProp>
+            <stringProp name="Argument.value">hard-binding-simulator.sit.apps.openshift.dev.mdi</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -98,8 +132,8 @@
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">hard-binding-simulator.sit.apps.openshift.dev.mdi</stringProp>
-            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.domain">${hardbinding_sit}</stringProp>
+            <stringProp name="HTTPSampler.port">${port_dev}</stringProp>
             <stringProp name="HTTPSampler.protocol">http</stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
             <stringProp name="HTTPSampler.path">/domain/v1/hard-binding-simulator/do-hard-binding</stringProp>
@@ -189,8 +223,8 @@
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">hard-binding-simulator.sit.apps.openshift.dev.mdi</stringProp>
-            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.domain">${hardbinding_sit}</stringProp>
+            <stringProp name="HTTPSampler.port">${port_dev}</stringProp>
             <stringProp name="HTTPSampler.protocol">http</stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
             <stringProp name="HTTPSampler.path">/domain/v1/hard-binding-simulator/encrypt-timestamp</stringProp>
@@ -330,8 +364,8 @@ fileWriter.close();
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">apigee02.sit.apps.apigee.dev.mdi</stringProp>
-            <stringProp name="HTTPSampler.port">9066</stringProp>
+            <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
             <stringProp name="HTTPSampler.path">/api/v1/customer-management/customers</stringProp>
@@ -435,17 +469,17 @@ fileWriter.close();
               <boolProp name="ISREGEX">true</boolProp>
             </JSONPathAssertion>
             <hashTree/>
-            <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="JSR223 PostProcessor" enabled="false">
+            <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="JSR223 PostProcessor" enabled="true">
               <stringProp name="cacheKey">true</stringProp>
               <stringProp name="filename"></stringProp>
               <stringProp name="parameters"></stringProp>
               <stringProp name="script">//Default separator
 char SEPARATOR = &apos;,&apos;;
 
-String csvFile = &quot;onBoarded_Params.csv&quot;
+String csvFile = &quot;onBoarded_Params_IVR_dev.csv&quot;
 
 
-def params = [vars.get(&quot;randomName&quot;).toString(),vars.get(&quot;password&quot;).toString(),vars.get(&quot;clientId&quot;).toString(),vars.get(&quot;secretKey&quot;).toString(),vars.get(&quot;accessToken&quot;).toString(),vars.get(&quot;publicKey&quot;).toString(),vars.get(&quot;jws&quot;).toString(),vars.get(&quot;encryptedTimestamp&quot;).toString(),vars.get(&quot;deviceUUID&quot;).toString()];
+def params = [vars.get(&quot;randomName&quot;).toString(),vars.get(&quot;password&quot;).toString(),vars.get(&quot;clientId&quot;).toString(),vars.get(&quot;secretKey&quot;).toString(),vars.get(&quot;accessToken&quot;).toString(),vars.get(&quot;publicKey&quot;).toString(),vars.get(&quot;jws&quot;).toString(),vars.get(&quot;encryptedTimestamp&quot;).toString(),vars.get(&quot;deviceUUID&quot;).toString(),vars.get(&quot;randomMobile&quot;).toString()];
 
 //function write line in csv
 def writeLine(FileWriter writer, List&lt;String&gt; parameters, char separator) throws IOException {
@@ -510,8 +544,8 @@ fileWriter.close();
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">apigee02.sit.apps.apigee.dev.mdi</stringProp>
-            <stringProp name="HTTPSampler.port">9066</stringProp>
+            <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
             <stringProp name="HTTPSampler.path">/api/v1/customer-management/customers/register</stringProp>
@@ -625,8 +659,8 @@ fileWriter.close();
                   </elementProp>
                 </collectionProp>
               </elementProp>
-              <stringProp name="HTTPSampler.domain">apigee02.sit.apps.apigee.dev.mdi</stringProp>
-              <stringProp name="HTTPSampler.port">9066</stringProp>
+              <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol"></stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oauth5/dynamic/ropc</stringProp>
@@ -751,8 +785,8 @@ fileWriter.close();
                   </elementProp>
                 </collectionProp>
               </elementProp>
-              <stringProp name="HTTPSampler.domain">apigee02.sit.apps.apigee.dev.mdi</stringProp>
-              <stringProp name="HTTPSampler.port">9066</stringProp>
+              <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol"></stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/api/v1/process-workflow/customer/onboarding/start</stringProp>
@@ -860,8 +894,8 @@ fileWriter.close();
                   </elementProp>
                 </collectionProp>
               </elementProp>
-              <stringProp name="HTTPSampler.domain">apigee02.sit.apps.apigee.dev.mdi</stringProp>
-              <stringProp name="HTTPSampler.port">9066</stringProp>
+              <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol"></stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/api/v1/process-workflow/customer/onboarding/continue</stringProp>
@@ -956,8 +990,8 @@ fileWriter.close();
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
-              <stringProp name="HTTPSampler.domain">apigee02.sit.apps.apigee.dev.mdi</stringProp>
-              <stringProp name="HTTPSampler.port">9066</stringProp>
+              <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol"></stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/api/v1/process-workflow/customer/status/check</stringProp>
@@ -1028,8 +1062,8 @@ fileWriter.close();
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
-              <stringProp name="HTTPSampler.domain">apigee02.sit.apps.apigee.dev.mdi</stringProp>
-              <stringProp name="HTTPSampler.port">9066</stringProp>
+              <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol"></stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/api/v1/products/customer/product</stringProp>
@@ -1107,8 +1141,8 @@ fileWriter.close();
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
-              <stringProp name="HTTPSampler.domain">apigee02.sit.apps.apigee.dev.mdi</stringProp>
-              <stringProp name="HTTPSampler.port">9066</stringProp>
+              <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol"></stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oauth5/logout</stringProp>
@@ -1327,8 +1361,8 @@ fileWriter.close();
                   </elementProp>
                 </collectionProp>
               </elementProp>
-              <stringProp name="HTTPSampler.domain">apigee02.sit.apps.apigee.dev.mdi</stringProp>
-              <stringProp name="HTTPSampler.port">9066</stringProp>
+              <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol"></stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/api/v1/process-workflow/card/order</stringProp>
@@ -1413,8 +1447,8 @@ fileWriter.close();
                   </elementProp>
                 </collectionProp>
               </elementProp>
-              <stringProp name="HTTPSampler.domain">apigee02.sit.apps.apigee.dev.mdi</stringProp>
-              <stringProp name="HTTPSampler.port">9066</stringProp>
+              <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol"></stringProp>
               <stringProp name="HTTPSampler.contentEncoding"></stringProp>
               <stringProp name="HTTPSampler.path">/api/v1/process-workflow/online-card/order</stringProp>
@@ -1497,8 +1531,8 @@ fileWriter.close();
                   </elementProp>
                 </collectionProp>
               </elementProp>
-              <stringProp name="HTTPSampler.domain">apigee02.sit.apps.apigee.dev.mdi</stringProp>
-              <stringProp name="HTTPSampler.port">9066</stringProp>
+              <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol"></stringProp>
               <stringProp name="HTTPSampler.contentEncoding"></stringProp>
               <stringProp name="HTTPSampler.path">/api/v1/process-workflow/service-requerst/cards/customer/prepaid-card/close</stringProp>
@@ -1660,8 +1694,8 @@ fileWriter.close();
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">apigee02.sit.apps.apigee.dev.mdi</stringProp>
-            <stringProp name="HTTPSampler.port">9066</stringProp>
+            <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
             <stringProp name="HTTPSampler.path">/oauth5/dynamic/ropc</stringProp>
@@ -1755,8 +1789,8 @@ fileWriter.close();
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">apigee02.sit.apps.apigee.dev.mdi</stringProp>
-            <stringProp name="HTTPSampler.port">9066</stringProp>
+            <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
             <stringProp name="HTTPSampler.path">/api/v1/products/customer/product</stringProp>
@@ -1886,8 +1920,8 @@ fileWriter.close();
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">apigee02.sit.apps.apigee.dev.mdi</stringProp>
-            <stringProp name="HTTPSampler.port">9066</stringProp>
+            <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
             <stringProp name="HTTPSampler.path">/oauth5/logout</stringProp>
@@ -2095,8 +2129,8 @@ fileWriter.close();
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">apigee02.sit.apps.apigee.dev.mdi</stringProp>
-            <stringProp name="HTTPSampler.port">9066</stringProp>
+            <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
             <stringProp name="HTTPSampler.path">/oauth5/dynamic/ropc</stringProp>
@@ -2190,8 +2224,8 @@ fileWriter.close();
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">apigee02.sit.apps.apigee.dev.mdi</stringProp>
-            <stringProp name="HTTPSampler.port">9066</stringProp>
+            <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
             <stringProp name="HTTPSampler.path">/api/v1/products/customer/product</stringProp>
@@ -2347,8 +2381,8 @@ fileWriter.close();
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">apigee02.sit.apps.apigee.dev.mdi</stringProp>
-            <stringProp name="HTTPSampler.port">9066</stringProp>
+            <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
             <stringProp name="HTTPSampler.path">/api/v1/process-workflow/card/order</stringProp>
@@ -2433,8 +2467,8 @@ fileWriter.close();
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">apigee02.sit.apps.apigee.dev.mdi</stringProp>
-            <stringProp name="HTTPSampler.port">9066</stringProp>
+            <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
             <stringProp name="HTTPSampler.path">/api/v1/process-workflow/online-card/order</stringProp>
@@ -2496,12 +2530,12 @@ fileWriter.close();
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Close Card" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Close Online Card" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">true</boolProp>
         </TransactionController>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/api/v1/process-workflow/service-requerst/cards/customer/prepaid-card/close-2" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Close Online Card _/api/v1/process-workflow/service-requerst/cards/customer/prepaid-card/close-1" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
               <collectionProp name="Arguments.arguments">
@@ -2517,8 +2551,8 @@ fileWriter.close();
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">apigee02.sit.apps.apigee.dev.mdi</stringProp>
-            <stringProp name="HTTPSampler.port">9066</stringProp>
+            <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
             <stringProp name="HTTPSampler.path">/api/v1/process-workflow/service-requerst/cards/customer/prepaid-card/close</stringProp>
@@ -2540,11 +2574,11 @@ fileWriter.close();
                 </elementProp>
                 <elementProp name="Postman-Token" elementType="Header">
                   <stringProp name="Header.name">Postman-Token</stringProp>
-                  <stringProp name="Header.value">ce7e7cd1-f737-47ee-bb6d-77af900e7612</stringProp>
+                  <stringProp name="Header.value">d8bb425e-82cc-440d-8f59-0843e007865b</stringProp>
                 </elementProp>
                 <elementProp name="X-Correlation-Id" elementType="Header">
                   <stringProp name="Header.name">X-Correlation-Id</stringProp>
-                  <stringProp name="Header.value">${guid}</stringProp>
+                  <stringProp name="Header.value">620dcb5c-9506-4a5f-bb12-b95cfd9d500b</stringProp>
                 </elementProp>
                 <elementProp name="Content-Type" elementType="Header">
                   <stringProp name="Header.name">Content-Type</stringProp>
@@ -2574,10 +2608,10 @@ fileWriter.close();
             </HeaderManager>
             <hashTree/>
             <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CloseCard card details -CSV Data Set Config" enabled="true">
-              <stringProp name="filename">testData/input/Mobile/Mobile_TestData_CloseCard.csv</stringProp>
+              <stringProp name="filename">testData/input/Mobile/Mobile_TestData_CloseOnlineCard.csv</stringProp>
               <stringProp name="fileEncoding"></stringProp>
               <stringProp name="variableNames">vPan,destinationAccount</stringProp>
-              <boolProp name="ignoreFirstLine">false</boolProp>
+              <boolProp name="ignoreFirstLine">true</boolProp>
               <stringProp name="delimiter">,</stringProp>
               <boolProp name="quotedData">false</boolProp>
               <boolProp name="recycle">true</boolProp>
@@ -2605,8 +2639,8 @@ fileWriter.close();
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">apigee02.sit.apps.apigee.dev.mdi</stringProp>
-            <stringProp name="HTTPSampler.port">9066</stringProp>
+            <stringProp name="HTTPSampler.domain">${host_dev}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
             <stringProp name="HTTPSampler.path">/oauth5/logout</stringProp>
@@ -2731,106 +2765,6 @@ fileWriter.close();
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Close Online Card" enabled="true">
-          <boolProp name="TransactionController.includeTimers">false</boolProp>
-          <boolProp name="TransactionController.parent">true</boolProp>
-        </TransactionController>
-        <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Close Online Card _/api/v1/process-workflow/service-requerst/cards/customer/prepaid-card/close-1" enabled="true">
-            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
-              <collectionProp name="Arguments.arguments">
-                <elementProp name="" elementType="HTTPArgument">
-                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">    {&#xd;
-    &quot;cardIdentifier&quot;: {&#xd;
-        &quot;vPan&quot;: &quot;${vPan}&quot;&#xd;
-    },&#xd;
-    &quot;destinationAccount&quot;: &quot;${destinationAccount}&quot;&#xd;
-}</stringProp>
-                  <stringProp name="Argument.metadata">=</stringProp>
-                </elementProp>
-              </collectionProp>
-            </elementProp>
-            <stringProp name="HTTPSampler.domain">apigee02.sit.apps.apigee.dev.mdi</stringProp>
-            <stringProp name="HTTPSampler.port">9066</stringProp>
-            <stringProp name="HTTPSampler.protocol"></stringProp>
-            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/api/v1/process-workflow/service-requerst/cards/customer/prepaid-card/close</stringProp>
-            <stringProp name="HTTPSampler.method">POST</stringProp>
-            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-            <stringProp name="HTTPSampler.response_timeout"></stringProp>
-          </HTTPSamplerProxy>
-          <hashTree>
-            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
-              <collectionProp name="HeaderManager.headers">
-                <elementProp name="Authorization" elementType="Header">
-                  <stringProp name="Header.name">Authorization</stringProp>
-                  <stringProp name="Header.value">Bearer ${opaque_token}</stringProp>
-                </elementProp>
-                <elementProp name="Postman-Token" elementType="Header">
-                  <stringProp name="Header.name">Postman-Token</stringProp>
-                  <stringProp name="Header.value">d8bb425e-82cc-440d-8f59-0843e007865b</stringProp>
-                </elementProp>
-                <elementProp name="X-Correlation-Id" elementType="Header">
-                  <stringProp name="Header.name">X-Correlation-Id</stringProp>
-                  <stringProp name="Header.value">620dcb5c-9506-4a5f-bb12-b95cfd9d500b</stringProp>
-                </elementProp>
-                <elementProp name="Content-Type" elementType="Header">
-                  <stringProp name="Header.name">Content-Type</stringProp>
-                  <stringProp name="Header.value">Application/json</stringProp>
-                </elementProp>
-                <elementProp name="PKey" elementType="Header">
-                  <stringProp name="Header.name">PKey</stringProp>
-                  <stringProp name="Header.value">${publicKey}</stringProp>
-                </elementProp>
-                <elementProp name="Accept-Encoding" elementType="Header">
-                  <stringProp name="Header.name">Accept-Encoding</stringProp>
-                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
-                </elementProp>
-                <elementProp name="User-Agent" elementType="Header">
-                  <stringProp name="Header.name">User-Agent</stringProp>
-                  <stringProp name="Header.value">postman</stringProp>
-                </elementProp>
-                <elementProp name="Accept" elementType="Header">
-                  <stringProp name="Header.name">Accept</stringProp>
-                  <stringProp name="Header.value">Application/json</stringProp>
-                </elementProp>
-                <elementProp name="TS" elementType="Header">
-                  <stringProp name="Header.name">TS</stringProp>
-                  <stringProp name="Header.value">${encryptedTimestamp}</stringProp>
-                </elementProp>
-              </collectionProp>
-            </HeaderManager>
-            <hashTree/>
-            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CloseCard card details -CSV Data Set Config" enabled="true">
-              <stringProp name="filename">testData/input/Mobile/Mobile_TestData_CloseOnlineCard.csv</stringProp>
-              <stringProp name="fileEncoding"></stringProp>
-              <stringProp name="variableNames">vPan,destinationAccount</stringProp>
-              <boolProp name="ignoreFirstLine">true</boolProp>
-              <stringProp name="delimiter">,</stringProp>
-              <boolProp name="quotedData">false</boolProp>
-              <boolProp name="recycle">true</boolProp>
-              <boolProp name="stopThread">false</boolProp>
-              <stringProp name="shareMode">shareMode.all</stringProp>
-            </CSVDataSet>
-            <hashTree/>
-            <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSON Assertion" enabled="true">
-              <stringProp name="JSON_PATH">$.message</stringProp>
-              <stringProp name="EXPECTED_VALUE">your physical card is pending embossing</stringProp>
-              <boolProp name="JSONVALIDATION">true</boolProp>
-              <boolProp name="EXPECT_NULL">false</boolProp>
-              <boolProp name="INVERT">false</boolProp>
-              <boolProp name="ISREGEX">true</boolProp>
-            </JSONPathAssertion>
-            <hashTree/>
-          </hashTree>
-        </hashTree>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
@@ -2869,7 +2803,7 @@ fileWriter.close();
         </ResultCollector>
         <hashTree/>
       </hashTree>
-      <ProxyControl guiclass="ProxyControlGui" testclass="ProxyControl" testname="HTTP(S) Test Script Recorder" enabled="true">
+      <ProxyControl guiclass="ProxyControlGui" testclass="ProxyControl" testname="HTTP(S) Test Script Recorder" enabled="false">
         <stringProp name="ProxyControlGui.port">8888</stringProp>
         <collectionProp name="ProxyControlGui.exclude_list"/>
         <collectionProp name="ProxyControlGui.include_list"/>
@@ -2891,6 +2825,43 @@ fileWriter.close();
         <stringProp name="ProxyControlGui.content_type_include"></stringProp>
         <stringProp name="ProxyControlGui.content_type_exclude"></stringProp>
       </ProxyControl>
+      <hashTree/>
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
       <hashTree/>
     </hashTree>
   </hashTree>
