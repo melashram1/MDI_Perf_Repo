@@ -2112,4 +2112,1838 @@ Accept: */*
 </samplerData>
 </sample>
 
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="beacons4.gvt2.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT beacons4.gvt2.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="mail.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT mail.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="mail.google.com:443" rc="" rm="An established connection was aborted by the software in your host machine&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1565" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT mail.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="beacons4.gvt2.com:443" rc="" rm="An established connection was aborted by the software in your host machine&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1565" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT beacons4.gvt2.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="signaler-pa.clients6.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT signaler-pa.clients6.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="signaler-pa.clients6.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT signaler-pa.clients6.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="mail.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT mail.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="signaler-pa.clients6.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT signaler-pa.clients6.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="signaler-pa.clients6.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT signaler-pa.clients6.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="mail.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT mail.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="An established connection was aborted by the software in your host machine&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1565" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="outlook.office365.com:443" rc="" rm="An established connection was aborted by the software in your host machine&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="2406" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT outlook.office365.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="signaler-pa.clients6.google.com:443" rc="" rm="An established connection was aborted by the software in your host machine&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1565" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT signaler-pa.clients6.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="odoo.qcentriseg.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT odoo.qcentriseg.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="signaler-pa.clients6.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT signaler-pa.clients6.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="mail.google.com:443" rc="" rm="An established connection was aborted by the software in your host machine&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1565" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT mail.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="eu-mobile.events.data.microsoft.com:443" rc="" rm="Remote host terminated the handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1490" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT eu-mobile.events.data.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="euc-excel-telemetry.officeapps.live.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT euc-excel-telemetry.officeapps.live.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="signaler-pa.clients6.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT signaler-pa.clients6.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="teams.microsoft.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT teams.microsoft.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="signaler-pa.clients6.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT signaler-pa.clients6.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="play.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT play.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="statics.teams.cdn.office.net:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT statics.teams.cdn.office.net:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="mail.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT mail.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="eu-teams.events.data.microsoft.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT eu-teams.events.data.microsoft.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="odoo.qcentriseg.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT odoo.qcentriseg.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="mail.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT mail.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="play.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT play.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="mail.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT mail.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="mail.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT mail.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="mail.google.com:443" rc="" rm="An established connection was aborted by the software in your host machine&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1565" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT mail.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="chat.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT chat.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="eu-teams.events.data.microsoft.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT eu-teams.events.data.microsoft.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="odoo.qcentriseg.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT odoo.qcentriseg.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="signaler-pa.clients6.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT signaler-pa.clients6.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="mail.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT mail.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="eu-mobile.events.data.microsoft.com:443" rc="" rm="Remote host terminated the handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1490" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT eu-mobile.events.data.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.youtube.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.youtube.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.youtube.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.youtube.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.youtube.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.youtube.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="teams.microsoft.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT teams.microsoft.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="statics.teams.cdn.office.net:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT statics.teams.cdn.office.net:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.linkedin.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.linkedin.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="eu-mobile.events.data.microsoft.com:443" rc="" rm="Remote host terminated the handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1490" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT eu-mobile.events.data.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="mail.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT mail.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="teams.microsoft.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT teams.microsoft.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="play.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT play.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="teams.microsoft.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT teams.microsoft.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="teams.microsoft.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT teams.microsoft.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="teams.microsoft.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT teams.microsoft.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="odoo.qcentriseg.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT odoo.qcentriseg.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="eu-mobile.events.data.microsoft.com:443" rc="" rm="Remote host terminated the handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1490" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT eu-mobile.events.data.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="teams.microsoft.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT teams.microsoft.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="statics.teams.cdn.office.net:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT statics.teams.cdn.office.net:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="teams.microsoft.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT teams.microsoft.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="mail.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT mail.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="eu-mobile.events.data.microsoft.com:443" rc="" rm="Remote host terminated the handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1490" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT eu-mobile.events.data.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="chat.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT chat.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="teams.microsoft.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT teams.microsoft.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="mail.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT mail.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="odoo.qcentriseg.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT odoo.qcentriseg.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="1328" it="0" lt="1326" ct="629" ts="1681816555213" s="true" lb=" New Prepaid Card Creation-1" rc="200" rm="OK" tn="" dt="text" de="" by="2687" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+X-Powered-By: Servlet/3.1
+Server-Timing: intid;desc=356c92b33a1664e5
+Content-Type: application/json
+Content-Length: 2462
+Content-Language: en-US
+Connection: Close
+Date: Tue, 18 Apr 2023 11:15:55 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Postman-Token: c92dcdf8-82fd-4afa-9477-ff7956045e93
+Host: 10.10.90.70:9443
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br
+User-Agent: PostmanRuntime/7.29.2
+Accept: */*
+Content-Length: 4623
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;ResponseHeader&quot;:{&quot;Version&quot;:&quot;1.0.0&quot;,&quot;MsgUid&quot;:&quot;ccd31e0b-3355-431f-90f8-a90bc47191a5&quot;,&quot;Source&quot;:&quot;Mobile&quot;,&quot;ServiceId&quot;:&quot;Issuance&quot;,&quot;ReqDateTime&quot;:&quot;2021-09-16T15:17:59.780Z&quot;,&quot;RspDateTime&quot;:1681816556372,&quot;ResponseCode&quot;:&quot;000&quot;,&quot;ResponseType&quot;:&quot;Success&quot;,&quot;ProcessingTime&quot;:309,&quot;EncryptionKey&quot;:null,&quot;ResponseDescription&quot;:&quot;Operation Successful&quot;,&quot;LocalizedResponseDescription&quot;:null,&quot;CustomerSpecificResponseDescriptionList&quot;:null,&quot;HeaderUserDataList&quot;:null},&quot;IssuerDirectivesResponseDetails&quot;:{&quot;CustomerDetails&quot;:{&quot;CustomerCode&quot;:&quot;123456789&quot;,&quot;IdNumber&quot;:&quot;1000000123&quot;,&quot;TypeId&quot;:0,&quot;PreferredLanguage&quot;:&quot;EN&quot;,&quot;ExternalCustomerCode&quot;:&quot;123456789&quot;,&quot;Title&quot;:&quot;MR&quot;,&quot;FirstName&quot;:&quot;TEST FIRST&quot;,&quot;LastName&quot;:&quot;TEST LAST&quot;,&quot;DateOfBirth&quot;:590371200000,&quot;UserData1&quot;:&quot;MDI SPECIFIC&quot;,&quot;UserData2&quot;:&quot;MDI SPECIFIC&quot;,&quot;UserData3&quot;:&quot;MDI SPECIFIC&quot;,&quot;UserData4&quot;:&quot;MDI SPECIFIC&quot;,&quot;CustomerSegment&quot;:null},&quot;AccountDetailsList&quot;:[{&quot;InstitutionCode&quot;:&quot;MDI&quot;,&quot;AccountNumber&quot;:&quot;908180004959&quot;,&quot;Currency&quot;:{&quot;CurrCode&quot;:&quot;818&quot;,&quot;AlphaCode&quot;:&quot;EGP&quot;},&quot;AccountTypeCode&quot;:&quot;90&quot;,&quot;ClassId&quot;:&quot;1&quot;,&quot;AccountStatus&quot;:&quot;00&quot;,&quot;VipFlag&quot;:&quot;0&quot;,&quot;BlockedAmount&quot;:0,&quot;EquivalentBlockedAmount&quot;:null,&quot;UnclearCredit&quot;:0,&quot;EquivalentUnclearCredit&quot;:null,&quot;AvailableBalance&quot;:0,&quot;EquivalentAvailableBalance&quot;:null,&quot;AvailableBalanceToSpend&quot;:0,&quot;CreditLimit&quot;:0,&quot;RemainingCashLimit&quot;:null,&quot;UserData1&quot;:null,&quot;UserData2&quot;:null,&quot;UserData3&quot;:null,&quot;UserData4&quot;:null,&quot;UserData5&quot;:null}],&quot;CardDetailsList&quot;:[{&quot;CardDetails&quot;:{&quot;pvv&quot;:null,&quot;ResponseCardIdentifier&quot;:{&quot;Pan&quot;:&quot;D261835DEDD4272390A&quot;,&quot;MaskedPan&quot;:&quot;489304_9972&quot;,&quot;VPan&quot;:&quot;2000000000005017&quot;,&quot;Seqno&quot;:0},&quot;ExpiryDate&quot;:1690761600000,&quot;EffectiveDate&quot;:1681816556109,&quot;CardStatus&quot;:&quot;10&quot;,&quot;OldPlasticExpiryDate&quot;:null,&quot;OldPlasticCardStatus&quot;:null,&quot;EmbossingName&quot;:&quot;MR TEST EMBOSSING&quot;,&quot;Title&quot;:&quot;MR&quot;,&quot;FirstName&quot;:&quot;Prepaid One&quot;,&quot;LastName&quot;:&quot;TEST LAST&quot;,&quot;Additional&quot;:false,&quot;BatchNumber&quot;:914,&quot;ServiceCode&quot;:&quot;221&quot;,&quot;Kinship&quot;:null,&quot;DateOfBirth&quot;:590371200000,&quot;LastActivity&quot;:null,&quot;LastStatusChangeDate&quot;:1681816556109,&quot;ActivationDate&quot;:null,&quot;DateLastIssued&quot;:null,&quot;PVV&quot;:null,&quot;UserData&quot;:&quot;CUSTOM DATA&quot;,&quot;UserData1&quot;:null,&quot;UserData2&quot;:&quot;MDI CUSTOM DATA&quot;,&quot;UserData3&quot;:null,&quot;UserData4&quot;:null,&quot;UserData5&quot;:&quot;MDI CUSTOM DATA&quot;,&quot;Memo&quot;:null,&quot;CardAuthorizationParameters&quot;:[{&quot;Position&quot;:3,&quot;Value&quot;:&quot;1&quot;}],&quot;L10NTitle&quot;:&quot;Ù&#x85;ØªÙ&#x8a;Ø³Ø´&quot;,&quot;L10NFirstName&quot;:&quot;Ù&#x86;Ù&#x85;Ø´Ù&#x8a;Ø³Øª&quot;,&quot;L10NLastName&quot;:&quot;Ø´Ù&#x85;Ù&#x8a;Ø³ØªØ¨&quot;,&quot;PinStatus&quot;:&quot;40&quot;,&quot;OldPinStatus&quot;:&quot;0&quot;,&quot;CustomerIdNumber&quot;:null},&quot;CardProduct&quot;:{&quot;InstitutionCode&quot;:&quot;MDI&quot;,&quot;ProductCode&quot;:&quot;3000&quot;,&quot;Description&quot;:&quot;PP VS VCN PHS&quot;,&quot;Bin&quot;:&quot;48930400&quot;,&quot;DeniedServices&quot;:null,&quot;LocaleDescriptionsList&quot;:null}}]}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{
+  &quot;RequestHeader&quot;: {
+    &quot;Version&quot;: &quot;1.0.0&quot;,
+    &quot;MsgUid&quot;: &quot;ccd31e0b-3355-431f-90f8-a90bc47191a5&quot;,
+    &quot;Source&quot;: &quot;Mobile&quot;,
+    &quot;ServiceId&quot;: &quot;Issuance&quot;,
+    &quot;ReqDateTime&quot;: &quot;2021-09-16T15:17:59.780Z&quot;
+  },
+  &quot;IssuerDirectivesRequestDetails&quot;: {
+    &quot;Action&quot;: &quot;1&quot;,
+    &quot;InstitutionCode&quot;: &quot;MDI&quot;,
+    &quot;BatchClass&quot;: 4,
+    &quot;User&quot;: &quot;TEST&quot;,
+    &quot;SkipFee&quot;: false,
+    &quot;CustomerDetailsData&quot;: {
+      &quot;AllowDuplicate&quot;: true,
+      &quot;CustomerCode&quot;: &quot;123456789&quot;,
+      &quot;Title&quot;: &quot;MR&quot;,
+      &quot;FirstName&quot;: &quot;TEST FIRST&quot;,
+      &quot;LastName&quot;: &quot;TEST LAST&quot;,
+      &quot;IdNumber&quot;: &quot;1000000123&quot;,
+      &quot;DateOfBirth&quot;: &quot;1988-09-16&quot;,
+      &quot;MaritalStatus&quot;: &quot;S&quot;,
+      &quot;Gender&quot;: &quot;M&quot;,
+      &quot;UserData1&quot;: &quot;MDI SPECIFIC&quot;,
+      &quot;UserData2&quot;: &quot;MDI SPECIFIC&quot;,
+      &quot;UserData3&quot;: &quot;MDI SPECIFIC&quot;,
+      &quot;UserData4&quot;: &quot;MDI SPECIFIC&quot;,
+      &quot;PreferredLanguage&quot;: &quot;EN&quot;,
+      &quot;CustomerType&quot;: 0,
+      &quot;ProfessionCode&quot;: 0,
+      &quot;CustomerSegment&quot;: &quot;DEFAULT/NONE&quot;,
+      &quot;ExternalCustomerCode&quot;: &quot;123456789&quot;,
+      &quot;CustomerAddressList&quot;: [
+        {
+          &quot;AddressLine1&quot;: &quot;TEST ADDRESS 1&quot;,
+          &quot;AddressLine2&quot;: &quot;TEST ADDRESS 2&quot;,
+          &quot;AddressLine3&quot;: &quot;TEST ADDRESS 3&quot;,
+          &quot;AddressLine4&quot;: &quot;TEST ADDRESS 4&quot;,
+          &quot;AddressLine5&quot;: &quot;TEST ADDRESS 5&quot;,
+          &quot;Directions&quot;: &quot;TEST DIRECTIONS&quot;,
+          &quot;City&quot;: &quot;NEW YORK&quot;,
+          &quot;PostalCode&quot;: &quot;12345&quot;,
+          &quot;Province&quot;: &quot;TEST Province&quot;,
+          &quot;Territory&quot;: &quot;TEST Territory&quot;,
+          &quot;State&quot;: &quot;TEST State&quot;,
+          &quot;Region&quot;: &quot;TEST Region&quot;,
+          &quot;County&quot;: &quot;TEST COUNTY&quot;,
+          &quot;Country&quot;: &quot;818&quot;,
+          &quot;Phone1&quot;: &quot;+11939994858&quot;,
+          &quot;Phone2&quot;: &quot;+288388334&quot;,
+          &quot;Extension&quot;: &quot;1234&quot;,
+          &quot;Email&quot;: &quot;test.mail@gmail.com&quot;,
+          &quot;Fax&quot;: &quot;+13245&quot;,
+          &quot;District&quot;: &quot;TEST District&quot;,
+          &quot;PoBox&quot;: &quot;123455&quot;,
+          &quot;OwnershipType&quot;: &quot;O&quot;,
+          &quot;UserData1&quot;: &quot;CUSTOM DATA 1&quot;,
+          &quot;UserData2&quot;: &quot;CUSTOM DATA 2&quot;,
+          &quot;AddressRole&quot;: 0
+        }
+      ]
+    },
+    &quot;AccountDetailsList&quot;: [
+      {
+        &quot;AllowDuplicate&quot;: true,
+        &quot;AccountCurrency&quot;: {
+          &quot;CurrCode&quot;: &quot;818&quot;
+        },
+        &quot;AccountType&quot;: &quot;90&quot;,
+        &quot;BranchCode&quot;: &quot;000&quot;,
+        &quot;AccountStatus&quot;: &quot;00&quot;,
+        &quot;VipFlag&quot;: &quot;0&quot;,
+        &quot;IsDefault&quot;: true,
+        &quot;CreditLimit&quot;: 0,
+        &quot;UserData2&quot;: &quot;MDI CUSTOM DATA&quot;,
+        &quot;UserData4&quot;: &quot;MDI CUSTOM DATA&quot;
+      }
+    ],
+    &quot;CardDetailsData&quot;: {
+      &quot;Title&quot;: &quot;MR&quot;,
+      &quot;FirstName&quot;: &quot;Prepaid One&quot;,
+      &quot;LastName&quot;: &quot;TEST LAST&quot;,
+      &quot;LocalizedTitle&quot;: &quot;متيسش&quot;,
+      &quot;LocalizedFirstName&quot;: &quot;نمشيست&quot;,
+      &quot;LocalizedLastName&quot;: &quot;شميستب&quot;,
+      &quot;Secondary&quot;: false,
+      &quot;DeliveryMethod&quot;: &quot;C&quot;,
+      &quot;BranchCode&quot;: &quot;000&quot;,
+      &quot;DeliveryBranchCode&quot;: &quot;000&quot;,
+      &quot;Priority&quot;: 0,
+      &quot;DateOfBirth&quot;: &quot;1988-09-16&quot;,
+      &quot;CardProduct&quot;: &quot;3000&quot;,
+      &quot;Language&quot;: 1,
+      &quot;EmbossingName&quot;: &quot;MR TEST EMBOSSING&quot;,
+      &quot;CustomerIdNumber&quot;: &quot;1000000123&quot;,
+      &quot;ExtendedCustomerIdNumber&quot;: &quot;1000000123&quot;,
+      &quot;CommissionCategory&quot;: &quot;DEFAULT/NONE&quot;,
+      &quot;FeeCategory&quot;: &quot;DEFAULT/NONE&quot;,
+      &quot;CyclicFeeCategory&quot;: &quot;DEFAULT/NONE&quot;,
+      &quot;IssuerRiskCategory&quot;: &quot;DEFAULT/NONE&quot;,
+      &quot;IssuanceCategory&quot;: &quot;0&quot;,
+      &quot;GeneratePinMailer&quot;: false,
+      &quot;UserData&quot;: &quot;CUSTOM DATA&quot;,
+      &quot;UserData1&quot;: &quot;MDI CUSTOM DATA&quot;,
+      &quot;UserData2&quot;: &quot;MDI CUSTOM DATA&quot;,
+      &quot;UserData3&quot;: &quot;MDI CUSTOM DATA&quot;,
+      &quot;UserData4&quot;: &quot;MDI CUSTOM DATA&quot;,
+      &quot;UserData5&quot;: &quot;MDI CUSTOM DATA&quot;,
+      &quot;Memo&quot;: &quot;TEST NEW CARD CREATION&quot;,
+      &quot;ExpiryDate&quot;: &quot;2023-07-31&quot;,
+      &quot;CardAddressList&quot;: [
+        {
+          &quot;AddressLine1&quot;: &quot;CARD TEST ADDRESS 1&quot;,
+          &quot;AddressLine2&quot;: &quot;CARD TEST ADDRESS 2&quot;,
+          &quot;AddressLine3&quot;: &quot;CARD TEST ADDRESS 3&quot;,
+          &quot;AddressLine4&quot;: &quot;CARD TEST ADDRESS 4&quot;,
+          &quot;AddressLine5&quot;: &quot;CARD TEST ADDRESS 5&quot;,
+          &quot;Directions&quot;: &quot;TEST DIRECTIONS&quot;,
+          &quot;City&quot;: &quot;NEW YORK&quot;,
+          &quot;PostalCode&quot;: &quot;12345&quot;,
+          &quot;Province&quot;: &quot;TEST Province&quot;,
+          &quot;Territory&quot;: &quot;TEST Territory&quot;,
+          &quot;State&quot;: &quot;TEST State&quot;,
+          &quot;Region&quot;: &quot;TEST Region&quot;,
+          &quot;County&quot;: &quot;TEST COUNTY&quot;,
+          &quot;Country&quot;: &quot;818&quot;,
+          &quot;Phone1&quot;: &quot;+11939994858&quot;,
+          &quot;Phone2&quot;: &quot;+288388334&quot;,
+          &quot;Extension&quot;: &quot;1234&quot;,
+          &quot;Email&quot;: &quot;test.mail@gmail.com&quot;,
+          &quot;Fax&quot;: &quot;+13245&quot;,
+          &quot;District&quot;: &quot;TEST District&quot;,
+          &quot;PoBox&quot;: &quot;123455&quot;,
+          &quot;OwnershipType&quot;: &quot;O&quot;,
+          &quot;UserData1&quot;: &quot;CUSTOM DATA 1&quot;,
+          &quot;UserData2&quot;: &quot;CUSTOM DATA 2&quot;,
+          &quot;AddressRole&quot;: 0
+        }
+      ]
+      
+    },
+    &quot;AccountLoadData&quot;: {
+      &quot;LoadAmount&quot;: 43000,
+      &quot;LoadSource&quot;: 0,
+      &quot;LoadType&quot;: 50,
+      &quot;ExtCode&quot;: &quot;1&quot;,
+      &quot;Description&quot;: &quot;test &quot;
+    }
+  }
+}</queryString>
+  <java.net.URL>https://10.10.90.70:9443/cortex-core-ws-rest/issuance/IssuerDirectives</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.linkedin.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.linkedin.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="play.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT play.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="euc-excel-telemetry.officeapps.live.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT euc-excel-telemetry.officeapps.live.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="play.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT play.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.youtube.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.youtube.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.youtube.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.youtube.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.youtube.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.youtube.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="eu-mobile.events.data.microsoft.com:443" rc="" rm="Remote host terminated the handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1490" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT eu-mobile.events.data.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ssl.gstatic.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ssl.gstatic.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="odoo.qcentriseg.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT odoo.qcentriseg.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="odoo.qcentriseg.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT odoo.qcentriseg.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="beacons.gvt2.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT beacons.gvt2.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="beacons.gvt2.com:443" rc="" rm="An established connection was aborted by the software in your host machine&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1565" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT beacons.gvt2.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="teams.microsoft.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT teams.microsoft.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="statics.teams.cdn.office.net:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT statics.teams.cdn.office.net:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="teams.microsoft.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT teams.microsoft.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="statics.teams.cdn.office.net:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT statics.teams.cdn.office.net:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="teams.microsoft.com:443" rc="" rm="An established connection was aborted by the software in your host machine&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1565" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT teams.microsoft.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="odoo.qcentriseg.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT odoo.qcentriseg.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="teams.nel.measure.office.net:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT teams.nel.measure.office.net:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="teams.microsoft.com:443" rc="" rm="An established connection was aborted by the software in your host machine&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1565" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT teams.microsoft.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="statics.teams.cdn.office.net:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT statics.teams.cdn.office.net:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="1567" it="0" lt="1564" ct="537" ts="1681906533028" s="true" lb="Issuance Operations on Cards Including New Prepaid Card Creation-1" rc="200" rm="OK" tn="" dt="text" de="" by="2714" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+X-Powered-By: Servlet/3.1
+Server-Timing: intid;desc=cb1c3b21d9479fe3
+Content-Type: application/json
+Content-Length: 2489
+Content-Language: en-US
+Connection: Close
+Date: Wed, 19 Apr 2023 12:15:33 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Postman-Token: ac384cc7-e217-4215-88c1-9f3dfa4162b3
+Host: 10.10.90.70:9443
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br
+User-Agent: PostmanRuntime/7.29.2
+Accept: */*
+Content-Length: 4623
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;ResponseHeader&quot;:{&quot;Version&quot;:&quot;1.0.0&quot;,&quot;MsgUid&quot;:&quot;ccd31e0b-3355-431f-90f8-a90bc47191a5&quot;,&quot;Source&quot;:&quot;Mobile&quot;,&quot;ServiceId&quot;:&quot;Issuance&quot;,&quot;ReqDateTime&quot;:&quot;2021-09-16T15:17:59.780Z&quot;,&quot;RspDateTime&quot;:1681906534545,&quot;ResponseCode&quot;:&quot;000&quot;,&quot;ResponseType&quot;:&quot;Success&quot;,&quot;ProcessingTime&quot;:630,&quot;EncryptionKey&quot;:null,&quot;ResponseDescription&quot;:&quot;Operation Successful&quot;,&quot;LocalizedResponseDescription&quot;:null,&quot;CustomerSpecificResponseDescriptionList&quot;:null,&quot;HeaderUserDataList&quot;:null},&quot;IssuerDirectivesResponseDetails&quot;:{&quot;CustomerDetails&quot;:{&quot;CustomerCode&quot;:&quot;123456789&quot;,&quot;IdNumber&quot;:&quot;1000000123&quot;,&quot;TypeId&quot;:0,&quot;PreferredLanguage&quot;:&quot;EN&quot;,&quot;ExternalCustomerCode&quot;:&quot;123456789&quot;,&quot;Title&quot;:&quot;MR&quot;,&quot;FirstName&quot;:&quot;TEST FIRST&quot;,&quot;LastName&quot;:&quot;TEST LAST&quot;,&quot;DateOfBirth&quot;:590371200000,&quot;UserData1&quot;:&quot;MDI SPECIFIC&quot;,&quot;UserData2&quot;:&quot;MDI SPECIFIC&quot;,&quot;UserData3&quot;:&quot;MDI SPECIFIC&quot;,&quot;UserData4&quot;:&quot;MDI SPECIFIC&quot;,&quot;CustomerSegment&quot;:null},&quot;AccountDetailsList&quot;:[{&quot;InstitutionCode&quot;:&quot;MDI&quot;,&quot;AccountNumber&quot;:&quot;908180004961&quot;,&quot;Currency&quot;:{&quot;CurrCode&quot;:&quot;818&quot;,&quot;AlphaCode&quot;:&quot;EGP&quot;},&quot;AccountTypeCode&quot;:&quot;90&quot;,&quot;ClassId&quot;:&quot;1&quot;,&quot;AccountStatus&quot;:&quot;00&quot;,&quot;VipFlag&quot;:&quot;0&quot;,&quot;BlockedAmount&quot;:0,&quot;EquivalentBlockedAmount&quot;:null,&quot;UnclearCredit&quot;:0,&quot;EquivalentUnclearCredit&quot;:null,&quot;AvailableBalance&quot;:0,&quot;EquivalentAvailableBalance&quot;:null,&quot;AvailableBalanceToSpend&quot;:0,&quot;CreditLimit&quot;:0,&quot;RemainingCashLimit&quot;:null,&quot;UserData1&quot;:null,&quot;UserData2&quot;:null,&quot;UserData3&quot;:null,&quot;UserData4&quot;:null,&quot;UserData5&quot;:null}],&quot;CardDetailsList&quot;:[{&quot;CardDetails&quot;:{&quot;pvv&quot;:null,&quot;ResponseCardIdentifier&quot;:{&quot;Pan&quot;:&quot;D5628A20624403B2A14&quot;,&quot;MaskedPan&quot;:&quot;489304_2715&quot;,&quot;VPan&quot;:&quot;2000000000005019&quot;,&quot;Seqno&quot;:0},&quot;ExpiryDate&quot;:1690761600000,&quot;EffectiveDate&quot;:1681906534009,&quot;CardStatus&quot;:&quot;10&quot;,&quot;OldPlasticExpiryDate&quot;:9267080400000,&quot;OldPlasticCardStatus&quot;:null,&quot;EmbossingName&quot;:&quot;MR TEST EMBOSSING&quot;,&quot;Title&quot;:&quot;MR&quot;,&quot;FirstName&quot;:&quot;Prepaid One&quot;,&quot;LastName&quot;:&quot;TEST LAST&quot;,&quot;Additional&quot;:false,&quot;BatchNumber&quot;:919,&quot;ServiceCode&quot;:&quot;221&quot;,&quot;Kinship&quot;:null,&quot;DateOfBirth&quot;:590371200000,&quot;LastActivity&quot;:null,&quot;LastStatusChangeDate&quot;:1681906534009,&quot;ActivationDate&quot;:9267080400000,&quot;DateLastIssued&quot;:9267080400000,&quot;PVV&quot;:null,&quot;UserData&quot;:&quot;CUSTOM DATA&quot;,&quot;UserData1&quot;:null,&quot;UserData2&quot;:&quot;MDI CUSTOM DATA&quot;,&quot;UserData3&quot;:null,&quot;UserData4&quot;:null,&quot;UserData5&quot;:&quot;MDI CUSTOM DATA&quot;,&quot;Memo&quot;:null,&quot;CardAuthorizationParameters&quot;:[{&quot;Position&quot;:3,&quot;Value&quot;:&quot;1&quot;}],&quot;L10NTitle&quot;:&quot;Ù&#x85;ØªÙ&#x8a;Ø³Ø´&quot;,&quot;L10NFirstName&quot;:&quot;Ù&#x86;Ù&#x85;Ø´Ù&#x8a;Ø³Øª&quot;,&quot;L10NLastName&quot;:&quot;Ø´Ù&#x85;Ù&#x8a;Ø³ØªØ¨&quot;,&quot;PinStatus&quot;:&quot;40&quot;,&quot;OldPinStatus&quot;:&quot;0&quot;,&quot;CustomerIdNumber&quot;:null},&quot;CardProduct&quot;:{&quot;InstitutionCode&quot;:&quot;MDI&quot;,&quot;ProductCode&quot;:&quot;3000&quot;,&quot;Description&quot;:&quot;PP VS VCN PHS&quot;,&quot;Bin&quot;:&quot;48930400&quot;,&quot;DeniedServices&quot;:null,&quot;LocaleDescriptionsList&quot;:null}}]}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{
+  &quot;RequestHeader&quot;: {
+    &quot;Version&quot;: &quot;1.0.0&quot;,
+    &quot;MsgUid&quot;: &quot;ccd31e0b-3355-431f-90f8-a90bc47191a5&quot;,
+    &quot;Source&quot;: &quot;Mobile&quot;,
+    &quot;ServiceId&quot;: &quot;Issuance&quot;,
+    &quot;ReqDateTime&quot;: &quot;2021-09-16T15:17:59.780Z&quot;
+  },
+  &quot;IssuerDirectivesRequestDetails&quot;: {
+    &quot;Action&quot;: &quot;1&quot;,
+    &quot;InstitutionCode&quot;: &quot;MDI&quot;,
+    &quot;BatchClass&quot;: 4,
+    &quot;User&quot;: &quot;TEST&quot;,
+    &quot;SkipFee&quot;: false,
+    &quot;CustomerDetailsData&quot;: {
+      &quot;AllowDuplicate&quot;: true,
+      &quot;CustomerCode&quot;: &quot;123456789&quot;,
+      &quot;Title&quot;: &quot;MR&quot;,
+      &quot;FirstName&quot;: &quot;TEST FIRST&quot;,
+      &quot;LastName&quot;: &quot;TEST LAST&quot;,
+      &quot;IdNumber&quot;: &quot;1000000123&quot;,
+      &quot;DateOfBirth&quot;: &quot;1988-09-16&quot;,
+      &quot;MaritalStatus&quot;: &quot;S&quot;,
+      &quot;Gender&quot;: &quot;M&quot;,
+      &quot;UserData1&quot;: &quot;MDI SPECIFIC&quot;,
+      &quot;UserData2&quot;: &quot;MDI SPECIFIC&quot;,
+      &quot;UserData3&quot;: &quot;MDI SPECIFIC&quot;,
+      &quot;UserData4&quot;: &quot;MDI SPECIFIC&quot;,
+      &quot;PreferredLanguage&quot;: &quot;EN&quot;,
+      &quot;CustomerType&quot;: 0,
+      &quot;ProfessionCode&quot;: 0,
+      &quot;CustomerSegment&quot;: &quot;DEFAULT/NONE&quot;,
+      &quot;ExternalCustomerCode&quot;: &quot;123456789&quot;,
+      &quot;CustomerAddressList&quot;: [
+        {
+          &quot;AddressLine1&quot;: &quot;TEST ADDRESS 1&quot;,
+          &quot;AddressLine2&quot;: &quot;TEST ADDRESS 2&quot;,
+          &quot;AddressLine3&quot;: &quot;TEST ADDRESS 3&quot;,
+          &quot;AddressLine4&quot;: &quot;TEST ADDRESS 4&quot;,
+          &quot;AddressLine5&quot;: &quot;TEST ADDRESS 5&quot;,
+          &quot;Directions&quot;: &quot;TEST DIRECTIONS&quot;,
+          &quot;City&quot;: &quot;NEW YORK&quot;,
+          &quot;PostalCode&quot;: &quot;12345&quot;,
+          &quot;Province&quot;: &quot;TEST Province&quot;,
+          &quot;Territory&quot;: &quot;TEST Territory&quot;,
+          &quot;State&quot;: &quot;TEST State&quot;,
+          &quot;Region&quot;: &quot;TEST Region&quot;,
+          &quot;County&quot;: &quot;TEST COUNTY&quot;,
+          &quot;Country&quot;: &quot;818&quot;,
+          &quot;Phone1&quot;: &quot;+11939994858&quot;,
+          &quot;Phone2&quot;: &quot;+288388334&quot;,
+          &quot;Extension&quot;: &quot;1234&quot;,
+          &quot;Email&quot;: &quot;test.mail@gmail.com&quot;,
+          &quot;Fax&quot;: &quot;+13245&quot;,
+          &quot;District&quot;: &quot;TEST District&quot;,
+          &quot;PoBox&quot;: &quot;123455&quot;,
+          &quot;OwnershipType&quot;: &quot;O&quot;,
+          &quot;UserData1&quot;: &quot;CUSTOM DATA 1&quot;,
+          &quot;UserData2&quot;: &quot;CUSTOM DATA 2&quot;,
+          &quot;AddressRole&quot;: 0
+        }
+      ]
+    },
+    &quot;AccountDetailsList&quot;: [
+      {
+        &quot;AllowDuplicate&quot;: true,
+        &quot;AccountCurrency&quot;: {
+          &quot;CurrCode&quot;: &quot;818&quot;
+        },
+        &quot;AccountType&quot;: &quot;90&quot;,
+        &quot;BranchCode&quot;: &quot;000&quot;,
+        &quot;AccountStatus&quot;: &quot;00&quot;,
+        &quot;VipFlag&quot;: &quot;0&quot;,
+        &quot;IsDefault&quot;: true,
+        &quot;CreditLimit&quot;: 0,
+        &quot;UserData2&quot;: &quot;MDI CUSTOM DATA&quot;,
+        &quot;UserData4&quot;: &quot;MDI CUSTOM DATA&quot;
+      }
+    ],
+    &quot;CardDetailsData&quot;: {
+      &quot;Title&quot;: &quot;MR&quot;,
+      &quot;FirstName&quot;: &quot;Prepaid One&quot;,
+      &quot;LastName&quot;: &quot;TEST LAST&quot;,
+      &quot;LocalizedTitle&quot;: &quot;متيسش&quot;,
+      &quot;LocalizedFirstName&quot;: &quot;نمشيست&quot;,
+      &quot;LocalizedLastName&quot;: &quot;شميستب&quot;,
+      &quot;Secondary&quot;: false,
+      &quot;DeliveryMethod&quot;: &quot;C&quot;,
+      &quot;BranchCode&quot;: &quot;000&quot;,
+      &quot;DeliveryBranchCode&quot;: &quot;000&quot;,
+      &quot;Priority&quot;: 0,
+      &quot;DateOfBirth&quot;: &quot;1988-09-16&quot;,
+      &quot;CardProduct&quot;: &quot;3000&quot;,
+      &quot;Language&quot;: 1,
+      &quot;EmbossingName&quot;: &quot;MR TEST EMBOSSING&quot;,
+      &quot;CustomerIdNumber&quot;: &quot;1000000123&quot;,
+      &quot;ExtendedCustomerIdNumber&quot;: &quot;1000000123&quot;,
+      &quot;CommissionCategory&quot;: &quot;DEFAULT/NONE&quot;,
+      &quot;FeeCategory&quot;: &quot;DEFAULT/NONE&quot;,
+      &quot;CyclicFeeCategory&quot;: &quot;DEFAULT/NONE&quot;,
+      &quot;IssuerRiskCategory&quot;: &quot;DEFAULT/NONE&quot;,
+      &quot;IssuanceCategory&quot;: &quot;0&quot;,
+      &quot;GeneratePinMailer&quot;: false,
+      &quot;UserData&quot;: &quot;CUSTOM DATA&quot;,
+      &quot;UserData1&quot;: &quot;MDI CUSTOM DATA&quot;,
+      &quot;UserData2&quot;: &quot;MDI CUSTOM DATA&quot;,
+      &quot;UserData3&quot;: &quot;MDI CUSTOM DATA&quot;,
+      &quot;UserData4&quot;: &quot;MDI CUSTOM DATA&quot;,
+      &quot;UserData5&quot;: &quot;MDI CUSTOM DATA&quot;,
+      &quot;Memo&quot;: &quot;TEST NEW CARD CREATION&quot;,
+      &quot;ExpiryDate&quot;: &quot;2023-07-31&quot;,
+      &quot;CardAddressList&quot;: [
+        {
+          &quot;AddressLine1&quot;: &quot;CARD TEST ADDRESS 1&quot;,
+          &quot;AddressLine2&quot;: &quot;CARD TEST ADDRESS 2&quot;,
+          &quot;AddressLine3&quot;: &quot;CARD TEST ADDRESS 3&quot;,
+          &quot;AddressLine4&quot;: &quot;CARD TEST ADDRESS 4&quot;,
+          &quot;AddressLine5&quot;: &quot;CARD TEST ADDRESS 5&quot;,
+          &quot;Directions&quot;: &quot;TEST DIRECTIONS&quot;,
+          &quot;City&quot;: &quot;NEW YORK&quot;,
+          &quot;PostalCode&quot;: &quot;12345&quot;,
+          &quot;Province&quot;: &quot;TEST Province&quot;,
+          &quot;Territory&quot;: &quot;TEST Territory&quot;,
+          &quot;State&quot;: &quot;TEST State&quot;,
+          &quot;Region&quot;: &quot;TEST Region&quot;,
+          &quot;County&quot;: &quot;TEST COUNTY&quot;,
+          &quot;Country&quot;: &quot;818&quot;,
+          &quot;Phone1&quot;: &quot;+11939994858&quot;,
+          &quot;Phone2&quot;: &quot;+288388334&quot;,
+          &quot;Extension&quot;: &quot;1234&quot;,
+          &quot;Email&quot;: &quot;test.mail@gmail.com&quot;,
+          &quot;Fax&quot;: &quot;+13245&quot;,
+          &quot;District&quot;: &quot;TEST District&quot;,
+          &quot;PoBox&quot;: &quot;123455&quot;,
+          &quot;OwnershipType&quot;: &quot;O&quot;,
+          &quot;UserData1&quot;: &quot;CUSTOM DATA 1&quot;,
+          &quot;UserData2&quot;: &quot;CUSTOM DATA 2&quot;,
+          &quot;AddressRole&quot;: 0
+        }
+      ]
+      
+    },
+    &quot;AccountLoadData&quot;: {
+      &quot;LoadAmount&quot;: 43000,
+      &quot;LoadSource&quot;: 0,
+      &quot;LoadType&quot;: 50,
+      &quot;ExtCode&quot;: &quot;1&quot;,
+      &quot;Description&quot;: &quot;test &quot;
+    }
+  }
+}</queryString>
+  <java.net.URL>https://10.10.90.70:9443/cortex-core-ws-rest/issuance/IssuerDirectives</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="eu-mobile.events.data.microsoft.com:443" rc="" rm="Remote host terminated the handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1490" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT eu-mobile.events.data.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="eu-mobile.events.data.microsoft.com:443" rc="" rm="Remote host terminated the handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1490" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT eu-mobile.events.data.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+<httpSample t="999" it="0" lt="999" ct="944" ts="1681912856352" s="true" lb="-2" rc="302" rm="Moved Temporarily" tn="" dt="" de="" by="484" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String">HTTP/1.1 302 Moved Temporarily
+Cache-Control: no-cache
+Pragma: no-cache
+Location: https://autodiscover-s.outlook.com/autodiscover/autodiscover.xml
+Server: Microsoft-IIS/10.0
+request-id: bb51c944-fa32-146d-9932-94a74ff5b52c
+X-FEServer: MR2P264CA0175
+X-RequestId: fe5770b7-7e88-4934-9efe-08e7419ea199
+X-FEProxyInfo: MR2P264CA0175.FRAP264.PROD.OUTLOOK.COM
+X-FEEFZInfo: MRS
+X-FEServer: MR2P264CA0175
+Date: Wed, 19 Apr 2023 14:00:56 GMT
+Connection: close
+Content-Length: 0
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Client-Request-Id: {CC6D3429-091E-42EE-AD00-E59C01C367EA}
+Host: autodiscover.qestit.com
+Content-Type: text/xml
+Cache-Control: no-cache
+Pragma: no-cache
+User-Agent: Microsoft Office/16.0 (Windows NT 10.0; Microsoft Outlook 16.0.16227; Pro)
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <redirectLocation class="java.lang.String">https://autodiscover-s.outlook.com/autodiscover/autodiscover.xml</redirectLocation>
+  <java.net.URL>http://autodiscover.qestit.com/autodiscover/autodiscover.xml</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="odoo.qcentriseg.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT odoo.qcentriseg.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="teams.microsoft.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT teams.microsoft.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="statics.teams.cdn.office.net:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT statics.teams.cdn.office.net:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="eu-mobile.events.data.microsoft.com:443" rc="" rm="Remote host terminated the handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1490" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT eu-mobile.events.data.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="odoo.qcentriseg.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT odoo.qcentriseg.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="975" it="0" lt="975" ct="653" ts="1681912881599" s="true" lb="issuence-4" rc="200" rm="OK" tn="" dt="text" de="" by="2714" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+X-Powered-By: Servlet/3.1
+Server-Timing: intid;desc=bfcda7cdeec0a65f
+Content-Type: application/json
+Content-Length: 2489
+Content-Language: en-US
+Connection: Close
+Date: Wed, 19 Apr 2023 14:01:22 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Postman-Token: d8933c07-dba1-4a21-8465-16a3bff96084
+Host: 10.10.90.70:9443
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br
+User-Agent: PostmanRuntime/7.29.2
+Accept: */*
+Content-Length: 4623
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;ResponseHeader&quot;:{&quot;Version&quot;:&quot;1.0.0&quot;,&quot;MsgUid&quot;:&quot;ccd31e0b-3355-431f-90f8-a90bc47191a5&quot;,&quot;Source&quot;:&quot;Mobile&quot;,&quot;ServiceId&quot;:&quot;Issuance&quot;,&quot;ReqDateTime&quot;:&quot;2021-09-16T15:17:59.780Z&quot;,&quot;RspDateTime&quot;:1681912882500,&quot;ResponseCode&quot;:&quot;000&quot;,&quot;ResponseType&quot;:&quot;Success&quot;,&quot;ProcessingTime&quot;:251,&quot;EncryptionKey&quot;:null,&quot;ResponseDescription&quot;:&quot;Operation Successful&quot;,&quot;LocalizedResponseDescription&quot;:null,&quot;CustomerSpecificResponseDescriptionList&quot;:null,&quot;HeaderUserDataList&quot;:null},&quot;IssuerDirectivesResponseDetails&quot;:{&quot;CustomerDetails&quot;:{&quot;CustomerCode&quot;:&quot;123456789&quot;,&quot;IdNumber&quot;:&quot;1000001207&quot;,&quot;TypeId&quot;:0,&quot;PreferredLanguage&quot;:&quot;EN&quot;,&quot;ExternalCustomerCode&quot;:&quot;123456789&quot;,&quot;Title&quot;:&quot;MR&quot;,&quot;FirstName&quot;:&quot;TEST FIRST&quot;,&quot;LastName&quot;:&quot;TEST LAST&quot;,&quot;DateOfBirth&quot;:590371200000,&quot;UserData1&quot;:&quot;MDI SPECIFIC&quot;,&quot;UserData2&quot;:&quot;MDI SPECIFIC&quot;,&quot;UserData3&quot;:&quot;MDI SPECIFIC&quot;,&quot;UserData4&quot;:&quot;MDI SPECIFIC&quot;,&quot;CustomerSegment&quot;:null},&quot;AccountDetailsList&quot;:[{&quot;InstitutionCode&quot;:&quot;MDI&quot;,&quot;AccountNumber&quot;:&quot;908180004968&quot;,&quot;Currency&quot;:{&quot;CurrCode&quot;:&quot;818&quot;,&quot;AlphaCode&quot;:&quot;EGP&quot;},&quot;AccountTypeCode&quot;:&quot;90&quot;,&quot;ClassId&quot;:&quot;1&quot;,&quot;AccountStatus&quot;:&quot;00&quot;,&quot;VipFlag&quot;:&quot;0&quot;,&quot;BlockedAmount&quot;:0,&quot;EquivalentBlockedAmount&quot;:null,&quot;UnclearCredit&quot;:0,&quot;EquivalentUnclearCredit&quot;:null,&quot;AvailableBalance&quot;:0,&quot;EquivalentAvailableBalance&quot;:null,&quot;AvailableBalanceToSpend&quot;:0,&quot;CreditLimit&quot;:0,&quot;RemainingCashLimit&quot;:null,&quot;UserData1&quot;:null,&quot;UserData2&quot;:null,&quot;UserData3&quot;:null,&quot;UserData4&quot;:null,&quot;UserData5&quot;:null}],&quot;CardDetailsList&quot;:[{&quot;CardDetails&quot;:{&quot;pvv&quot;:null,&quot;ResponseCardIdentifier&quot;:{&quot;Pan&quot;:&quot;D96A4B455E4771CCF8D&quot;,&quot;MaskedPan&quot;:&quot;489304_1739&quot;,&quot;VPan&quot;:&quot;2000000000005026&quot;,&quot;Seqno&quot;:0},&quot;ExpiryDate&quot;:1690761600000,&quot;EffectiveDate&quot;:1681912882303,&quot;CardStatus&quot;:&quot;10&quot;,&quot;OldPlasticExpiryDate&quot;:9267080400000,&quot;OldPlasticCardStatus&quot;:null,&quot;EmbossingName&quot;:&quot;MR TEST EMBOSSING&quot;,&quot;Title&quot;:&quot;MR&quot;,&quot;FirstName&quot;:&quot;Prepaid One&quot;,&quot;LastName&quot;:&quot;TEST LAST&quot;,&quot;Additional&quot;:false,&quot;BatchNumber&quot;:919,&quot;ServiceCode&quot;:&quot;221&quot;,&quot;Kinship&quot;:null,&quot;DateOfBirth&quot;:590371200000,&quot;LastActivity&quot;:null,&quot;LastStatusChangeDate&quot;:1681912882302,&quot;ActivationDate&quot;:9267080400000,&quot;DateLastIssued&quot;:9267080400000,&quot;PVV&quot;:null,&quot;UserData&quot;:&quot;CUSTOM DATA&quot;,&quot;UserData1&quot;:null,&quot;UserData2&quot;:&quot;MDI CUSTOM DATA&quot;,&quot;UserData3&quot;:null,&quot;UserData4&quot;:null,&quot;UserData5&quot;:&quot;MDI CUSTOM DATA&quot;,&quot;Memo&quot;:null,&quot;CardAuthorizationParameters&quot;:[{&quot;Position&quot;:3,&quot;Value&quot;:&quot;1&quot;}],&quot;L10NTitle&quot;:&quot;Ù&#x85;ØªÙ&#x8a;Ø³Ø´&quot;,&quot;L10NFirstName&quot;:&quot;Ù&#x86;Ù&#x85;Ø´Ù&#x8a;Ø³Øª&quot;,&quot;L10NLastName&quot;:&quot;Ø´Ù&#x85;Ù&#x8a;Ø³ØªØ¨&quot;,&quot;PinStatus&quot;:&quot;40&quot;,&quot;OldPinStatus&quot;:&quot;0&quot;,&quot;CustomerIdNumber&quot;:null},&quot;CardProduct&quot;:{&quot;InstitutionCode&quot;:&quot;MDI&quot;,&quot;ProductCode&quot;:&quot;3000&quot;,&quot;Description&quot;:&quot;PP VS VCN PHS&quot;,&quot;Bin&quot;:&quot;48930400&quot;,&quot;DeniedServices&quot;:null,&quot;LocaleDescriptionsList&quot;:null}}]}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{
+  &quot;RequestHeader&quot;: {
+    &quot;Version&quot;: &quot;1.0.0&quot;,
+    &quot;MsgUid&quot;: &quot;ccd31e0b-3355-431f-90f8-a90bc47191a5&quot;,
+    &quot;Source&quot;: &quot;Mobile&quot;,
+    &quot;ServiceId&quot;: &quot;Issuance&quot;,
+    &quot;ReqDateTime&quot;: &quot;2021-09-16T15:17:59.780Z&quot;
+  },
+  &quot;IssuerDirectivesRequestDetails&quot;: {
+    &quot;Action&quot;: &quot;1&quot;,
+    &quot;InstitutionCode&quot;: &quot;MDI&quot;,
+    &quot;BatchClass&quot;: 4,
+    &quot;User&quot;: &quot;TEST&quot;,
+    &quot;SkipFee&quot;: false,
+    &quot;CustomerDetailsData&quot;: {
+      &quot;AllowDuplicate&quot;: true,
+      &quot;CustomerCode&quot;: &quot;123456789&quot;,
+      &quot;Title&quot;: &quot;MR&quot;,
+      &quot;FirstName&quot;: &quot;TEST FIRST&quot;,
+      &quot;LastName&quot;: &quot;TEST LAST&quot;,
+      &quot;IdNumber&quot;: &quot;1000001207&quot;,
+      &quot;DateOfBirth&quot;: &quot;1988-09-16&quot;,
+      &quot;MaritalStatus&quot;: &quot;S&quot;,
+      &quot;Gender&quot;: &quot;M&quot;,
+      &quot;UserData1&quot;: &quot;MDI SPECIFIC&quot;,
+      &quot;UserData2&quot;: &quot;MDI SPECIFIC&quot;,
+      &quot;UserData3&quot;: &quot;MDI SPECIFIC&quot;,
+      &quot;UserData4&quot;: &quot;MDI SPECIFIC&quot;,
+      &quot;PreferredLanguage&quot;: &quot;EN&quot;,
+      &quot;CustomerType&quot;: 0,
+      &quot;ProfessionCode&quot;: 0,
+      &quot;CustomerSegment&quot;: &quot;DEFAULT/NONE&quot;,
+      &quot;ExternalCustomerCode&quot;: &quot;123456789&quot;,
+      &quot;CustomerAddressList&quot;: [
+        {
+          &quot;AddressLine1&quot;: &quot;TEST ADDRESS 1&quot;,
+          &quot;AddressLine2&quot;: &quot;TEST ADDRESS 2&quot;,
+          &quot;AddressLine3&quot;: &quot;TEST ADDRESS 3&quot;,
+          &quot;AddressLine4&quot;: &quot;TEST ADDRESS 4&quot;,
+          &quot;AddressLine5&quot;: &quot;TEST ADDRESS 5&quot;,
+          &quot;Directions&quot;: &quot;TEST DIRECTIONS&quot;,
+          &quot;City&quot;: &quot;NEW YORK&quot;,
+          &quot;PostalCode&quot;: &quot;12345&quot;,
+          &quot;Province&quot;: &quot;TEST Province&quot;,
+          &quot;Territory&quot;: &quot;TEST Territory&quot;,
+          &quot;State&quot;: &quot;TEST State&quot;,
+          &quot;Region&quot;: &quot;TEST Region&quot;,
+          &quot;County&quot;: &quot;TEST COUNTY&quot;,
+          &quot;Country&quot;: &quot;818&quot;,
+          &quot;Phone1&quot;: &quot;+11939994858&quot;,
+          &quot;Phone2&quot;: &quot;+288388334&quot;,
+          &quot;Extension&quot;: &quot;1234&quot;,
+          &quot;Email&quot;: &quot;test.mail@gmail.com&quot;,
+          &quot;Fax&quot;: &quot;+13245&quot;,
+          &quot;District&quot;: &quot;TEST District&quot;,
+          &quot;PoBox&quot;: &quot;123455&quot;,
+          &quot;OwnershipType&quot;: &quot;O&quot;,
+          &quot;UserData1&quot;: &quot;CUSTOM DATA 1&quot;,
+          &quot;UserData2&quot;: &quot;CUSTOM DATA 2&quot;,
+          &quot;AddressRole&quot;: 0
+        }
+      ]
+    },
+    &quot;AccountDetailsList&quot;: [
+      {
+        &quot;AllowDuplicate&quot;: true,
+        &quot;AccountCurrency&quot;: {
+          &quot;CurrCode&quot;: &quot;818&quot;
+        },
+        &quot;AccountType&quot;: &quot;90&quot;,
+        &quot;BranchCode&quot;: &quot;000&quot;,
+        &quot;AccountStatus&quot;: &quot;00&quot;,
+        &quot;VipFlag&quot;: &quot;0&quot;,
+        &quot;IsDefault&quot;: true,
+        &quot;CreditLimit&quot;: 0,
+        &quot;UserData2&quot;: &quot;MDI CUSTOM DATA&quot;,
+        &quot;UserData4&quot;: &quot;MDI CUSTOM DATA&quot;
+      }
+    ],
+    &quot;CardDetailsData&quot;: {
+      &quot;Title&quot;: &quot;MR&quot;,
+      &quot;FirstName&quot;: &quot;Prepaid One&quot;,
+      &quot;LastName&quot;: &quot;TEST LAST&quot;,
+      &quot;LocalizedTitle&quot;: &quot;متيسش&quot;,
+      &quot;LocalizedFirstName&quot;: &quot;نمشيست&quot;,
+      &quot;LocalizedLastName&quot;: &quot;شميستب&quot;,
+      &quot;Secondary&quot;: false,
+      &quot;DeliveryMethod&quot;: &quot;C&quot;,
+      &quot;BranchCode&quot;: &quot;000&quot;,
+      &quot;DeliveryBranchCode&quot;: &quot;000&quot;,
+      &quot;Priority&quot;: 0,
+      &quot;DateOfBirth&quot;: &quot;1988-09-16&quot;,
+      &quot;CardProduct&quot;: &quot;3000&quot;,
+      &quot;Language&quot;: 1,
+      &quot;EmbossingName&quot;: &quot;MR TEST EMBOSSING&quot;,
+      &quot;CustomerIdNumber&quot;: &quot;1000000123&quot;,
+      &quot;ExtendedCustomerIdNumber&quot;: &quot;1000000123&quot;,
+      &quot;CommissionCategory&quot;: &quot;DEFAULT/NONE&quot;,
+      &quot;FeeCategory&quot;: &quot;DEFAULT/NONE&quot;,
+      &quot;CyclicFeeCategory&quot;: &quot;DEFAULT/NONE&quot;,
+      &quot;IssuerRiskCategory&quot;: &quot;DEFAULT/NONE&quot;,
+      &quot;IssuanceCategory&quot;: &quot;0&quot;,
+      &quot;GeneratePinMailer&quot;: false,
+      &quot;UserData&quot;: &quot;CUSTOM DATA&quot;,
+      &quot;UserData1&quot;: &quot;MDI CUSTOM DATA&quot;,
+      &quot;UserData2&quot;: &quot;MDI CUSTOM DATA&quot;,
+      &quot;UserData3&quot;: &quot;MDI CUSTOM DATA&quot;,
+      &quot;UserData4&quot;: &quot;MDI CUSTOM DATA&quot;,
+      &quot;UserData5&quot;: &quot;MDI CUSTOM DATA&quot;,
+      &quot;Memo&quot;: &quot;TEST NEW CARD CREATION&quot;,
+      &quot;ExpiryDate&quot;: &quot;2023-07-31&quot;,
+      &quot;CardAddressList&quot;: [
+        {
+          &quot;AddressLine1&quot;: &quot;CARD TEST ADDRESS 1&quot;,
+          &quot;AddressLine2&quot;: &quot;CARD TEST ADDRESS 2&quot;,
+          &quot;AddressLine3&quot;: &quot;CARD TEST ADDRESS 3&quot;,
+          &quot;AddressLine4&quot;: &quot;CARD TEST ADDRESS 4&quot;,
+          &quot;AddressLine5&quot;: &quot;CARD TEST ADDRESS 5&quot;,
+          &quot;Directions&quot;: &quot;TEST DIRECTIONS&quot;,
+          &quot;City&quot;: &quot;NEW YORK&quot;,
+          &quot;PostalCode&quot;: &quot;12345&quot;,
+          &quot;Province&quot;: &quot;TEST Province&quot;,
+          &quot;Territory&quot;: &quot;TEST Territory&quot;,
+          &quot;State&quot;: &quot;TEST State&quot;,
+          &quot;Region&quot;: &quot;TEST Region&quot;,
+          &quot;County&quot;: &quot;TEST COUNTY&quot;,
+          &quot;Country&quot;: &quot;818&quot;,
+          &quot;Phone1&quot;: &quot;+11939994858&quot;,
+          &quot;Phone2&quot;: &quot;+288388334&quot;,
+          &quot;Extension&quot;: &quot;1234&quot;,
+          &quot;Email&quot;: &quot;test.mail@gmail.com&quot;,
+          &quot;Fax&quot;: &quot;+13245&quot;,
+          &quot;District&quot;: &quot;TEST District&quot;,
+          &quot;PoBox&quot;: &quot;123455&quot;,
+          &quot;OwnershipType&quot;: &quot;O&quot;,
+          &quot;UserData1&quot;: &quot;CUSTOM DATA 1&quot;,
+          &quot;UserData2&quot;: &quot;CUSTOM DATA 2&quot;,
+          &quot;AddressRole&quot;: 0
+        }
+      ]
+      
+    },
+    &quot;AccountLoadData&quot;: {
+      &quot;LoadAmount&quot;: 43000,
+      &quot;LoadSource&quot;: 0,
+      &quot;LoadType&quot;: 50,
+      &quot;ExtCode&quot;: &quot;1&quot;,
+      &quot;Description&quot;: &quot;test &quot;
+    }
+  }
+}</queryString>
+  <java.net.URL>https://10.10.90.70:9443/cortex-core-ws-rest/issuance/IssuerDirectives</java.net.URL>
+</httpSample>
+<httpSample t="231" it="0" lt="0" ct="230" ts="1681912884442" s="false" lb="issuence-5" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: No such host is known (obworkspace.onebank.local)" tn="" dt="text" de="" by="2141" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Host: obworkspace.onebank.local
+User-Agent: CITRIXRECEIVER
+</requestHeader>
+  <responseData class="java.lang.String">java.net.UnknownHostException: No such host is known (obworkspace.onebank.local)&#xd;
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)&#xd;
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52)&#xd;
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1059)&#xd;
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1673)&#xd;
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1003)&#xd;
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1663)&#xd;
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1528)&#xd;
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)&#xd;
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:408)&#xd;
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)&#xd;
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)&#xd;
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#xd;
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#xd;
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#xd;
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#xd;
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:939)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:650)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1301)&#xd;
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:251)&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">HEAD</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://obworkspace.onebank.local/</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="eu-mobile.events.data.microsoft.com:443" rc="" rm="Remote host terminated the handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1490" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT eu-mobile.events.data.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="clients4.google.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT clients4.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="eu-office.events.data.microsoft.com:443" rc="" rm="Remote host terminated the handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1490" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT eu-office.events.data.microsoft.com:443 HTTP/1.0&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="odoo.qcentriseg.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT odoo.qcentriseg.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="optimizationguide-pa.googleapis.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT optimizationguide-pa.googleapis.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="teams.microsoft.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT teams.microsoft.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="teams.nel.measure.office.net:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1372" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT teams.nel.measure.office.net:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="898" it="0" lt="896" ct="457" ts="1682026387482" s="true" lb="Issuance Operations on Cards Including New Prepaid Card Creation-1" rc="200" rm="OK" tn="" dt="text" de="" by="2714" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+X-Powered-By: Servlet/3.1
+Server-Timing: intid;desc=9d0532cdc2dfd407
+Content-Type: application/json
+Content-Length: 2489
+Content-Language: en-US
+Connection: Close
+Date: Thu, 20 Apr 2023 21:33:07 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Postman-Token: ae9d3838-39f8-408d-99c8-3f3a501ac331
+Host: 10.10.90.70:9443
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br
+User-Agent: PostmanRuntime/7.29.2
+Accept: */*
+Content-Length: 4623
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;ResponseHeader&quot;:{&quot;Version&quot;:&quot;1.0.0&quot;,&quot;MsgUid&quot;:&quot;ccd31e0b-3355-431f-90f8-a90bc47191a5&quot;,&quot;Source&quot;:&quot;Mobile&quot;,&quot;ServiceId&quot;:&quot;Issuance&quot;,&quot;ReqDateTime&quot;:&quot;2021-09-16T15:17:59.780Z&quot;,&quot;RspDateTime&quot;:1682026388183,&quot;ResponseCode&quot;:&quot;000&quot;,&quot;ResponseType&quot;:&quot;Success&quot;,&quot;ProcessingTime&quot;:317,&quot;EncryptionKey&quot;:null,&quot;ResponseDescription&quot;:&quot;Operation Successful&quot;,&quot;LocalizedResponseDescription&quot;:null,&quot;CustomerSpecificResponseDescriptionList&quot;:null,&quot;HeaderUserDataList&quot;:null},&quot;IssuerDirectivesResponseDetails&quot;:{&quot;CustomerDetails&quot;:{&quot;CustomerCode&quot;:&quot;123456789&quot;,&quot;IdNumber&quot;:&quot;1000001207&quot;,&quot;TypeId&quot;:0,&quot;PreferredLanguage&quot;:&quot;EN&quot;,&quot;ExternalCustomerCode&quot;:&quot;123456789&quot;,&quot;Title&quot;:&quot;MR&quot;,&quot;FirstName&quot;:&quot;TEST FIRST&quot;,&quot;LastName&quot;:&quot;TEST LAST&quot;,&quot;DateOfBirth&quot;:590371200000,&quot;UserData1&quot;:&quot;MDI SPECIFIC&quot;,&quot;UserData2&quot;:&quot;MDI SPECIFIC&quot;,&quot;UserData3&quot;:&quot;MDI SPECIFIC&quot;,&quot;UserData4&quot;:&quot;MDI SPECIFIC&quot;,&quot;CustomerSegment&quot;:null},&quot;AccountDetailsList&quot;:[{&quot;InstitutionCode&quot;:&quot;MDI&quot;,&quot;AccountNumber&quot;:&quot;908180004971&quot;,&quot;Currency&quot;:{&quot;CurrCode&quot;:&quot;818&quot;,&quot;AlphaCode&quot;:&quot;EGP&quot;},&quot;AccountTypeCode&quot;:&quot;90&quot;,&quot;ClassId&quot;:&quot;1&quot;,&quot;AccountStatus&quot;:&quot;00&quot;,&quot;VipFlag&quot;:&quot;0&quot;,&quot;BlockedAmount&quot;:0,&quot;EquivalentBlockedAmount&quot;:null,&quot;UnclearCredit&quot;:0,&quot;EquivalentUnclearCredit&quot;:null,&quot;AvailableBalance&quot;:0,&quot;EquivalentAvailableBalance&quot;:null,&quot;AvailableBalanceToSpend&quot;:0,&quot;CreditLimit&quot;:0,&quot;RemainingCashLimit&quot;:null,&quot;UserData1&quot;:null,&quot;UserData2&quot;:null,&quot;UserData3&quot;:null,&quot;UserData4&quot;:null,&quot;UserData5&quot;:null}],&quot;CardDetailsList&quot;:[{&quot;CardDetails&quot;:{&quot;pvv&quot;:null,&quot;ResponseCardIdentifier&quot;:{&quot;Pan&quot;:&quot;D463D2B3E43246F7FE7&quot;,&quot;MaskedPan&quot;:&quot;489304_4434&quot;,&quot;VPan&quot;:&quot;2000000000005029&quot;,&quot;Seqno&quot;:0},&quot;ExpiryDate&quot;:1690761600000,&quot;EffectiveDate&quot;:1682026387921,&quot;CardStatus&quot;:&quot;10&quot;,&quot;OldPlasticExpiryDate&quot;:9267080400000,&quot;OldPlasticCardStatus&quot;:null,&quot;EmbossingName&quot;:&quot;MR TEST EMBOSSING&quot;,&quot;Title&quot;:&quot;MR&quot;,&quot;FirstName&quot;:&quot;Prepaid One&quot;,&quot;LastName&quot;:&quot;TEST LAST&quot;,&quot;Additional&quot;:false,&quot;BatchNumber&quot;:920,&quot;ServiceCode&quot;:&quot;221&quot;,&quot;Kinship&quot;:null,&quot;DateOfBirth&quot;:590371200000,&quot;LastActivity&quot;:null,&quot;LastStatusChangeDate&quot;:1682026387921,&quot;ActivationDate&quot;:9267080400000,&quot;DateLastIssued&quot;:9267080400000,&quot;PVV&quot;:null,&quot;UserData&quot;:&quot;CUSTOM DATA&quot;,&quot;UserData1&quot;:null,&quot;UserData2&quot;:&quot;MDI CUSTOM DATA&quot;,&quot;UserData3&quot;:null,&quot;UserData4&quot;:null,&quot;UserData5&quot;:&quot;MDI CUSTOM DATA&quot;,&quot;Memo&quot;:null,&quot;CardAuthorizationParameters&quot;:[{&quot;Position&quot;:3,&quot;Value&quot;:&quot;1&quot;}],&quot;L10NTitle&quot;:&quot;Ù&#x85;ØªÙ&#x8a;Ø³Ø´&quot;,&quot;L10NFirstName&quot;:&quot;Ù&#x86;Ù&#x85;Ø´Ù&#x8a;Ø³Øª&quot;,&quot;L10NLastName&quot;:&quot;Ø´Ù&#x85;Ù&#x8a;Ø³ØªØ¨&quot;,&quot;PinStatus&quot;:&quot;40&quot;,&quot;OldPinStatus&quot;:&quot;0&quot;,&quot;CustomerIdNumber&quot;:null},&quot;CardProduct&quot;:{&quot;InstitutionCode&quot;:&quot;MDI&quot;,&quot;ProductCode&quot;:&quot;3000&quot;,&quot;Description&quot;:&quot;PP VS VCN PHS&quot;,&quot;Bin&quot;:&quot;48930400&quot;,&quot;DeniedServices&quot;:null,&quot;LocaleDescriptionsList&quot;:null}}]}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{
+  &quot;RequestHeader&quot;: {
+    &quot;Version&quot;: &quot;1.0.0&quot;,
+    &quot;MsgUid&quot;: &quot;ccd31e0b-3355-431f-90f8-a90bc47191a5&quot;,
+    &quot;Source&quot;: &quot;Mobile&quot;,
+    &quot;ServiceId&quot;: &quot;Issuance&quot;,
+    &quot;ReqDateTime&quot;: &quot;2021-09-16T15:17:59.780Z&quot;
+  },
+  &quot;IssuerDirectivesRequestDetails&quot;: {
+    &quot;Action&quot;: &quot;1&quot;,
+    &quot;InstitutionCode&quot;: &quot;MDI&quot;,
+    &quot;BatchClass&quot;: 4,
+    &quot;User&quot;: &quot;TEST&quot;,
+    &quot;SkipFee&quot;: false,
+    &quot;CustomerDetailsData&quot;: {
+      &quot;AllowDuplicate&quot;: true,
+      &quot;CustomerCode&quot;: &quot;123456789&quot;,
+      &quot;Title&quot;: &quot;MR&quot;,
+      &quot;FirstName&quot;: &quot;TEST FIRST&quot;,
+      &quot;LastName&quot;: &quot;TEST LAST&quot;,
+      &quot;IdNumber&quot;: &quot;1000001207&quot;,
+      &quot;DateOfBirth&quot;: &quot;1988-09-16&quot;,
+      &quot;MaritalStatus&quot;: &quot;S&quot;,
+      &quot;Gender&quot;: &quot;M&quot;,
+      &quot;UserData1&quot;: &quot;MDI SPECIFIC&quot;,
+      &quot;UserData2&quot;: &quot;MDI SPECIFIC&quot;,
+      &quot;UserData3&quot;: &quot;MDI SPECIFIC&quot;,
+      &quot;UserData4&quot;: &quot;MDI SPECIFIC&quot;,
+      &quot;PreferredLanguage&quot;: &quot;EN&quot;,
+      &quot;CustomerType&quot;: 0,
+      &quot;ProfessionCode&quot;: 0,
+      &quot;CustomerSegment&quot;: &quot;DEFAULT/NONE&quot;,
+      &quot;ExternalCustomerCode&quot;: &quot;123456789&quot;,
+      &quot;CustomerAddressList&quot;: [
+        {
+          &quot;AddressLine1&quot;: &quot;TEST ADDRESS 1&quot;,
+          &quot;AddressLine2&quot;: &quot;TEST ADDRESS 2&quot;,
+          &quot;AddressLine3&quot;: &quot;TEST ADDRESS 3&quot;,
+          &quot;AddressLine4&quot;: &quot;TEST ADDRESS 4&quot;,
+          &quot;AddressLine5&quot;: &quot;TEST ADDRESS 5&quot;,
+          &quot;Directions&quot;: &quot;TEST DIRECTIONS&quot;,
+          &quot;City&quot;: &quot;NEW YORK&quot;,
+          &quot;PostalCode&quot;: &quot;12345&quot;,
+          &quot;Province&quot;: &quot;TEST Province&quot;,
+          &quot;Territory&quot;: &quot;TEST Territory&quot;,
+          &quot;State&quot;: &quot;TEST State&quot;,
+          &quot;Region&quot;: &quot;TEST Region&quot;,
+          &quot;County&quot;: &quot;TEST COUNTY&quot;,
+          &quot;Country&quot;: &quot;818&quot;,
+          &quot;Phone1&quot;: &quot;+11939994858&quot;,
+          &quot;Phone2&quot;: &quot;+288388334&quot;,
+          &quot;Extension&quot;: &quot;1234&quot;,
+          &quot;Email&quot;: &quot;test.mail@gmail.com&quot;,
+          &quot;Fax&quot;: &quot;+13245&quot;,
+          &quot;District&quot;: &quot;TEST District&quot;,
+          &quot;PoBox&quot;: &quot;123455&quot;,
+          &quot;OwnershipType&quot;: &quot;O&quot;,
+          &quot;UserData1&quot;: &quot;CUSTOM DATA 1&quot;,
+          &quot;UserData2&quot;: &quot;CUSTOM DATA 2&quot;,
+          &quot;AddressRole&quot;: 0
+        }
+      ]
+    },
+    &quot;AccountDetailsList&quot;: [
+      {
+        &quot;AllowDuplicate&quot;: true,
+        &quot;AccountCurrency&quot;: {
+          &quot;CurrCode&quot;: &quot;818&quot;
+        },
+        &quot;AccountType&quot;: &quot;90&quot;,
+        &quot;BranchCode&quot;: &quot;000&quot;,
+        &quot;AccountStatus&quot;: &quot;00&quot;,
+        &quot;VipFlag&quot;: &quot;0&quot;,
+        &quot;IsDefault&quot;: true,
+        &quot;CreditLimit&quot;: 0,
+        &quot;UserData2&quot;: &quot;MDI CUSTOM DATA&quot;,
+        &quot;UserData4&quot;: &quot;MDI CUSTOM DATA&quot;
+      }
+    ],
+    &quot;CardDetailsData&quot;: {
+      &quot;Title&quot;: &quot;MR&quot;,
+      &quot;FirstName&quot;: &quot;Prepaid One&quot;,
+      &quot;LastName&quot;: &quot;TEST LAST&quot;,
+      &quot;LocalizedTitle&quot;: &quot;متيسش&quot;,
+      &quot;LocalizedFirstName&quot;: &quot;نمشيست&quot;,
+      &quot;LocalizedLastName&quot;: &quot;شميستب&quot;,
+      &quot;Secondary&quot;: false,
+      &quot;DeliveryMethod&quot;: &quot;C&quot;,
+      &quot;BranchCode&quot;: &quot;000&quot;,
+      &quot;DeliveryBranchCode&quot;: &quot;000&quot;,
+      &quot;Priority&quot;: 0,
+      &quot;DateOfBirth&quot;: &quot;1988-09-16&quot;,
+      &quot;CardProduct&quot;: &quot;3000&quot;,
+      &quot;Language&quot;: 1,
+      &quot;EmbossingName&quot;: &quot;MR TEST EMBOSSING&quot;,
+      &quot;CustomerIdNumber&quot;: &quot;1000000123&quot;,
+      &quot;ExtendedCustomerIdNumber&quot;: &quot;1000000123&quot;,
+      &quot;CommissionCategory&quot;: &quot;DEFAULT/NONE&quot;,
+      &quot;FeeCategory&quot;: &quot;DEFAULT/NONE&quot;,
+      &quot;CyclicFeeCategory&quot;: &quot;DEFAULT/NONE&quot;,
+      &quot;IssuerRiskCategory&quot;: &quot;DEFAULT/NONE&quot;,
+      &quot;IssuanceCategory&quot;: &quot;0&quot;,
+      &quot;GeneratePinMailer&quot;: false,
+      &quot;UserData&quot;: &quot;CUSTOM DATA&quot;,
+      &quot;UserData1&quot;: &quot;MDI CUSTOM DATA&quot;,
+      &quot;UserData2&quot;: &quot;MDI CUSTOM DATA&quot;,
+      &quot;UserData3&quot;: &quot;MDI CUSTOM DATA&quot;,
+      &quot;UserData4&quot;: &quot;MDI CUSTOM DATA&quot;,
+      &quot;UserData5&quot;: &quot;MDI CUSTOM DATA&quot;,
+      &quot;Memo&quot;: &quot;TEST NEW CARD CREATION&quot;,
+      &quot;ExpiryDate&quot;: &quot;2023-07-31&quot;,
+      &quot;CardAddressList&quot;: [
+        {
+          &quot;AddressLine1&quot;: &quot;CARD TEST ADDRESS 1&quot;,
+          &quot;AddressLine2&quot;: &quot;CARD TEST ADDRESS 2&quot;,
+          &quot;AddressLine3&quot;: &quot;CARD TEST ADDRESS 3&quot;,
+          &quot;AddressLine4&quot;: &quot;CARD TEST ADDRESS 4&quot;,
+          &quot;AddressLine5&quot;: &quot;CARD TEST ADDRESS 5&quot;,
+          &quot;Directions&quot;: &quot;TEST DIRECTIONS&quot;,
+          &quot;City&quot;: &quot;NEW YORK&quot;,
+          &quot;PostalCode&quot;: &quot;12345&quot;,
+          &quot;Province&quot;: &quot;TEST Province&quot;,
+          &quot;Territory&quot;: &quot;TEST Territory&quot;,
+          &quot;State&quot;: &quot;TEST State&quot;,
+          &quot;Region&quot;: &quot;TEST Region&quot;,
+          &quot;County&quot;: &quot;TEST COUNTY&quot;,
+          &quot;Country&quot;: &quot;818&quot;,
+          &quot;Phone1&quot;: &quot;+11939994858&quot;,
+          &quot;Phone2&quot;: &quot;+288388334&quot;,
+          &quot;Extension&quot;: &quot;1234&quot;,
+          &quot;Email&quot;: &quot;test.mail@gmail.com&quot;,
+          &quot;Fax&quot;: &quot;+13245&quot;,
+          &quot;District&quot;: &quot;TEST District&quot;,
+          &quot;PoBox&quot;: &quot;123455&quot;,
+          &quot;OwnershipType&quot;: &quot;O&quot;,
+          &quot;UserData1&quot;: &quot;CUSTOM DATA 1&quot;,
+          &quot;UserData2&quot;: &quot;CUSTOM DATA 2&quot;,
+          &quot;AddressRole&quot;: 0
+        }
+      ]
+      
+    },
+    &quot;AccountLoadData&quot;: {
+      &quot;LoadAmount&quot;: 43000,
+      &quot;LoadSource&quot;: 0,
+      &quot;LoadType&quot;: 50,
+      &quot;ExtCode&quot;: &quot;1&quot;,
+      &quot;Description&quot;: &quot;test &quot;
+    }
+  }
+}</queryString>
+  <java.net.URL>https://10.10.90.70:9443/cortex-core-ws-rest/issuance/IssuerDirectives</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="eu-mobile.events.data.microsoft.com:443" rc="" rm="Insufficient buffer remaining for AEAD cipher fragment (2). Needs to be more than or equal to IV size (8) + tag size (16)&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1763" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT eu-mobile.events.data.microsoft.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="go-eu.trouter.teams.microsoft.com:443" rc="" rm="Insufficient buffer remaining for AEAD cipher fragment (2). Needs to be more than or equal to IV size (8) + tag size (16)&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1763" sc="1" ec="1" ng="0" na="0" hn="DESKTOP-NMJ5J93">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT go-eu.trouter.teams.microsoft.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+
 </testResults>

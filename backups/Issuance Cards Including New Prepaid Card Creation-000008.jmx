@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.5">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
+      <stringProp name="TestPlan.comments"></stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="host" elementType="Argument">
+            <stringProp name="Argument.name">host</stringProp>
+            <stringProp name="Argument.value">www.example.com</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="scheme" elementType="Argument">
+            <stringProp name="Argument.name">scheme</stringProp>
+            <stringProp name="Argument.value">https</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </Arguments>
+      <hashTree/>
+      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="HTTP Request Defaults" enabled="true">
+        <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+          <collectionProp name="Arguments.arguments"/>
+        </elementProp>
+        <stringProp name="HTTPSampler.domain">www.example.com</stringProp>
+        <stringProp name="HTTPSampler.port"></stringProp>
+        <stringProp name="HTTPSampler.protocol">https</stringProp>
+        <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+        <stringProp name="HTTPSampler.path"></stringProp>
+        <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+        <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+        <stringProp name="HTTPSampler.response_timeout"></stringProp>
+      </ConfigTestElement>
+      <hashTree/>
+      <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="HTTP Cookie Manager" enabled="true">
+        <collectionProp name="CookieManager.cookies"/>
+        <boolProp name="CookieManager.clearEachIteration">false</boolProp>
+        <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
+      </CookieManager>
+      <hashTree/>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <longProp name="ThreadGroup.start_time">1370726934000</longProp>
+        <longProp name="ThreadGroup.end_time">1370726934000</longProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
+      </ThreadGroup>
+      <hashTree>
+        <RecordingController guiclass="RecordController" testclass="RecordingController" testname="Recording Controller" enabled="true"/>
+        <hashTree>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Issuance Operations on Cards Including New Prepaid Card Creation" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+            <boolProp name="TransactionController.parent">false</boolProp>
+          </TransactionController>
+          <hashTree>
+            <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="Customerid" elementType="Argument">
+                  <stringProp name="Argument.name">Customerid</stringProp>
+                  <stringProp name="Argument.value">1000000123</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </Arguments>
+            <hashTree/>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Issuance Operations on Cards Including New Prepaid Card Creation-1" enabled="true">
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">{&#xd;
+  &quot;RequestHeader&quot;: {&#xd;
+    &quot;Version&quot;: &quot;1.0.0&quot;,&#xd;
+    &quot;MsgUid&quot;: &quot;ccd31e0b-3355-431f-90f8-a90bc47191a5&quot;,&#xd;
+    &quot;Source&quot;: &quot;Mobile&quot;,&#xd;
+    &quot;ServiceId&quot;: &quot;Issuance&quot;,&#xd;
+    &quot;ReqDateTime&quot;: &quot;2021-09-16T15:17:59.780Z&quot;&#xd;
+  },&#xd;
+  &quot;IssuerDirectivesRequestDetails&quot;: {&#xd;
+    &quot;Action&quot;: &quot;1&quot;,&#xd;
+    &quot;InstitutionCode&quot;: &quot;MDI&quot;,&#xd;
+    &quot;BatchClass&quot;: 4,&#xd;
+    &quot;User&quot;: &quot;TEST&quot;,&#xd;
+    &quot;SkipFee&quot;: false,&#xd;
+    &quot;CustomerDetailsData&quot;: {&#xd;
+      &quot;AllowDuplicate&quot;: true,&#xd;
+      &quot;CustomerCode&quot;: &quot;123456789&quot;,&#xd;
+      &quot;Title&quot;: &quot;MR&quot;,&#xd;
+      &quot;FirstName&quot;: &quot;TEST FIRST&quot;,&#xd;
+      &quot;LastName&quot;: &quot;TEST LAST&quot;,&#xd;
+      &quot;IdNumber&quot;: &quot;${Customerid}&quot;,&#xd;
+      &quot;DateOfBirth&quot;: &quot;1988-09-16&quot;,&#xd;
+      &quot;MaritalStatus&quot;: &quot;S&quot;,&#xd;
+      &quot;Gender&quot;: &quot;M&quot;,&#xd;
+      &quot;UserData1&quot;: &quot;MDI SPECIFIC&quot;,&#xd;
+      &quot;UserData2&quot;: &quot;MDI SPECIFIC&quot;,&#xd;
+      &quot;UserData3&quot;: &quot;MDI SPECIFIC&quot;,&#xd;
+      &quot;UserData4&quot;: &quot;MDI SPECIFIC&quot;,&#xd;
+      &quot;PreferredLanguage&quot;: &quot;EN&quot;,&#xd;
+      &quot;CustomerType&quot;: 0,&#xd;
+      &quot;ProfessionCode&quot;: 0,&#xd;
+      &quot;CustomerSegment&quot;: &quot;DEFAULT/NONE&quot;,&#xd;
+      &quot;ExternalCustomerCode&quot;: &quot;123456789&quot;,&#xd;
+      &quot;CustomerAddressList&quot;: [&#xd;
+        {&#xd;
+          &quot;AddressLine1&quot;: &quot;TEST ADDRESS 1&quot;,&#xd;
+          &quot;AddressLine2&quot;: &quot;TEST ADDRESS 2&quot;,&#xd;
+          &quot;AddressLine3&quot;: &quot;TEST ADDRESS 3&quot;,&#xd;
+          &quot;AddressLine4&quot;: &quot;TEST ADDRESS 4&quot;,&#xd;
+          &quot;AddressLine5&quot;: &quot;TEST ADDRESS 5&quot;,&#xd;
+          &quot;Directions&quot;: &quot;TEST DIRECTIONS&quot;,&#xd;
+          &quot;City&quot;: &quot;NEW YORK&quot;,&#xd;
+          &quot;PostalCode&quot;: &quot;12345&quot;,&#xd;
+          &quot;Province&quot;: &quot;TEST Province&quot;,&#xd;
+          &quot;Territory&quot;: &quot;TEST Territory&quot;,&#xd;
+          &quot;State&quot;: &quot;TEST State&quot;,&#xd;
+          &quot;Region&quot;: &quot;TEST Region&quot;,&#xd;
+          &quot;County&quot;: &quot;TEST COUNTY&quot;,&#xd;
+          &quot;Country&quot;: &quot;818&quot;,&#xd;
+          &quot;Phone1&quot;: &quot;+11939994858&quot;,&#xd;
+          &quot;Phone2&quot;: &quot;+288388334&quot;,&#xd;
+          &quot;Extension&quot;: &quot;1234&quot;,&#xd;
+          &quot;Email&quot;: &quot;test.mail@gmail.com&quot;,&#xd;
+          &quot;Fax&quot;: &quot;+13245&quot;,&#xd;
+          &quot;District&quot;: &quot;TEST District&quot;,&#xd;
+          &quot;PoBox&quot;: &quot;123455&quot;,&#xd;
+          &quot;OwnershipType&quot;: &quot;O&quot;,&#xd;
+          &quot;UserData1&quot;: &quot;CUSTOM DATA 1&quot;,&#xd;
+          &quot;UserData2&quot;: &quot;CUSTOM DATA 2&quot;,&#xd;
+          &quot;AddressRole&quot;: 0&#xd;
+        }&#xd;
+      ]&#xd;
+    },&#xd;
+    &quot;AccountDetailsList&quot;: [&#xd;
+      {&#xd;
+        &quot;AllowDuplicate&quot;: true,&#xd;
+        &quot;AccountCurrency&quot;: {&#xd;
+          &quot;CurrCode&quot;: &quot;818&quot;&#xd;
+        },&#xd;
+        &quot;AccountType&quot;: &quot;90&quot;,&#xd;
+        &quot;BranchCode&quot;: &quot;000&quot;,&#xd;
+        &quot;AccountStatus&quot;: &quot;00&quot;,&#xd;
+        &quot;VipFlag&quot;: &quot;0&quot;,&#xd;
+        &quot;IsDefault&quot;: true,&#xd;
+        &quot;CreditLimit&quot;: 0,&#xd;
+        &quot;UserData2&quot;: &quot;MDI CUSTOM DATA&quot;,&#xd;
+        &quot;UserData4&quot;: &quot;MDI CUSTOM DATA&quot;&#xd;
+      }&#xd;
+    ],&#xd;
+    &quot;CardDetailsData&quot;: {&#xd;
+      &quot;Title&quot;: &quot;MR&quot;,&#xd;
+      &quot;FirstName&quot;: &quot;Prepaid One&quot;,&#xd;
+      &quot;LastName&quot;: &quot;TEST LAST&quot;,&#xd;
+      &quot;LocalizedTitle&quot;: &quot;متيسش&quot;,&#xd;
+      &quot;LocalizedFirstName&quot;: &quot;نمشيست&quot;,&#xd;
+      &quot;LocalizedLastName&quot;: &quot;شميستب&quot;,&#xd;
+      &quot;Secondary&quot;: false,&#xd;
+      &quot;DeliveryMethod&quot;: &quot;C&quot;,&#xd;
+      &quot;BranchCode&quot;: &quot;000&quot;,&#xd;
+      &quot;DeliveryBranchCode&quot;: &quot;000&quot;,&#xd;
+      &quot;Priority&quot;: 0,&#xd;
+      &quot;DateOfBirth&quot;: &quot;1988-09-16&quot;,&#xd;
+      &quot;CardProduct&quot;: &quot;3000&quot;,&#xd;
+      &quot;Language&quot;: 1,&#xd;
+      &quot;EmbossingName&quot;: &quot;MR TEST EMBOSSING&quot;,&#xd;
+      &quot;CustomerIdNumber&quot;: &quot;1000000123&quot;,&#xd;
+      &quot;ExtendedCustomerIdNumber&quot;: &quot;1000000123&quot;,&#xd;
+      &quot;CommissionCategory&quot;: &quot;DEFAULT/NONE&quot;,&#xd;
+      &quot;FeeCategory&quot;: &quot;DEFAULT/NONE&quot;,&#xd;
+      &quot;CyclicFeeCategory&quot;: &quot;DEFAULT/NONE&quot;,&#xd;
+      &quot;IssuerRiskCategory&quot;: &quot;DEFAULT/NONE&quot;,&#xd;
+      &quot;IssuanceCategory&quot;: &quot;0&quot;,&#xd;
+      &quot;GeneratePinMailer&quot;: false,&#xd;
+      &quot;UserData&quot;: &quot;CUSTOM DATA&quot;,&#xd;
+      &quot;UserData1&quot;: &quot;MDI CUSTOM DATA&quot;,&#xd;
+      &quot;UserData2&quot;: &quot;MDI CUSTOM DATA&quot;,&#xd;
+      &quot;UserData3&quot;: &quot;MDI CUSTOM DATA&quot;,&#xd;
+      &quot;UserData4&quot;: &quot;MDI CUSTOM DATA&quot;,&#xd;
+      &quot;UserData5&quot;: &quot;MDI CUSTOM DATA&quot;,&#xd;
+      &quot;Memo&quot;: &quot;TEST NEW CARD CREATION&quot;,&#xd;
+      &quot;ExpiryDate&quot;: &quot;2023-07-31&quot;,&#xd;
+      &quot;CardAddressList&quot;: [&#xd;
+        {&#xd;
+          &quot;AddressLine1&quot;: &quot;CARD TEST ADDRESS 1&quot;,&#xd;
+          &quot;AddressLine2&quot;: &quot;CARD TEST ADDRESS 2&quot;,&#xd;
+          &quot;AddressLine3&quot;: &quot;CARD TEST ADDRESS 3&quot;,&#xd;
+          &quot;AddressLine4&quot;: &quot;CARD TEST ADDRESS 4&quot;,&#xd;
+          &quot;AddressLine5&quot;: &quot;CARD TEST ADDRESS 5&quot;,&#xd;
+          &quot;Directions&quot;: &quot;TEST DIRECTIONS&quot;,&#xd;
+          &quot;City&quot;: &quot;NEW YORK&quot;,&#xd;
+          &quot;PostalCode&quot;: &quot;12345&quot;,&#xd;
+          &quot;Province&quot;: &quot;TEST Province&quot;,&#xd;
+          &quot;Territory&quot;: &quot;TEST Territory&quot;,&#xd;
+          &quot;State&quot;: &quot;TEST State&quot;,&#xd;
+          &quot;Region&quot;: &quot;TEST Region&quot;,&#xd;
+          &quot;County&quot;: &quot;TEST COUNTY&quot;,&#xd;
+          &quot;Country&quot;: &quot;818&quot;,&#xd;
+          &quot;Phone1&quot;: &quot;+11939994858&quot;,&#xd;
+          &quot;Phone2&quot;: &quot;+288388334&quot;,&#xd;
+          &quot;Extension&quot;: &quot;1234&quot;,&#xd;
+          &quot;Email&quot;: &quot;test.mail@gmail.com&quot;,&#xd;
+          &quot;Fax&quot;: &quot;+13245&quot;,&#xd;
+          &quot;District&quot;: &quot;TEST District&quot;,&#xd;
+          &quot;PoBox&quot;: &quot;123455&quot;,&#xd;
+          &quot;OwnershipType&quot;: &quot;O&quot;,&#xd;
+          &quot;UserData1&quot;: &quot;CUSTOM DATA 1&quot;,&#xd;
+          &quot;UserData2&quot;: &quot;CUSTOM DATA 2&quot;,&#xd;
+          &quot;AddressRole&quot;: 0&#xd;
+        }&#xd;
+      ]&#xd;
+      &#xd;
+    },&#xd;
+    &quot;AccountLoadData&quot;: {&#xd;
+      &quot;LoadAmount&quot;: 43000,&#xd;
+      &quot;LoadSource&quot;: 0,&#xd;
+      &quot;LoadType&quot;: 50,&#xd;
+      &quot;ExtCode&quot;: &quot;1&quot;,&#xd;
+      &quot;Description&quot;: &quot;test &quot;&#xd;
+    }&#xd;
+  }&#xd;
+}</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">10.10.90.70</stringProp>
+              <stringProp name="HTTPSampler.port">9443</stringProp>
+              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+              <stringProp name="HTTPSampler.path">/cortex-core-ws-rest/issuance/IssuerDirectives</stringProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Postman-Token" elementType="Header">
+                    <stringProp name="Header.name">Postman-Token</stringProp>
+                    <stringProp name="Header.value">ac384cc7-e217-4215-88c1-9f3dfa4162b3</stringProp>
+                  </elementProp>
+                  <elementProp name="Content-Type" elementType="Header">
+                    <stringProp name="Header.name">Content-Type</stringProp>
+                    <stringProp name="Header.value">application/json</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">PostmanRuntime/7.29.2</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept" elementType="Header">
+                    <stringProp name="Header.name">Accept</stringProp>
+                    <stringProp name="Header.value">*/*</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">Customerid</stringProp>
+                    <stringProp name="Header.value"></stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name"></stringProp>
+                    <stringProp name="Header.value"></stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+              <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+                <stringProp name="delimiter">,</stringProp>
+                <stringProp name="fileEncoding"></stringProp>
+                <stringProp name="filename"></stringProp>
+                <boolProp name="ignoreFirstLine">false</boolProp>
+                <boolProp name="quotedData">false</boolProp>
+                <boolProp name="recycle">true</boolProp>
+                <stringProp name="shareMode">shareMode.all</stringProp>
+                <boolProp name="stopThread">false</boolProp>
+                <stringProp name="variableNames"></stringProp>
+              </CSVDataSet>
+              <hashTree/>
+              <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSON Assertion" enabled="true">
+                <stringProp name="JSON_PATH">$..ResponseType</stringProp>
+                <stringProp name="EXPECTED_VALUE">Success</stringProp>
+                <boolProp name="JSONVALIDATION">true</boolProp>
+                <boolProp name="EXPECT_NULL">false</boolProp>
+                <boolProp name="INVERT">false</boolProp>
+                <boolProp name="ISREGEX">true</boolProp>
+              </JSONPathAssertion>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+        </hashTree>
+      </hashTree>
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>false</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>false</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>true</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <hostname>true</hostname>
+            <threadCounts>true</threadCounts>
+            <sampleCount>true</sampleCount>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <ProxyControl guiclass="ProxyControlGui" testclass="ProxyControl" testname="HTTP(S) Test Script Recorder" enabled="false">
+        <stringProp name="ProxyControlGui.port">8888</stringProp>
+        <collectionProp name="ProxyControlGui.exclude_list">
+          <stringProp name="805311387">windowsupdate\.microsoft\.com.*</stringProp>
+          <stringProp name="1179605444">(?i).*\.(bmp|css|js|gif|ico|jpe?g|png|swf|eot|otf|ttf|mp4|woff|woff2)</stringProp>
+          <stringProp name="110431874">.*msg\.yahoo\.com.*</stringProp>
+          <stringProp name="-88591710">www\.download\.windowsupdate\.com.*</stringProp>
+          <stringProp name="1323576868">toolbarqueries\.google\..*</stringProp>
+          <stringProp name="1739087931">http?://self-repair\.mozilla\.org.*</stringProp>
+          <stringProp name="1206954446">tiles.*\.mozilla\.com.*</stringProp>
+          <stringProp name="-1424663473">.*detectportal\.firefox\.com.*</stringProp>
+          <stringProp name="-190610036">.*\.google\.com.*/safebrowsing/.*</stringProp>
+          <stringProp name="-1899150273">api\.bing\.com.*</stringProp>
+          <stringProp name="1779943373">us\.update\.toolbar\.yahoo\.com.*</stringProp>
+          <stringProp name="-958112859">toolbar\.google\.com.*</stringProp>
+          <stringProp name="-192420923">.*yimg\.com.*</stringProp>
+          <stringProp name="-576820688">toolbar\.msn\.com.*</stringProp>
+          <stringProp name="305776760">(?i).*\.(bmp|css|js|gif|ico|jpe?g|png|swf|eot|otf|ttf|mp4|woff|woff2)[\?;].*</stringProp>
+          <stringProp name="-1435252351">toolbar\.avg\.com/.*</stringProp>
+          <stringProp name="2118375536">www\.google-analytics\.com.*</stringProp>
+          <stringProp name="-1279148329">pgq\.yahoo\.com.*</stringProp>
+          <stringProp name="1815174768">safebrowsing.*\.google\.com.*</stringProp>
+          <stringProp name="-1314416226">sqm\.microsoft\.com.*</stringProp>
+          <stringProp name="587935979">g\.msn.*</stringProp>
+          <stringProp name="1629558731">clients.*\.google.*</stringProp>
+          <stringProp name="1726898318">geo\.yahoo\.com.*</stringProp>
+          <stringProp name="11072252">.*toolbar\.yahoo\.com.*</stringProp>
+        </collectionProp>
+        <collectionProp name="ProxyControlGui.include_list"/>
+        <boolProp name="ProxyControlGui.capture_http_headers">true</boolProp>
+        <intProp name="ProxyControlGui.grouping_mode">4</intProp>
+        <boolProp name="ProxyControlGui.add_assertion">false</boolProp>
+        <stringProp name="ProxyControlGui.sampler_type_name"></stringProp>
+        <boolProp name="ProxyControlGui.sampler_redirect_automatically">false</boolProp>
+        <boolProp name="ProxyControlGui.sampler_follow_redirects">true</boolProp>
+        <boolProp name="ProxyControlGui.use_keepalive">true</boolProp>
+        <boolProp name="ProxyControlGui.sampler_download_images">false</boolProp>
+        <boolProp name="ProxyControlGui.regex_match">true</boolProp>
+        <stringProp name="ProxyControlGui.content_type_include"></stringProp>
+        <stringProp name="ProxyControlGui.content_type_exclude"></stringProp>
+        <boolProp name="ProxyControlGui.notify_child_sl_filtered">false</boolProp>
+        <stringProp name="ProxyControlGui.proxy_prefix_http_sampler_name">Issuance Operations on Cards Including New Prepaid Card Creation</stringProp>
+        <intProp name="ProxyControlGui.proxy_http_sampler_naming_mode">1</intProp>
+        <stringProp name="ProxyControlGui.proxy_pause_http_sampler"></stringProp>
+        <boolProp name="ProxyControlGui.detect_graphql_request">true</boolProp>
+        <stringProp name="ProxyControlGui.default_encoding">UTF-8</stringProp>
+      </ProxyControl>
+      <hashTree>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>true</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>true</responseData>
+              <samplerData>true</samplerData>
+              <xml>true</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>true</responseHeaders>
+              <requestHeaders>true</requestHeaders>
+              <responseDataOnError>true</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <url>true</url>
+              <fileName>true</fileName>
+              <hostname>true</hostname>
+              <threadCounts>true</threadCounts>
+              <sampleCount>true</sampleCount>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename">recording.xml</stringProp>
+        </ResultCollector>
+        <hashTree/>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>
